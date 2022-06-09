@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x7ea872FbF18DB3273FdC263a5205176c118A4396",
+  "SCAN_LINK": "https://etherscan.io/token/0x7ea872FbF18DB3273FdC263a5205176c118A4396",
+  "NETWORK": {
+    "NAME": "Ethereum Mainnet",
+    "SYMBOL": "Ether",
+    "ID": 1
+  },
+  "NFT_NAME": "ArchaicShellBabies",
+  "SYMBOL": "ArchaicSB",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 150000000000000000,
+  "DISPLAY_COST": 0.15,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/archaicshellbabies",
+  "SHOW_BACKGROUND": true
+}
