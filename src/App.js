@@ -255,7 +255,7 @@ function App() {
                   margin: "5px",
                 }}
               >
-                LinkTree
+                LinkTr.ee/archaicsb
               </StyledButton>
               <StyledButton
                 style={{
