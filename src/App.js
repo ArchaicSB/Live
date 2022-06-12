@@ -249,20 +249,20 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("linktr.ee/archaicsb");
+                  window.open("https://linktr.ee/archaicsb");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
-                LinkTr.ee/archaicsb
+                LinkTree
               </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
                 }}
                 onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "linktr.ee/archaicsb");
+                  window.open(CONFIG.MARKETPLACE_LINK, "https://linktr.ee/archaicsb");
                 }}
               >
                 {CONFIG.MARKETPLACE}
