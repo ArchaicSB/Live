@@ -249,7 +249,7 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open("linktr.ee/archaicsb");
                 }}
                 style={{
                   margin: "5px",
