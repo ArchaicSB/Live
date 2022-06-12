@@ -255,14 +255,14 @@ function App() {
                   margin: "5px",
                 }}
               >
-                Roadmap
+                LinkTree
               </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
                 }}
                 onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
+                  window.open(CONFIG.MARKETPLACE_LINK, "linktr.ee/archaicsb");
                 }}
               >
                 {CONFIG.MARKETPLACE}
