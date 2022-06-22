@@ -56,7 +56,7 @@ export const StyledRoundButton = styled.button`
 export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: stretched;
   align-items: stretched;
   width: 100%;
@@ -66,25 +66,25 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 100px;
+  width: 200px;
   @media (min-width: 767px) {
-    width: 200px;
+    width: 300px;
   }
   transition: width 1s;
   transition: height 1s;
 `;
 
 export const StyledImg = styled.img`
-  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px solid var(--secondary);
+  box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
   width: 100px;
-  @media (min-width: 700px) {
-    width: 200px;
+  @media (min-width: 1000px) {
+    width: 350px;
   }
-  @media (min-width: 800px) {
-    width: 200px;
+  @media (min-width: 1000px) {
+    width: 350px;
   }
   transition: width 0.5s;
 `;
