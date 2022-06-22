@@ -407,7 +407,7 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "20%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
           <s.TextDescription
             style={{
               textAlign: "center",
