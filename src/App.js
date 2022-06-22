@@ -162,8 +162,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 50) {
-      newMintAmount = 50;
+    if (newMintAmount > 3) {
+      newMintAmount = 3;
     }
     setMintAmount(newMintAmount);
   };
@@ -255,7 +255,7 @@ function App() {
                   margin: "6px",
                 }}
               >
-                Join The Community
+                Join The Community!
               </StyledButton>
               <StyledButton
                 style={{
@@ -320,7 +320,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      CONNECT METAMASK
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
