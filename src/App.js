@@ -16,7 +16,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 80px;
+  width: 125px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -37,8 +37,8 @@ export const StyledRoundButton = styled.button`
   font-weight: bold;
   font-size: 15px;
   color: var(--primary-text);
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #4f42b5;
-    -webkit-box-shadow: #4f42b5;
-    -moz-box-shadow: #4f42b5;
+    box-shadow: #ffffff;
+    -webkit-box-shadow: #ffffff;
+    -moz-box-shadow: #ffffff;
   }
 `;
 
@@ -68,7 +68,7 @@ export const ResponsiveWrapper = styled.div`
 export const StyledLogo = styled.img`
   width: 175px;
   @media (min-width: 767px) {
-    width: 275px;
+    width: 325px;
   }
   transition: width 1s;
   transition: height 1s;
@@ -79,9 +79,9 @@ export const StyledImg = styled.img`
   border: 4px solid var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
-  width: 200px;
+  width: 150px;
   @media (min-width: 900px) {
-    width: 250px;
+    width: 300px;
   }
   @media (min-width: 1000px) {
     width: 300px;
