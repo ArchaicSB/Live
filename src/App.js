@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
@@ -31,7 +31,7 @@ export const StyledButton = styled.button`
 export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
-  border: none;
+  border: solid;
   background-color: var(--primary);
   padding: 10px;
   font-weight: bold;
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #add8e6;
-    -webkit-box-shadow: #add8e6;
-    -moz-box-shadow: #add8e6;
+    box-shadow: #4f42b5;
+    -webkit-box-shadow: #4f42b5;
+    -moz-box-shadow: #4f42b5;
   }
 `;
 
@@ -70,13 +70,13 @@ export const StyledLogo = styled.img`
   @media (min-width: 767px) {
     width: 300px;
   }
-  transition: width 0.5s;
-  transition: height 0.5s;
+  transition: width 1s;
+  transition: height 1s;
 `;
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
+  border: 4px solid var(--secondary);
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
@@ -199,7 +199,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -407,7 +407,7 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "50%" }}>
           <s.TextDescription
             style={{
               textAlign: "center",
