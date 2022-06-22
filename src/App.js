@@ -22,9 +22,9 @@ export const StyledButton = styled.button`
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+    box-shadow: #add8e6;
+    -webkit-box-shadow: #add8e6;
+    -moz-box-shadow: #add8e6;
   }
 `;
 
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+    box-shadow: #add8e6;
+    -webkit-box-shadow: #add8e6;
+    -moz-box-shadow: #add8e6;
   }
 `;
 
@@ -205,7 +205,7 @@ function App() {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 18 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -216,10 +216,10 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 18,
-              borderRadius: 18,
+              padding: 24,
+              borderRadius: 24,
               border: "4px dashed var(--secondary)",
-              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.7)",
             }}
           >
             <s.TextTitle
