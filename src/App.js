@@ -252,14 +252,14 @@ function App() {
                   window.open("https://linktr.ee/archaicsb");
                 }}
                 style={{
-                  margin: "5px",
+                  margin: "6px",
                 }}
               >
-                LinkTree
+                Join The Community
               </StyledButton>
               <StyledButton
                 style={{
-                  margin: "5px",
+                  margin: "6px",
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "https://linktr.ee/archaicsb");
