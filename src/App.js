@@ -22,9 +22,9 @@ export const StyledButton = styled.button`
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #4f42b5;
-    -webkit-box-shadow: #4f42b5;
-    -moz-box-shadow: #4f42b5;
+    box-shadow: #000000;
+    -webkit-box-shadow: #000000;
+    -moz-box-shadow: #000000;
   }
 `;
 
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #ffffff;
-    -webkit-box-shadow: #ffffff;
-    -moz-box-shadow: #ffffff;
+    box-shadow: #000000;
+    -webkit-box-shadow: #000000;
+    -moz-box-shadow: #000000;
   }
 `;
 
@@ -81,17 +81,17 @@ export const StyledImg = styled.img`
   border-radius: 100%;
   width: 100px;
   @media (min-width: 1000px) {
-    width: 350px;
+    width: 300px;
   }
   @media (min-width: 1000px) {
-    width: 350px;
+    width: 300px;
   }
   transition: width 0.5s;
 `;
 
 export const StyledLink = styled.a`
   color: var(--secondary);
-  text-decoration: none;
+  text-decoration: underline overline;
 `;
 
 function App() {
