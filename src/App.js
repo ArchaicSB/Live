@@ -117,7 +117,7 @@ function App() {
     GAS_LIMIT: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
-    SHOW_BACKGROUND: null,
+    SHOW_BACKGROUND: true,
   });
 
   const claimNFTs = () => {
