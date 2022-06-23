@@ -91,7 +91,7 @@ export const StyledImg = styled.img`
 
 export const StyledLink = styled.a`
   color: var(--secondary);
-  text-decoration: underline overline;
+  text-decoration: underline;
 `;
 
 function App() {
@@ -215,7 +215,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
+              backgroundColor: "var(--secondary)",
               padding: 24,
               borderRadius: 24,
               border: "4px solid var(--secondary)",
@@ -402,7 +402,7 @@ function App() {
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
+              style={{ transform: "scaleX(1)" }}
             />
           </s.Container>
         </ResponsiveWrapper>
