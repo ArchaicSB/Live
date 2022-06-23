@@ -18,9 +18,9 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px 2px #ffd700;
-  -webkit-box-shadow: 1px 6px 0px 2px #ffd700;
-  -moz-box-shadow: 1px 6px 0px 2px #ffd700;
+  box-shadow: 0px 6px 0px -2px #ffd700;
+  -webkit-box-shadow: 1px 6px 0px -2px #ffd700;
+  -moz-box-shadow: 1px 6px 0px -2px #ffd700;
   :active {
     box-shadow: #ffd700;
     -webkit-box-shadow: #ffd700;
