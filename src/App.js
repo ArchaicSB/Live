@@ -22,9 +22,9 @@ export const StyledButton = styled.button`
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #000000;
-    -webkit-box-shadow: #000000;
-    -moz-box-shadow: #000000;
+    box-shadow: #ffd700;
+    -webkit-box-shadow: #ffd700;
+    -moz-box-shadow: #ffd700;
   }
 `;
 
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #000000;
-    -webkit-box-shadow: #000000;
-    -moz-box-shadow: #000000;
+    box-shadow: #ffd700;
+    -webkit-box-shadow: #ffd700;
+    -moz-box-shadow: #ffd700;
   }
 `;
 
