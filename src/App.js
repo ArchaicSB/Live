@@ -22,9 +22,9 @@ export const StyledButton = styled.button`
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #add8e6;
-    -webkit-box-shadow: #add8e6;
-    -moz-box-shadow: #add8e6;
+    box-shadow: #4f42b5;
+    -webkit-box-shadow: #4f42b5;
+    -moz-box-shadow: #4f42b5;
   }
 `;
 
