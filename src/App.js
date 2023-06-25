@@ -18,33 +18,33 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px #ffd700;
+  box-shadow: 0px 6px 0px -2px #0B4008;
   transition: box-shadow 0.3s ease;
 
   &:hover {
-    box-shadow: 0px 6px 0px -2px #ffd700;
+    box-shadow: 0px 6px 0px -2px #0B4008;
   }
 
   &:active {
-    box-shadow: #ffd700;
+    box-shadow: #0B4008;
   }
 
   background-color: #ffffff;
   color: #000000;
-  box-shadow: 0px 6px 0px -2px #ffd700;
-  -webkit-box-shadow: 1px 6px 0px -2px #ffd700;
-  -moz-box-shadow: 1px 6px 0px -2px #ffd700;
+  box-shadow: 0px 6px 0px -2px #0B4008;
+  -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
+  -moz-box-shadow: 1px 6px 0px -2px #0B4008;
 
   &:hover {
-    background-color: #ffd700;
+    background-color: #0B4008;
     color: #000000;
-    box-shadow: 0px 6px 0px -2px #ffd700;
+    box-shadow: 0px 6px 0px -2px #0B4008;
   }
 
   &:active {
-    background-color: #ffd700;
+    background-color: #0B4008;
     color: #000000;
-    box-shadow: #ffd700;
+    box-shadow: #0B4008;
   }
 `;
 
@@ -67,7 +67,7 @@ export const StyledRoundButton = styled.button`
   transition: box-shadow 0.3s ease;
 
   &:active {
-    box-shadow: 0px 0px 0px 2px #ffd700;
+    box-shadow: 0px 0px 0px 2px #0B4008;
   }
 `;
 
