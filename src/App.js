@@ -48,12 +48,12 @@ export const StyledButton = styled.button`
   }
 `;
 
+
 export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: solid;
   background-color: var(--secondary);
-  padding: 10px;
   font-weight: bold;
   font-size: 15px;
   color: var(--secondary-text);
@@ -64,12 +64,10 @@ export const StyledRoundButton = styled.button`
   align-items: center;
   justify-content: center;
   box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  :active {
-    box-shadow: #ffd700;
-    -webkit-box-shadow: #ffd700;
-    -moz-box-shadow: #ffd700;
+  transition: box-shadow 0.3s ease;
+
+  &:active {
+    box-shadow: 0px 0px 0px 2px #ffd700;
   }
 `;
 
