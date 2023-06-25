@@ -8,54 +8,34 @@ import styled from "styled-components";
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
-
 export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
+  padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px #0B4008;
-  transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0px 6px 0px -2px #0B4008;
-  }
-
-  &:active {
-    box-shadow: #0B4008;
-  }
-
-  background-color: #ffffff;
-  color: #000000;
-  box-shadow: 0px 6px 0px -2px #0B4008;
-  -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
-  -moz-box-shadow: 1px 6px 0px -2px #0B4008;
-
-  &:hover {
-    background-color: #0B4008;
-    color: #000000;
-    box-shadow: 0px 6px 0px -2px #0B4008;
-  }
-
-  &:active {
-    background-color: #0B4008;
-    color: #000000;
-    box-shadow: #0B4008;
+  box-shadow: 0px 6px 0px -2px #ffd700;
+  -webkit-box-shadow: 1px 6px 0px -2px #ffd700;
+  -moz-box-shadow: 1px 6px 0px -2px #ffd700;
+  :active {
+    box-shadow: #ffd700;
+    -webkit-box-shadow: #ffd700;
+    -moz-box-shadow: #ffd700;
   }
 `;
-
 
 export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: solid;
   background-color: var(--secondary);
+  padding: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   color: var(--secondary-text);
   width: 45px;
   height: 45px;
@@ -64,10 +44,12 @@ export const StyledRoundButton = styled.button`
   align-items: center;
   justify-content: center;
   box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
-  transition: box-shadow 0.3s ease;
-
-  &:active {
-    box-shadow: 0px 0px 0px 2px #0B4008;
+  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  :active {
+    box-shadow: #ffd700;
+    -webkit-box-shadow: #ffd700;
+    -moz-box-shadow: #ffd700;
   }
 `;
 
@@ -106,14 +88,6 @@ export const StyledImg = styled.img`
   }
   transition: width 0.5s;
 `;
-
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--primary-text)",
-              }}
 
 export const StyledLink = styled.a`
   color: var(--secondary);
@@ -242,9 +216,9 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--primary)",
-              padding: 32,
-              borderRadius: 32,
-              border: "12px solid var(--secondary)",
+              padding: 24,
+              borderRadius: 24,
+              border: "4px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -255,6 +229,15 @@ function App() {
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
+            >
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+            >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
