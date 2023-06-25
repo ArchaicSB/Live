@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
     box-shadow: #0B4008;
   }
 
-  background-color: #000000;
+  background-color: #ffffff;
   color: #000000;
   box-shadow: 0px 6px 0px -2px #0B4008;
   -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
