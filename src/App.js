@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
     box-shadow: #0B4008;
   }
 
-  background-color: #ffffff;
+  background-color: #000000;
   color: #000000;
   box-shadow: 0px 6px 0px -2px #0B4008;
   -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
@@ -55,7 +55,7 @@ export const StyledRoundButton = styled.button`
   border: solid;
   background-color: var(--secondary);
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   color: var(--secondary-text);
   width: 45px;
   height: 45px;
