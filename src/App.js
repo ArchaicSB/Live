@@ -106,6 +106,14 @@ export const StyledImg = styled.img`
   }
   transition: width 0.5s;
 `;
+>
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
 
 export const StyledLink = styled.a`
   color: var(--secondary);
@@ -234,9 +242,9 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--primary)",
-              padding: 24,
-              borderRadius: 24,
-              border: "4px solid var(--secondary)",
+              padding: 32,
+              borderRadius: 32,
+              border: "12px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.7)",
             }}
           >
