@@ -13,18 +13,17 @@ export const StyledButton = styled.button`
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
-  padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #ffd700;
-  -webkit-box-shadow: 1px 6px 0px -2px #ffd700;
-  -moz-box-shadow: 1px 6px 0px -2px #ffd700;
-  :active {
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0px 6px 0px -2px #ffd700;
+  }
+  &:active {
     box-shadow: #ffd700;
-    -webkit-box-shadow: #ffd700;
-    -moz-box-shadow: #ffd700;
   }
 `;
 
