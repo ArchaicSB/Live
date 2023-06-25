@@ -120,6 +120,15 @@ export const StyledLink = styled.a`
   text-decoration: underline;
 `;
 
+>
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -255,15 +264,7 @@ function App() {
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
-            >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--primary-text)",
-              }}
-            >
+          >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
