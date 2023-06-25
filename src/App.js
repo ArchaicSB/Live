@@ -198,14 +198,14 @@ function App() {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 32, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 32 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -216,9 +216,9 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--primary)",
-              padding: 24,
-              borderRadius: 24,
-              border: "4px solid var(--secondary)",
+              padding: 32,
+              borderRadius: 32,
+              border: "12px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.7)",
             }}
           >
