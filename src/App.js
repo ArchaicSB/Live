@@ -8,6 +8,7 @@ import styled from "styled-components";
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
+
 export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
@@ -19,10 +20,30 @@ export const StyledButton = styled.button`
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #ffd700;
   transition: box-shadow 0.3s ease;
+
   &:hover {
     box-shadow: 0px 6px 0px -2px #ffd700;
   }
+
   &:active {
+    box-shadow: #ffd700;
+  }
+
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 6px 0px -2px #ffd700;
+  -webkit-box-shadow: 1px 6px 0px -2px #ffd700;
+  -moz-box-shadow: 1px 6px 0px -2px #ffd700;
+
+  &:hover {
+    background-color: #ffd700;
+    color: #000000;
+    box-shadow: 0px 6px 0px -2px #ffd700;
+  }
+
+  &:active {
+    background-color: #ffd700;
+    color: #000000;
     box-shadow: #ffd700;
   }
 `;
