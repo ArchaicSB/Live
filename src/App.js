@@ -106,7 +106,7 @@ export const StyledImg = styled.img`
   }
   transition: width 0.5s;
 `;
-  >
+
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
