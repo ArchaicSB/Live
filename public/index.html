@@ -50,17 +50,17 @@
   <style>
     /* Add custom styles for the pop-up message */
     #popup {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 20px;
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      opacity: 0; /* Start with opacity 0 */
-      transition: opacity 0.3s;
-    }
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(10, 67, 41, 0.33); /* Updated background color with 33% transparency */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0; /* Start with opacity 0 */
+  transition: opacity 1.5s;
+}
 
     /* Add fade-in animation */
     #popup.fade-in {
@@ -76,8 +76,8 @@
 <body>
   <!-- Add the pop-up message -->
   <div id="popup">
-    <h2>Welcome to Our Website!</h2>
-    <p>This is a disclaimer message or any important information you want to convey to the users.</p>
+    <h2>Welcome to Archaic Shell Babies!</h2>
+    <p>Our minting website looks best with a desktop site. If using a mobile device, please consider using the desktop site option. </p>
     <button onclick="acceptPopup()">Accept</button>
   </div>
 
