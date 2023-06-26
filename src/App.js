@@ -255,7 +255,7 @@ function App() {
                   margin: "6px",
                 }}
               >
-                Join The Community!
+                Social Links ❤️
               </StyledButton>
               <StyledButton
                 style={{
