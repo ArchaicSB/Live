@@ -211,15 +211,15 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={2}
+            flex={3}
             jc={"center"}
             ai={"center"}
             style={{
               backgroundColor: "var(--primary)",
-              padding: 12,
-              borderRadius: 12,
-              border: "12px solid var(--secondary)",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.7)",
+              padding: 16,
+              borderRadius: 16,
+              border: "16px solid var(--secondary)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
             <s.TextTitle
@@ -310,7 +310,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      Minting On The {CONFIG.NETWORK.NAME} Network
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
@@ -328,7 +328,7 @@ function App() {
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--accent-text)",
+                            color: "var(--primary-text)",
                           }}
                         >
                           {blockchain.errorMsg}
@@ -415,14 +415,14 @@ function App() {
             }}
           >
             Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
+            {CONFIG.NETWORK.NAME} ) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
