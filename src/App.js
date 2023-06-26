@@ -57,8 +57,8 @@ export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
   flex-direction: row;
-  justify-content: stretched;
-  align-items: stretched;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   @media (min-width: 767px) {
     flex-direction: row;
@@ -90,8 +90,8 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--secondary);
-  text-decoration: underline;
+  color: var(-primary);
+  text-decoration: underline overline;
 `;
 
 function App() {
