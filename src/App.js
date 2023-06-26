@@ -9,14 +9,14 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10px;
+  padding: 10%;
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 10%;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 125px;
+  width: 75%;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #0B4008;
   -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10px;
+  padding: 10%;
   border-radius: 100%;
   border: solid;
   background-color: var(--secondary);
