@@ -29,7 +29,7 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10%;
+  padding: 10px;
   border-radius: 100%;
   border: solid;
   background-color: var(--secondary);
