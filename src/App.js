@@ -16,7 +16,7 @@ export const StyledButton = styled.button`
   padding: 10%;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 75%;
+  width: 125px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #0B4008;
   -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
