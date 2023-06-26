@@ -80,7 +80,7 @@ export const StyledImg = styled.img`
   background-color: var(--accent);
   border-radius: 100%;
   width: 100px;
-  @media (min-width: 1000px) {
+  @media (min-width: 767px) {
     width: 300px;
   }
   @media (min-width: 1000px) {
