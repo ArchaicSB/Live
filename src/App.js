@@ -9,11 +9,11 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10%;
+  padding: 15px;
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
-  padding: 10%;
+  padding: 15px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 125px;
@@ -29,11 +29,11 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledRoundButton = styled.button`
-  padding: 10px;
+  padding: 15px;
   border-radius: 100%;
   border: solid;
   background-color: var(--secondary);
-  padding: 10px;
+  padding: 15px;
   font-weight: bold;
   font-size: 15px;
   color: var(--secondary-text);
@@ -66,7 +66,7 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 300px;
   @media (min-width: 767px) {
     width: 300px;
   }
