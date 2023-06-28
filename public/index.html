@@ -43,37 +43,25 @@
 
   <script src="https://kit.fontawesome.com/ae8645918a.js" crossorigin="anonymous"></script>
 
-  <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
- <StyledButton
-                onClick={(e) => {
-                  window.open
-          .social-links {
-      list-style: none;
-      padding: 4;
-      display: flex;
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 9999;
-    } 
-    .social-links li {
-      margin: 0 16px;
-    }
-    .social-links li a {
-      color: #ffffff;
-      font-size: 24px;
-    } }
-  </style>
-</head>
-<body>
-  <ul class="social-links">
-    <li><a href="https://www.instagram.com/archaicsb_/"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="https://twitter.com/archaicsb"><i class="fab fa-twitter"></i></a></li>
-  </ul>
+const SocialMediaIcons = () => {
+  return (
+    <div className="social-icons">
+      <StyledButton
+        onClick={(e) => {
+          window.open("https://twitter.com/archaicsb");
+        }}
+      >
+        <i className="fab fa-twitter"></i>
+      </StyledButton>
+      <StyledButton
+        onClick={(e) => {
+          window.open("https://www.instagram.com/archaicsb_/");
+        }}
+      >
+        <i className="fab fa-instagram"></i>
+      </StyledButton>
+    </div>
+  );
+};
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
-</body>
-</html>
+export default SocialMediaIcons;
