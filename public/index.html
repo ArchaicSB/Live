@@ -41,30 +41,28 @@
   </body>
 </html>
 
-  <script src="https://kit.fontawesome.com/ae8645918a.js" crossorigin="anonymous"></script>
+<html>
+<head>
+  <link rel="stylesheet" href="css/all.min.css">
+  <style>
+    /* Add custom CSS styles for positioning */
+    .social-links {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add your website content here -->
+  
+  <!-- Social media links -->
+  <div class="social-links">
+    <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+    <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+  </div>
 
-import React from "react";
-import StyledButton from "./StyledButton";
-
-const SocialMediaIcons = () => {
-  return (
-    <div className="social-icons">
-      <StyledButton
-        onClick={(e) => {
-          window.open("https://twitter.com/archaicsb");
-        }}
-      >
-        <i className="fab fa-twitter"></i>
-      </StyledButton>
-      <StyledButton
-        onClick={(e) => {
-          window.open("https://www.instagram.com/archaicsb_/");
-        }}
-      >
-        <i className="fab fa-instagram"></i>
-      </StyledButton>
-    </div>
-  );
-};
-
-export default SocialMediaIcons;
+  <script src="js/all.min.js"></script>
+</body>
+</html>
