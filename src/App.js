@@ -96,6 +96,7 @@ export const StyledLink = styled.a`
 
 function App() {
   const dispatch = useDispatch();
+  const [totalSupply, setTotalSupply] = useState(0);
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
@@ -168,11 +169,13 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
-  const getData = () => {
-    if (blockchain.account !== "" && blockchain.smartContract !== null) {
-      dispatch(fetchData(blockchain.account));
-    }
-  };
+const getData = async () => {
+  if (blockchain.account !== "" && blockchain.smartContract !== null) {
+    const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
+    setTotalSupply(parseInt(totalSupply, 10));
+    dispatch(fetchData(blockchain.account));
+  }
+};
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -183,6 +186,7 @@ function App() {
     });
     const config = await configResponse.json();
     SET_CONFIG(config);
+    getData(); // Fetch the total supply here
   };
 
   useEffect(() => {
@@ -230,7 +234,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
