@@ -189,13 +189,11 @@ const getData = async () => {
     getData(); // Fetch the total supply here
   };
 
-  useEffect(() => {
+    useEffect(() => {
     getConfig();
-  }, []);
+    getData(); // Fetch total supply here to ensure it's fetched before rendering the UI
+  }, [blockchain.account, blockchain.smartContract]); // Add blockchain.account and blockchain.smartContract as dependencies
 
-  useEffect(() => {
-    getData();
-  }, [blockchain.account]);
 
   return (
     <s.Screen>
