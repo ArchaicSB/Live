@@ -96,7 +96,6 @@ export const StyledLink = styled.a`
 
 function App() {
   const dispatch = useDispatch();
-  const [totalSupply, setTotalSupply] = useState(0);
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
@@ -169,13 +168,11 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
-const getData = async () => {
-  if (blockchain.account !== "" && blockchain.smartContract !== null) {
-    const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
-    setTotalSupply(parseInt(totalSupply, 10));
-    dispatch(fetchData(blockchain.account));
-  }
-};
+  const getData = () => {
+    if (blockchain.account !== "" && blockchain.smartContract !== null) {
+      dispatch(fetchData(blockchain.account));
+    }
+  };
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -186,12 +183,15 @@ const getData = async () => {
     });
     const config = await configResponse.json();
     SET_CONFIG(config);
-    useEffect(() => {
-    getConfig();
-    getData(); // Fetch total supply here to ensure it's fetched before rendering the UI
-  }, [blockchain.account, blockchain.smartContract]); // Add blockchain.account and blockchain.smartContract as dependencies
   };
 
+  useEffect(() => {
+    getConfig();
+  }, []);
+
+  useEffect(() => {
+    getData();
+  }, [blockchain.account]);
 
   return (
     <s.Screen>
@@ -230,7 +230,7 @@ const getData = async () => {
                 color: "var(--accent-text)",
               }}
             >
-              {totalSupply} / {CONFIG.MAX_SUPPLY}
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
