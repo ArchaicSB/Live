@@ -186,13 +186,11 @@ const getData = async () => {
     });
     const config = await configResponse.json();
     SET_CONFIG(config);
-    getData(); // Fetch the total supply here
-  };
-
     useEffect(() => {
     getConfig();
     getData(); // Fetch total supply here to ensure it's fetched before rendering the UI
   }, [blockchain.account, blockchain.smartContract]); // Add blockchain.account and blockchain.smartContract as dependencies
+  };
 
 
   return (
