@@ -315,7 +315,6 @@ function App() {
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
-                        e.preventDefault();
                         dispatch(connect());
                         getData();
                       }}
