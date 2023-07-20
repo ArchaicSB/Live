@@ -315,13 +315,14 @@ function App() {
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
+                        e.preventDefault();
                         dispatch(connect());
                         getData();
                       }}
                     >
                       CONNECT METAMASK
                     </StyledButton>
-                    {blockchain.errorMsg !== "" ? (
+                    {blockchain.errorMsg !=="" ? (
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
@@ -333,7 +334,7 @@ function App() {
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
-                    ) : null}
+                    ) : getData()}
                   </s.Container>
                 ) : (
                   <>
