@@ -167,6 +167,12 @@ function App() {
     }
     setMintAmount(newMintAmount);
   };
+    
+  const getData = () => {
+    if (blockchain.account !== && === "" && blockchain.smartContract !== null) {
+      dispatch(fetchData(blockchain.account));
+    }
+  };
   
     const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -187,12 +193,6 @@ function App() {
   useEffect(() => {
     getData();
   }, [blockchain.account]);
-  
-  const getData = () => {
-    if (blockchain.account !== && === "" && blockchain.smartContract !== null) {
-      dispatch(fetchData(blockchain.account));
-    }
-  };
 
   return (
     <s.Screen>
