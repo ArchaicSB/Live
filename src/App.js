@@ -297,7 +297,10 @@ function App() {
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
+                  >
+                  {data.totalSupply}/{CONFIG.MAX_SUPPLY} Minted NFTs
+                  <s.TextDescription>
+                {">"}
                   Excluding gas fees.
                 </s.TextDescription>
                 <s.SpacerSmall />
