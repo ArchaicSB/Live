@@ -300,7 +300,7 @@ function App() {
                   >
                   {data.totalSupply}/{CONFIG.MAX_SUPPLY} Minted NFTs
                   <s.TextDescription>
-                {">"}
+                    <>
                   Excluding gas fees.
                 </s.TextDescription>
                 <s.SpacerSmall />
