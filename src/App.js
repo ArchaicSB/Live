@@ -176,6 +176,10 @@ const getData = async () => {
     dispatch(fetchData(blockchain.account));
   }
 };
+  
+    useEffect(() => {
+    getData();
+  }, [blockchain.account]);
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -192,10 +196,6 @@ const getData = async () => {
   useEffect(() => {
     getConfig();
   }, []);
-
-  useEffect(() => {
-    getData();
-  }, [blockchain.account]);
 
   return (
     <s.Screen>
