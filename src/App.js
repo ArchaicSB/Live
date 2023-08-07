@@ -6,7 +6,7 @@ import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 
 const truncate = (input, len) =>
-  input.length > len ? `${input.substring(0, len)}...` : input;
+  input.length > len ? `${input.substring(0, len)}...` : input, len;
 
 export const StyledButton = styled.button`
   padding: 15px;
