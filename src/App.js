@@ -96,7 +96,6 @@ export const StyledLink = styled.a`
 
 function App() {
   const dispatch = useDispatch();
-  const [totalSupply, setTotalSupply] = useState(0);
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
