@@ -169,6 +169,11 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
+const config = await configResponse.json();
+    SET_CONFIG(config);
+    getData(); // Fetch the total supply here
+  };
+
 const getData = async () => {
   if (blockchain.account !== "" && blockchain.smartContract !== null) {
     const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
@@ -184,10 +189,6 @@ const getData = async () => {
         Accept: "application/json",
       },
     });
-    const config = await configResponse.json();
-    SET_CONFIG(config);
-    getData(); // Fetch the total supply here
-  };
 
   useEffect(() => {
     getConfig();
