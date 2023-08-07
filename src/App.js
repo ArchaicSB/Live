@@ -96,6 +96,7 @@ export const StyledLink = styled.a`
 
 function App() {
   const dispatch = useDispatch();
+  const [totalSupply, setTotalSupply] = useState(0);
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
@@ -167,14 +168,16 @@ function App() {
     }
     setMintAmount(newMintAmount);
   };
-    
-  const getData = () => {
-    if (blockchain.account !== && === "" && blockchain.smartContract !== null) {
-      dispatch(fetchData(blockchain.account));
-    }
-  };
-  
-    const getConfig = async () => {
+
+const getData = async () => {
+  if (blockchain.account !== "" && blockchain.smartContract !== null) {
+    const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
+    setTotalSupply(parseInt(totalSupply, 10));
+    dispatch(fetchData(blockchain.account));
+  }
+};
+
+  const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
       headers: {
         "Content-Type": "application/json",
