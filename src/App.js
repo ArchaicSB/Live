@@ -299,8 +299,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                   >
                   {data.totalSupply}/{CONFIG.MAX_SUPPLY} Minted NFTs
-                  <s.TextDescription>
-                    <>
+                    >
                   Excluding gas fees.
                 </s.TextDescription>
                 <s.SpacerSmall />
