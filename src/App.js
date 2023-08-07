@@ -90,7 +90,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(-primary);
+  color: var(--primary);
   text-decoration: underline overline;
 `;
 
