@@ -90,7 +90,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--primary);
+  color: var(-primary);
   text-decoration: underline overline;
 `;
 
@@ -234,7 +234,7 @@ const getData = async () => {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -326,7 +326,7 @@ const getData = async () => {
                     >
                       CONNECT METAMASK
                     </StyledButton>
-                    {blockchain.errorMsg !=="" ? (
+                    {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
@@ -338,7 +338,7 @@ const getData = async () => {
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
-                    ) : getData()}
+                    ) : null}
                   </s.Container>
                 ) : (
                   <>
