@@ -456,9 +456,9 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-              Home of the Archaic Shell Babies NFT's!
+              Home of the Archaic Shell Babies!
             </s.TextTitle>
-          <s.SpacerMedium />
+          <s.SpacerLarge />
           <s.TextTitle
               style={{
                 textAlign: "center",
@@ -469,7 +469,7 @@ const getData = async () => {
             >
             Who Are We?
           </s.TextTitle>
-          <s.SpacerMedium />
+          <s.SpacerLarge />
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -478,7 +478,7 @@ const getData = async () => {
               color: "var(--primary-text)",
             }}
           >
-            Archaic Shell Babies NFTs are unique digital collectibles boasting over 300 different character traits on the Ethereum blockchain.(/n)
+            Archaic Shell Babies are unique digital collectible NFTs boasting over 300 different character traits on the Ethereum blockchain.(/n)
             Your digital token doubles as a membership which grants access into the Sea turtle club. Sea turtle club members will receive special perks like discounts, giveaways, and exclusive access.
 
           </s.TextDescription>
