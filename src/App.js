@@ -435,36 +435,51 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-        <s.SpacerLarge />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} >
-        <s.SpacerMedium />
+      <s.SpacerLarge />
+          <s.Container
+            flex={3}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              backgroundColor: "var(--primary)",
+              padding: 16,
+              borderRadius: 16,
+              border: "16px solid var(--secondary)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              }}
+          >
             <s.TextTitle
               style={{
-              textAlign: "center",
-              color: "var(--accent-text)",
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--accent-text)",
               }}
             >
-            Home of the Archaic Shell Babies NFT's!
-          </s.TextTitle>
+              Home of the Archaic Shell Babies NFT's!
+            </s.TextTitle>
           <s.SpacerMedium />
-          <s.TextSubTitle
-            style={{
-              textAlign: "center",
-              color: "var(--accent-text)",
+          <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 33,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
               }}
             >
             Who Are We?
-          </s.TextSubTitle>
+          </s.TextTitle>
           <s.SpacerMedium />
           <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--accent-text)",
-                }}
-              >
+            style={{
+              textAlign: "center",
+              fontWeight: "bold",
+              color: "var(--accent-text)",
+            }}
+          >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation efforts through the power of Web3 technology.
           </s.TextDescription>
-        </ResponsiveWrapper>
+      </s.Container>
     </s.Screen>
   );
 }
