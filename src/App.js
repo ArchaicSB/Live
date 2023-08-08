@@ -438,21 +438,30 @@ const getData = async () => {
         <s.SpacerLarge />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.SpacerMedium />
-          <s.TextTitle
-            style={{ textAlign: "center", color: "var(--accent-text)" }}
-          >
+            <s.TextTitle
+              style={{
+              textAlign: "center",
+              color: "var(--accent-text)",
+              }}
+            >
             Home of the Archaic Shell Babies NFT's!
           </s.TextTitle>
-          <s.TextTitle
-            style={{ textAlign: "center", color: "var(--accent-text)" }}
-          >
+          <s.TextSubTitle
+            style={{
+              textAlign: "center",
+              color: "var(--accent-text)",
+              }}
+            >
             Who Are We?
-          </s.TextTitle>
-          <s.TextTitle
-            style={{ textAlign: "center", color: "#333333" }}
-          >
+          </s.TextSubTitle>
+          <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--accent-text)",
+                }}
+              >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation efforts through the power of Web3 technology.
-          </s.TextTitle>
+          </s.TextDescription>
         </ResponsiveWrapper>
     </s.Screen>
   );
