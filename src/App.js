@@ -437,7 +437,7 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--secondary-text)",
+              color: "var(--accent-text)",
             }}
           >
             This is a text.
