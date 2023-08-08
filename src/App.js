@@ -433,28 +433,6 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
-              <s.Container
-            flex={3}
-            jc={"center"}
-            ai={"center"}
-            style={{
-              backgroundColor: "var(--primary)",
-              padding: 16,
-              borderRadius: 16,
-              border: "16px solid var(--secondary)",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-            }}
-          >
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-              This is a test to add sections to the website. 
-            </s.TextTitle>
         </s.Container>
       </s.Container>
     </s.Screen>
