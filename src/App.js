@@ -432,7 +432,25 @@ const getData = async () => {
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
-          </s.TextDescription>
+                        </s.TextDescription>
+          <s.Container
+            flex={2}
+            ai={"center"}
+            style={{ padding: 12, backgroundColor: "var(--primary)" }}
+          >
+          <s.TextTitle
+            style={{ textAlign: "center", color: "var(--accent-text)" }}
+          >
+            Home of the Archaic Shell Babies NFT's
+            {"\n"}
+            Who Are We?
+          </s.TextTitle>
+            <s.TextSubTitle
+              style={{ textAlign: "center", color: "#333333" }}
+            >
+              Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation efforts through the power of Web3 technology.
+            </s.TextSubTitle>
+          </s.Container>
         </s.Container>
       </s.Container>
     </s.Screen>
