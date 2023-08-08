@@ -314,7 +314,7 @@ const getData = async () => {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Minting On The {CONFIG.NETWORK.NAME} Network
+                      Please connect wallet to see the correct # of NFT's minted.
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
