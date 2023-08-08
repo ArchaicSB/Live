@@ -315,6 +315,7 @@ const getData = async () => {
                       }}
                     >
                       Minting On The {CONFIG.NETWORK.NAME} Network
+                      Please connect to Metamask to see the correct # of minted NFTs. (It's not 0)
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
