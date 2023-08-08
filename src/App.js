@@ -433,10 +433,19 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+          <s.SpacerLarge />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+            Who are we? A collection of 10,000 unique Sea Turtle NFTs swimming on the Ethereum Blockchain. 
+            The token doubles as your membership to the Sea Turtle club which will provide token holders
+            with perks relating to travel/vacations, re-usable products, giveaways, and more. 
+          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
   );
 }
-
-export default App;
