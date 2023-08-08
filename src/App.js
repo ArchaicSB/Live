@@ -315,7 +315,7 @@ const getData = async () => {
                       }}
                     >
                       Minting On The {CONFIG.NETWORK.NAME} Network
-                  </s.TextTitle>
+                  </s.TextTitle
                   <s.TextDescription
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
