@@ -90,7 +90,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(--primary);
+  color: var(-primary);
   text-decoration: underline overline;
 `;
 
@@ -202,7 +202,7 @@ const getData = async () => {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: false }}
+        style={{ padding: 12, backgroundColor: true }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
@@ -402,7 +402,7 @@ const getData = async () => {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
+          <s.Container flex={2} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
@@ -415,25 +415,13 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--secondary-text)",
+              color: "var(--primary-text)",
             }}
           >
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} ) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--secondary-text)",
-            }}
-          >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
-                    </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
             style={{
