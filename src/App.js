@@ -402,7 +402,7 @@ const getData = async () => {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={2} jc={"center"} ai={"center"}>
+          <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
               src={"/config/images/example.gif"}
@@ -433,17 +433,6 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
-                //New Section
-      <s.Container style={{ backgroundColor: "var(--secondary)", padding: 24 }}>
-        <h1>New Section 1</h1>
-        {/* Content for the new section */}
-      </s.Container>
-
-                //New Section
-      <s.Container style={{ backgroundColor: "var(--accent)", padding: 24 }}>
-        <h2>New Section 2</h2>
-        {/* Content for the new section */}
-      </s.Container>
         </s.Container>
       </s.Container>
     </s.Screen>
