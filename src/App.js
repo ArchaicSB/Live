@@ -478,7 +478,7 @@ const getData = async () => {
               color: "var(--primary-text)",
             }}
           >
-            Archaic Shell Babies NFTs are unique digital collectibles boasting over 300 different character traits on the Ethereum blockchain.(/n)
+            Archaic Shell Babies NFTs are unique digital collectibles boasting over 300 different character traits on the Ethereum blockchain.
             Your digital token doubles as a membership which grants access into the Sea turtle club. Sea turtle club members will receive special perks like discounts, giveaways, and exclusive access.
 
           </s.TextDescription>
