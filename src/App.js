@@ -433,7 +433,67 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+                    </s.TextDescription>
+          <s.SpacerSmall />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--secondary-text)",
+            }}
+          >
+            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. We recommend that you don't lower the
+            gas limit.
+          </s.TextDescription>
       </s.Container>
+      </s.Container>
+      <s.SpacerLarge />
+          <s.Container
+            flex={3}
+            jc={"center"}
+            ai={"center"}
+            style={{
+              backgroundColor: "var(--primary)",
+              padding: 16,
+              borderRadius: 16,
+              border: "16px solid var(--secondary)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              }}
+          >
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+              Home of the Archaic Shell Babies NFT's!
+            </s.TextTitle>
+          <s.SpacerMedium />
+          <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 42,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Who Are We?
+          </s.TextTitle>
+          <s.SpacerMedium />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              fontSize: 33,
+              fontWeight: "bold",
+              color: "var(--primary-text)",
+            }}
+          >
+            Archaic Shell Babies NFTs are unique digital collectibles boasting over 300 different character traits on the Ethereum blockchain.(/n)
+            Your digital token doubles as a membership which grants access into the Sea turtle club. Sea turtle club members will receive special perks like discounts, giveaways, and exclusive access.
+
+          </s.TextDescription>
       </s.Container>
     </s.Screen>
   );
