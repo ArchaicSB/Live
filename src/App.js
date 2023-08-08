@@ -433,6 +433,15 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+              <s.SpacerLarge />
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--secondary-text)",
+            }}
+          >
+            This is a text.
+          </s.TextDescription>
         </s.Container>
       </s.Container>
     </s.Screen>
