@@ -90,7 +90,7 @@ export const StyledImg = styled.img`
 `;
 
 export const StyledLink = styled.a`
-  color: var(-primary);
+  color: var(--primary);
   text-decoration: underline overline;
 `;
 
@@ -202,7 +202,7 @@ const getData = async () => {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: "var(--primary)" }}
+        style={{ padding: 12, backgroundColor: false }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
