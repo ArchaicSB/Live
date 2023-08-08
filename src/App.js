@@ -415,7 +415,7 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             Please make sure you are connected to the right network (
