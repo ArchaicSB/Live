@@ -431,18 +431,7 @@ const getData = async () => {
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
-          <s.SpacerLarge />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
-            }}
-          >
-            Who are we? A collection of 10,000 unique Sea Turtle NFTs swimming on the Ethereum Blockchain. 
-            The token doubles as your membership to the Sea Turtle club which will provide token holders
-            with perks relating to travel/vacations, re-usable products, giveaways, and more. 
+            gas limit. 
           </s.TextDescription>
         </s.Container>
       </s.Container>
