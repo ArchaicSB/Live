@@ -462,7 +462,7 @@ const getData = async () => {
           <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 33,
+                fontSize: 42,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -473,11 +473,14 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "center",
+              fontSize: 33,
               fontWeight: "bold",
-              color: "var(--accent-text)",
+              color: "var(--primary-text)",
             }}
           >
-            Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation efforts through the power of Web3 technology.
+            Archaic Shell Babies NFTs are unique digital collectibles boasting over 300 different character traits on the Ethereum blockchain.(/n)
+            Your digital token doubles as a membership which grants access into the Sea turtle club. Sea turtle club members will receive special perks like discounts, giveaways, and exclusive access.
+
           </s.TextDescription>
       </s.Container>
     </s.Screen>
