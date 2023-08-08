@@ -453,7 +453,7 @@ const getData = async () => {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "var(--primary-text)",
               }}
             >
               Home of the Archaic Shell Babies NFT's!
