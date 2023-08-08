@@ -433,7 +433,8 @@ const getData = async () => {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
-        </s.Container>
+      </s.Container>
+      </s.Container>
         <s.SpacerLarge />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.SpacerMedium />
@@ -453,7 +454,6 @@ const getData = async () => {
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation efforts through the power of Web3 technology.
           </s.TextTitle>
         </ResponsiveWrapper>
-      </s.Container>
     </s.Screen>
   );
 }
