@@ -509,6 +509,7 @@ const getData = async () => {
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
+              height: "600px",
               }}
           >
           <s.TextTitle
