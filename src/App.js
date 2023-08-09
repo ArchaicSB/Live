@@ -491,8 +491,7 @@ const getData = async () => {
             Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain.
               
             Your NFT doubles as a membership which grants access into the sea turtle club.
-          </s.TextDescription>
-      </s.Container>   
+          </s.TextDescription>   
       </s.Container>
         <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
@@ -517,6 +516,7 @@ const getData = async () => {
             >
             Change Is Needed
           </s.TextTitle>
+        </s.Container>
     </s.Screen>
   );
 }
