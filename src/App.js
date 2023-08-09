@@ -259,7 +259,7 @@ const getData = async () => {
             <s.TextDescription
               style={{
                 textAlign: "center",
-                color: "var(--primary-text)",
+                color: "var(--accent-text)",
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
