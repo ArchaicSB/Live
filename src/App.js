@@ -202,7 +202,6 @@ const getData = async () => {
       <s.Container
         style={{
           flex: 2,
-          ai: "center",
           backgroundColor: "#000000",
           padding: 8,
           borderRadius: 8,
@@ -460,8 +459,6 @@ const getData = async () => {
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             flex={3}
-            jc={"center"}
-            ai={"center"}
             style={{
               backgroundColor: "none",
               padding: 16,
@@ -485,7 +482,7 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              fontSize: 24,
+              fontSize: 33,
               fontWeight: "bold",
               color: "#000000",
             }}
