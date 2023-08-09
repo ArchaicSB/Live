@@ -481,7 +481,7 @@ const getData = async () => {
             }}
           >
             Archaic Shell Babies are unique digital collectible's swimming on the Ethereum Blockchain.
-            Your digital token doubles as a membership which grants access into the Sea turtle club.
+            Your NFT doubles as a membership which grants access into the sea turtle club.
             Club members will receive special perks like discounts, giveaways, and exclusive access.
           </s.TextDescription>
       </s.Container>
