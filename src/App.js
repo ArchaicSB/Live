@@ -470,7 +470,7 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               marginRight: "2px", // Add a margin to separate containers
               width: "50%",  // Equal width for both containers
-              height: "100%",  // Adjust the height as needed
+              height: "800px",  // Adjust the height as needed
               }}
           >
           <s.SpacerMedium />
@@ -511,7 +511,7 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               marginLeft: "2px", // Add a margin to separate containers
               width: "50%",  // Equal width for both containers
-              height: "100%",  // Adjust the height as needed
+              height: "800px",  // Adjust the height as needed
               }}
           >
           <s.SpacerMedium />
