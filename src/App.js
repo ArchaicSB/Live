@@ -456,6 +456,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
+        <ResponsiveWrapper>
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             flex={3}
@@ -521,6 +522,7 @@ const getData = async () => {
             Change Is Needed
           </s.TextTitle>
         </s.Container>
+      </ResponsiveWrapper>
     </s.Screen>
   );
 }
