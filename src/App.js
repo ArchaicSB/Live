@@ -209,8 +209,9 @@ const getData = async () => {
         }}
       >
       <s.TextTitle
+        flex={2}
+        ai={"center"}
         style={{
-        textAlign:"center",
         fontSize: 60,
         fontWeight: "bold",
         color: "#ffffff",
