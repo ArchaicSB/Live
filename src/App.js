@@ -450,8 +450,6 @@ const getData = async () => {
           >
             <s.TextTitle
               style={{
-                maxWidth: "50%",
-                margin: "0 auto",
                 textAlign: "center",
                 fontSize: 60,
                 fontWeight: "bold",
