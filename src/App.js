@@ -202,6 +202,22 @@ const getData = async () => {
       <s.Container
         flex={2}
         ai={"center"}
+        style={{ padding: 12, backgroundColor: #FFD700 }}
+      >
+      <s.TextTitle
+        style={{
+        textAlign: "center",
+        fontSize: 60,
+        fontWeight: "bold",
+        color: "#000000",
+        }}
+      >
+        Home of the Archaic Shell Babies
+        </s.Container>
+        </s.TextTitle>
+      <s.Container
+        flex={2}
+        ai={"center"}
         style={{ padding: 12, backgroundColor: true }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
@@ -448,16 +464,6 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               }}
           >
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 60,
-                fontWeight: "bold",
-                color: "#000000",
-              }}
-            >
-              Home of the Archaic Shell Babies
-            </s.TextTitle>
           <s.SpacerLarge />
           <s.TextTitle
               style={{
