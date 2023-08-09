@@ -498,7 +498,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
         <s.Container
-            image={"/config/images/garbagepatch.png" : true}
+            image={"/config/images/garbagepatch.png"}
             flex={3}
             jc={"center"}
             ai={"center"}
