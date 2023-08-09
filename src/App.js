@@ -457,7 +457,7 @@ const getData = async () => {
       </s.Container>
       </s.Container>
           <s.Container
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
+            <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
             flex={3}
             jc={"center"}
             ai={"center"}
@@ -498,7 +498,7 @@ const getData = async () => {
           </s.TextDescription>   
       </s.Container>
         <s.Container
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
+            image={"/config/images/garbagepatch.png" : true}
             flex={3}
             jc={"center"}
             ai={"center"}
