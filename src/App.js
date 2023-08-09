@@ -201,6 +201,8 @@ const getData = async () => {
     <s.Screen>
       <s.Container
         style={{
+          flex: 2,
+          ai: "center",
           backgroundColor: "#000000",
           padding: 8,
           borderRadius: 8,
@@ -209,9 +211,8 @@ const getData = async () => {
         }}
       >
       <s.TextTitle
-        flex={2}
-        ai={"center"}
         style={{
+        textAlign: "center",
         fontSize: 60,
         fontWeight: "bold",
         color: "#ffffff",
