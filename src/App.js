@@ -213,7 +213,7 @@ const getData = async () => {
         textAlign: "center",
         fontSize: 60,
         fontWeight: "bold",
-        color: "var(--gold-text)",
+        color: "var(--secondary)",
         }}
       >
         Home of the Archaic Shell Babies
