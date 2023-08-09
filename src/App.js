@@ -468,7 +468,7 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
               height: "800px",
-              image: {CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
+              backgroundImage: "/config/images/bgpic2.png",
               }}
           >
           <s.SpacerMedium />
@@ -508,7 +508,7 @@ const getData = async () => {
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
-              image: {CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
+              backgroundImage: "/config/images/garbagepatch.png",
               }}
           >
           <s.TextTitle
