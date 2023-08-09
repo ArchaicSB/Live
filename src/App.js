@@ -473,13 +473,16 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              fontSize: 30,
+              fontSize: 24,
               fontWeight: "bold",
               color: "#000000",
             }}
           >
-            Archaic Shell Babies are unique digital collectible's swimming on the Ethereum Blockchain.
+            Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain.
+              
             Your NFT doubles as a membership which grants access into the sea turtle club.
+
+            Club members will have access to realistic and usable benefits.
           </s.TextDescription>
       </s.Container>
     </s.Screen>
