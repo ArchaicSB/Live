@@ -437,6 +437,7 @@ const getData = async () => {
       </s.Container>
       <s.SpacerLarge />
           <s.Container
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
             flex={3}
             jc={"center"}
             ai={"center"}
