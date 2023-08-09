@@ -217,8 +217,8 @@ const getData = async () => {
         }}
       >
         Home of the Archaic Shell Babies
-        </s.Container>
         </s.TextTitle>
+        </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
