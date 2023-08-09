@@ -511,6 +511,7 @@ const getData = async () => {
               margin: "2px",
               height: "600px",
               }}
+            >
             <s.TextTitle
               style={{
                 textAlign: "right",
@@ -521,7 +522,6 @@ const getData = async () => {
             >
             Change Is Needed
           </s.TextTitle>
-          >
       </s.Container>
     </s.Screen>
   );
