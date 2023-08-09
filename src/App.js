@@ -458,7 +458,7 @@ const getData = async () => {
       </s.Container>
       </s.Container>
           <s.Screen
-            background-image: {CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true};
+            background-image: ${({ image }) => (image ? `url(${/config/images/bgpic2.png})` : "true")};
             background-size: cover;
             display: flex;
             flex-direction: column;
