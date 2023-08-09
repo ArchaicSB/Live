@@ -461,7 +461,7 @@ const getData = async () => {
           <s.SpacerLarge />
           <s.TextTitle
               style={{
-                textAlign: "center",
+                textAlign: "left",
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "#000000",
@@ -472,8 +472,6 @@ const getData = async () => {
           <s.SpacerLarge />
           <s.TextDescription
             style={{
-              maxWidth: "50%",
-              margin: "0 auto",
               textAlign: "left",
               fontSize: 30,
               fontWeight: "bold",
@@ -482,7 +480,6 @@ const getData = async () => {
           >
             Archaic Shell Babies are unique digital collectible's swimming on the Ethereum Blockchain.
             Your NFT doubles as a membership which grants access into the sea turtle club.
-            Club members will receive special perks like discounts, giveaways, and exclusive access.
           </s.TextDescription>
       </s.Container>
     </s.Screen>
