@@ -456,7 +456,6 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-        <ResponsiveWrapper>
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             flex={3}
@@ -468,8 +467,7 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginRight: "2px", // Add a margin to separate containers
-              width: "50%",  // Equal width for both containers
+              margin: "2px", // Add a margin to separate containers
               height: "800px",  // Adjust the height as needed
               }}
           >
@@ -509,8 +507,7 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginLeft: "2px", // Add a margin to separate containers
-              width: "50%",  // Equal width for both containers
+              margin: "2px", // Add a margin to separate containers
               height: "600px",  // Adjust the height as needed
               }}
           >
@@ -526,7 +523,6 @@ const getData = async () => {
             Change Is Needed
           </s.TextTitle>
         </s.Container>
-      </ResponsiveWrapper>
     </s.Screen>
   );
 }
