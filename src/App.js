@@ -199,7 +199,6 @@ const getData = async () => {
 
   return (
     <s.Screen>
-    <ResponsiveWrapper>
       <s.Container
         flex={2}
         style={{
@@ -494,7 +493,6 @@ const getData = async () => {
             Your NFT doubles as a membership which grants access into the sea turtle club.
           </s.TextDescription>
       </s.Container>
-    </ResponsiveWrapper>
     </s.Screen>
   );
 }
