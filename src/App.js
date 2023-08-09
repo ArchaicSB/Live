@@ -468,10 +468,10 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginRight: "8px", // Add a margin to separate containers
+              marginRight: "2px", // Add a margin to separate containers
               }}
           >
-          <s.SpacerLarge />
+          <s.SpacerMedium />
           <s.TextTitle
               style={{
                 textAlign: "left",
@@ -482,7 +482,7 @@ const getData = async () => {
             >
             Who Are We?
           </s.TextTitle>
-          <s.SpacerLarge />
+          <s.SpacerMedium />
           <s.TextDescription
             style={{
               textAlign: "left",
@@ -507,10 +507,10 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginLeft: "8px", // Add a margin to separate containers
+              marginLeft: "2px", // Add a margin to separate containers
               }}
           >
-          <s.SpacerLarge />
+          <s.SpacerMedium />
           <s.TextTitle
               style={{
                 textAlign: "right",
