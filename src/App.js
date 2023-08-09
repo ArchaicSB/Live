@@ -461,6 +461,7 @@ const getData = async () => {
             jc={"center"}
             ai={"center"}
             style={{
+              backgroundImage: "/config/images/bgpic2.png",
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
@@ -468,7 +469,6 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
               height: "800px",
-              backgroundImage: "/config/images/bgpic2.png",
               }}
           >
           <s.SpacerMedium />
@@ -502,13 +502,13 @@ const getData = async () => {
             jc={"center"}
             ai={"center"}
             style={{
+              backgroundImage: "/config/images/garbagepatch.png",
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
-              backgroundImage: "/config/images/garbagepatch.png",
               }}
           >
           <s.TextTitle
