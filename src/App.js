@@ -468,7 +468,7 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px",
               height: "800px",
-              image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true},
+              image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
               }}
           >
           <s.SpacerMedium />
@@ -507,8 +507,8 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              margin: "2px", // Add a margin to separate containers
-              image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true},
+              margin: "2px",
+              image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
               }}
           >
           <s.TextTitle
