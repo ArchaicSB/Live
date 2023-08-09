@@ -457,13 +457,13 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-          <s.Container
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
-            flex={3}
-            jc={"center"}
-            ai={"center"}
+          <s.Screen
+            background-image: {CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true};
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
             style={{
-              backgroundColor: "#000000",
               padding: 16,
               borderRadius: 16,
               border: "16px solid var(--secondary)",
@@ -485,6 +485,7 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
+              width
               fontSize: 24,
               fontWeight: "bold",
               color: "#000000",
@@ -494,7 +495,7 @@ const getData = async () => {
               
             Your NFT doubles as a membership which grants access into the sea turtle club.
           </s.TextDescription>
-      </s.Container>
+      </s.Screen>
     </s.Screen>
   );
 }
