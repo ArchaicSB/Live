@@ -15,7 +15,7 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 15px;
   font-weight: bold;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   width: 125px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #000000;
@@ -36,7 +36,7 @@ export const StyledRoundButton = styled.button`
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   width: 45px;
   height: 45px;
   cursor: pointer;
