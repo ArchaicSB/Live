@@ -461,9 +461,7 @@ const getData = async () => {
           <s.SpacerLarge />
           <s.TextTitle
               style={{
-                maxWidth: "50%",
-                margin: "0 auto",
-                textAlign: "left",
+                textAlign: "center",
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "#000000",
