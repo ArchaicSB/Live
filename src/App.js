@@ -457,7 +457,7 @@ const getData = async () => {
       </s.Container>
       </s.Container>
         <s.Container
-            StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+            StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
             flex={3}
             jc={"center"}
             ai={"center"}
@@ -495,8 +495,8 @@ const getData = async () => {
             ASB is a groundbreaking NFT project with a mission to revolutionize conservation efforts through 
             the power of Web3 technology. We are exceptionally passionate about sea turtles and the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
-          </s.TextDescription>   
-        </s.Container>
+          </s.TextDescription>
+      </s.Container>
         <s.Container
             image={"/config/images/garbagepatch.png" : true}
             flex={3}
