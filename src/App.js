@@ -458,7 +458,9 @@ const getData = async () => {
       </s.Container>
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
-            flex={2}
+            flex={3}
+            jc={"center"}
+            ai={"center"}
             style={{
               backgroundColor: "none",
               padding: 16,
@@ -495,7 +497,9 @@ const getData = async () => {
       </s.Container>
         <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
-            flex={2}
+            flex={3}
+            jc={"center"}
+            ai={"center"}
             style={{
               backgroundColor: "none",
               padding: 16,
