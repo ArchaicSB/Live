@@ -497,6 +497,7 @@ const getData = async () => {
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
       </s.Container>
+      <s.SpacerSmall />
         <s.Container
             flex={3}
             jc={"center"}
@@ -508,20 +509,8 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              margin: "2px",
-              height: "600px",
               }}
             >
-            <s.TextTitle
-              style={{
-                textAlign: "right",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "#000000",
-              }}
-            >
-            Change Is Needed
-          </s.TextTitle>
       </s.Container>
     </s.Screen>
   );
