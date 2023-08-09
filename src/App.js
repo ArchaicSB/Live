@@ -460,8 +460,8 @@ const getData = async () => {
             flex={3}
             jc={"center"}
             ai={"center"}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
-              background-image: "/config/images/bgpic2.png",
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
@@ -501,8 +501,8 @@ const getData = async () => {
             flex={3}
             jc={"center"}
             ai={"center"}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
             style={{
-              background-image: "/config/images/garbagepatch.png",
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
