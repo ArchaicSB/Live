@@ -201,11 +201,11 @@ const getData = async () => {
     <s.Screen>
       <s.Container
         style={{
-          backgroundColor: "var(--gold)"
+          backgroundColor: "var(--gold)",
           padding: 16,
           borderRadius: 16,
           border: "16px solid var(--secondary)",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)"
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
       <s.TextTitle
