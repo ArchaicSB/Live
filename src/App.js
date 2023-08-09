@@ -502,7 +502,7 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginLight: "8px", // Add a margin to separate containers
+              marginLeft: "8px", // Add a margin to separate containers
               }}
           >
           <s.SpacerLarge />
