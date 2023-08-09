@@ -331,7 +331,7 @@ const getData = async () => {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--secondary-text)",
                       }}
                     >
                       Please connect wallet to see the correct # of NFT's minted.
