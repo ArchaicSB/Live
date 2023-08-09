@@ -453,7 +453,7 @@ const getData = async () => {
                 maxWidth: "50%",
                 margin: "0 auto",
                 textAlign: "center",
-                fontSize: 40,
+                fontSize: 60,
                 fontWeight: "bold",
                 color: "#000000",
               }}
@@ -466,7 +466,7 @@ const getData = async () => {
                 maxWidth: "50%",
                 margin: "0 auto",
                 textAlign: "left",
-                fontSize: 35,
+                fontSize: 40,
                 fontWeight: "bold",
                 color: "#000000",
               }}
