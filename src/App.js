@@ -456,7 +456,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-          <s.Container
+        <s.Container
             StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
             flex={3}
             jc={"center"}
@@ -496,7 +496,7 @@ const getData = async () => {
             the power of Web3 technology. We are exceptionally passionate about sea turtles and the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>   
-      </s.Container>
+        </s.Container>
         <s.Container
             image={"/config/images/garbagepatch.png" : true}
             flex={3}
