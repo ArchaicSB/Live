@@ -461,7 +461,7 @@ const getData = async () => {
             jc={"center"}
             ai={"center"}
             style={{
-              background-image: ${({ image }) => (image ? `url(${"/config/images/bgpic2.png"})` : "true")};
+              background-image: ${({ image }) => (image ? `url(${"/config/images/bgpic2.png"})` : "true")},
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
@@ -502,7 +502,7 @@ const getData = async () => {
             jc={"center"}
             ai={"center"}
             style={{
-              background-image: ${({ image }) => (image ? `url({$"/config/images/garbagepatch.png"})` : "true")};
+              background-image: ${({ image }) => (image ? `url({$"/config/images/garbagepatch.png"})` : "true")},
               backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
