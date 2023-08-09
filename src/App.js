@@ -200,8 +200,8 @@ const getData = async () => {
   return (
     <s.Screen>
       <s.Container
+        flex={2}
         style={{
-          flex: 2,
           backgroundColor: "#000000",
           padding: 8,
           borderRadius: 8,
@@ -458,7 +458,7 @@ const getData = async () => {
       </s.Container>
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
-            flex={3}
+            flex={2}
             style={{
               backgroundColor: "none",
               padding: 16,
@@ -470,7 +470,7 @@ const getData = async () => {
           <s.SpacerLarge />
           <s.TextTitle
               style={{
-                textAlign: "left",
+                textAlign: "center",
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "#000000",
