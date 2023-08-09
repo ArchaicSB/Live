@@ -200,9 +200,13 @@ const getData = async () => {
   return (
     <s.Screen>
       <s.Container
-        flex={2}
-        ai={"center"}
-        style={{ padding: 12, backgroundColor: #FFD700 }}
+        style={{
+          color: "var(--primary)",
+          padding: 16,
+          borderRadius: 16,
+          border: "16px solid var(--secondary)",
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)"
+        }}
       >
       <s.TextTitle
         style={{
