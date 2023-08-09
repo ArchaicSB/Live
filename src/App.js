@@ -467,8 +467,8 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              margin: "2px", // Add a margin to separate containers
-              height: "800px",  // Adjust the height as needed
+              margin: "2px",
+              height: "800px",
               }}
           >
           <s.SpacerMedium />
@@ -498,7 +498,6 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
         <s.Container
-            image={"/config/images/garbagepatch.png"}
             flex={3}
             jc={"center"}
             ai={"center"}
@@ -511,6 +510,7 @@ const getData = async () => {
               margin: "2px", // Add a margin to separate containers
               }}
           >
+            <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
           <s.TextTitle
               style={{
                 textAlign: "right",
