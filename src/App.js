@@ -486,14 +486,15 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              fontSize: 33,
+              fontSize: 32,
               fontWeight: "bold",
               color: "#000000",
             }}
           >
-            Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain.
-              
-            Your NFT doubles as a membership which grants access into the sea turtle club.
+            Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain. 
+            ASB is a groundbreaking NFT project with a mission to revolutionize conservation efforts through 
+            the power of Web3 technology. We are exceptionally passionate about sea turtles and the ocean and are 
+            dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>   
       </s.Container>
         <s.Container
@@ -508,10 +509,8 @@ const getData = async () => {
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               margin: "2px", // Add a margin to separate containers
-              height: "600px",  // Adjust the height as needed
               }}
           >
-          <s.SpacerMedium />
           <s.TextTitle
               style={{
                 textAlign: "right",
