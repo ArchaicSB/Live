@@ -457,7 +457,7 @@ const getData = async () => {
       </s.Container>
       </s.Container>
           <s.Container
-            <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+            StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
             flex={3}
             jc={"center"}
             ai={"center"}
