@@ -435,14 +435,13 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-      <s.SpacerLarge />
           <s.Container
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             flex={3}
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#ffffff",
+              backgroundColor: "#000000",
               padding: 16,
               borderRadius: 16,
               border: "16px solid var(--secondary)",
@@ -452,20 +451,20 @@ const getData = async () => {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 60,
+                fontSize: 40,
                 fontWeight: "bold",
-                color: "var(--primary-text)",
+                color: "var(--secondary-text)",
               }}
             >
-              Home of the Archaic Shell Babies!
+              Home of the Archaic Shell Babies
             </s.TextTitle>
           <s.SpacerLarge />
           <s.TextTitle
               style={{
                 textAlign: "left",
-                fontSize: 60,
+                fontSize: 35,
                 fontWeight: "bold",
-                color: "var(--primary-text)",
+                color: "var(--secondary-text)",
               }}
             >
             Who Are We?
@@ -474,9 +473,9 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              fontSize: 40,
+              fontSize: 30,
               fontWeight: "bold",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             Archaic Shell Babies are unique digital collectible's swimming on the Ethereum Blockchain.
