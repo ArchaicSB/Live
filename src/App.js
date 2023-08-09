@@ -199,6 +199,7 @@ const getData = async () => {
 
   return (
     <s.Screen>
+    <ResponsiveWrapper>
       <s.Container
         flex={2}
         style={{
@@ -465,12 +466,13 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              marginLight: "8px", // Add a margin to separate containers
               }}
           >
           <s.SpacerLarge />
           <s.TextTitle
               style={{
-                textAlign: "center",
+                textAlign: "left",
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "#000000",
@@ -492,6 +494,7 @@ const getData = async () => {
             Your NFT doubles as a membership which grants access into the sea turtle club.
           </s.TextDescription>
       </s.Container>
+    </ResponsiveWrapper>
     </s.Screen>
   );
 }
