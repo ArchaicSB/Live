@@ -485,7 +485,6 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              width
               fontSize: 24,
               fontWeight: "bold",
               color: "#000000",
