@@ -465,7 +465,7 @@ const getData = async () => {
               borderRadius: 16,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              marginLight: "8px", // Add a margin to separate containers
+              marginRight: "8px", // Add a margin to separate containers
               }}
           >
           <s.SpacerLarge />
@@ -492,7 +492,31 @@ const getData = async () => {
               
             Your NFT doubles as a membership which grants access into the sea turtle club.
           </s.TextDescription>
+      </s.Container>   
       </s.Container>
+        <s.Container
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
+            flex={2}
+            style={{
+              backgroundColor: "none",
+              padding: 16,
+              borderRadius: 16,
+              border: "16px solid var(--secondary)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              marginLight: "8px", // Add a margin to separate containers
+              }}
+          >
+          <s.SpacerLarge />
+          <s.TextTitle
+              style={{
+                textAlign: "right",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "#000000",
+              }}
+            >
+            Change Is Needed
+          </s.TextTitle>
     </s.Screen>
   );
 }
