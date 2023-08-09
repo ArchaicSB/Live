@@ -201,7 +201,7 @@ const getData = async () => {
     <s.Screen>
       <s.Container
         style={{
-          backgroundColor: "var(--gold)",
+          backgroundColor: "#000000",
           padding: 16,
           borderRadius: 16,
           border: "16px solid var(--secondary)",
@@ -213,7 +213,7 @@ const getData = async () => {
         textAlign: "center",
         fontSize: 60,
         fontWeight: "bold",
-        color: "var(--secondary)",
+        color: "#ffffff",
         }}
       >
         Home of the Archaic Shell Babies
