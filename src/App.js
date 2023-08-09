@@ -202,9 +202,9 @@ const getData = async () => {
       <s.Container
         style={{
           backgroundColor: "#000000",
-          padding: 16,
-          borderRadius: 16,
-          border: "16px solid var(--secondary)",
+          padding: 12,
+          borderRadius: 12,
+          border: "8px solid var(--secondary)",
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
