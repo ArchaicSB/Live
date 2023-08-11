@@ -502,7 +502,6 @@ const getData = async () => {
             flex={3}
             jc={"center"}
             ai={"center"}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/garbagepatch.png" : true}
             style={{
               backgroundColor: "none",
               padding: 16,
@@ -511,6 +510,7 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
               }}
             >
+            <StyledLogo alt={"logo"} src={"/config/images/garbagepatch.png"} />
       </s.Container>
     </s.Screen>
   );
