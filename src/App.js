@@ -501,7 +501,7 @@ const getData = async () => {
       <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
       <s.Container flex={2} jc={"center"} ai={"center"}>
         <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
-        <StyledLogo alt={trash"} src={"/config/images/trash.png"} />
+        <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
       </s.Container>
       </ResponsiveWrapper>
       <s.SpacerSmall />
