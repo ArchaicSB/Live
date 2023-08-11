@@ -498,20 +498,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall />
-        <s.Container
-            flex={3}
-            jc={"center"}
-            ai={"center"}
-            style={{
-              backgroundColor: "none",
-              padding: 16,
-              borderRadius: 16,
-              border: "16px solid var(--secondary)",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              }}
-            >
             <StyledLogo alt={"logo"} src={"/config/images/garbagepatch.png"} />
-      </s.Container>
     </s.Screen>
   );
 }
