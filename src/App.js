@@ -456,20 +456,12 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-        <s.Container
-            flex={3}
-            jc={"center"}
-            ai={"center"}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
-            style={{
-              padding: 16,
-              borderRadius: 16,
-              border: "none",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              margin: "2px",
-              height: "800px",
-              }}
-          >
+        <s.Container flex={2} jc={"center"} ai={"center"}>
+          <StyledImg
+            alt={"bgpic2"}
+            src={"/config/images/bgpic2.png"}
+            style={{ transform: "scaleX(1)" }}
+        />
           <s.SpacerMedium />
           <s.TextTitle
               style={{
@@ -485,20 +477,19 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "left",
-              fontSize: 32,
+              fontSize: 28,
               fontWeight: "bold",
               color: "#000000",
             }}
           >
             Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain. 
             ASB is a groundbreaking NFT project with a mission to revolutionize conservation efforts through 
-            the power of Web3 technology. We are exceptionally passionate about sea turtles and the ocean and are 
+            the power of Web3. We're passionate about helping sea turtles, cleaning the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall />
-      <ResponsiveWrapper>
-        <s.Container jc={"center"} ai={"center"}>
+      <ResponsiveWrapper jc={"column"} ai={"center"} fd={"row"}>
           <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
           <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
         </s.Container>
