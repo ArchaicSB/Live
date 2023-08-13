@@ -472,7 +472,7 @@ const getData = async () => {
           >
           <s.TextTitle
               style={{
-                textAlign: "left",
+                textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "#000000",
@@ -496,17 +496,12 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall /> 
-        <ResponsiveWrapper
-          display: flex;
-          flex: 1;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          @media (min-width: 767px) {
-            flex-direction: column;
-          }
-          >
+        <ResponsiveWrapper 
+          flex={1}
+          flex-direction={"column"}
+          display={"flex"}
+          width={100%}
+          style={{ padding: 12 }} >
           <StyledImg
               alt={"trash"}
               src={"/config/images/trash.png"}
