@@ -499,20 +499,10 @@ const getData = async () => {
       <s.Container
           flex={2}
           ai={"center"}
-          style={{ padding: 12, backgroundColor: true }}
+          style={{ padding: 12, backgroundColor: false }}
           image={"/config/images/garbagepatch.png"}
           image={"/config/images/trash.png"}
         >
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 30,
-                fontWeight: "bold",
-                color: "#000000",
-              }}
-            >
-              Plastic is literally everywhere..
-            </s.TextTitle>
       </s.Container>
       <s.SpacerSmall />
     </s.Screen>
