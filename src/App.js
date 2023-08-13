@@ -496,21 +496,13 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall /> 
-        <ResponsiveWrapper 
-          flex={1}
-          flex-direction={"column"}
-          display={"flex"}
-          style={{ padding: 12 }} >
-          <s.Container
-            flex={1}
-            style={{
-              backgroundColor: "none",
-              padding: 8,
-              borderRadius: 8,
-              border: "none",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-            }}
-          >
+      <s.Container
+        flex={2}
+        ai={"center"}
+        style={{ padding: 12, backgroundColor: true }}
+        image={"/config/images/garbagepatch.png"}
+        image={"/config/images/trash.png"}
+      >
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -521,16 +513,6 @@ const getData = async () => {
             >
               Plastic is literally everywhere..
             </s.TextTitle>
-            <StyledImg
-              alt={"trash"}
-              src={"/config/images/trash.png"}
-             />
-            <StyledImg
-              alt={"garbagepatch"}
-              src={"/config/images/garbagepatch.png"}
-            />
-        </s.Container>
-      </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
   );
