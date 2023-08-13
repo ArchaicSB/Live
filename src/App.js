@@ -495,15 +495,6 @@ const getData = async () => {
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
       </s.Container>
-      <s.SpacerSmall /> 
-      <s.Container
-          flex={2}
-          ai={"center"}
-          style={{ padding: 12, backgroundColor: false }}
-          image={"/config/images/garbagepatch.png"}
-          image={"/config/images/trash.png"}
-        >
-      </s.Container>
       <s.SpacerSmall />
     </s.Screen>
   );
