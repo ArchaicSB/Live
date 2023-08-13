@@ -512,7 +512,7 @@ const getData = async () => {
               alt={"trash"}
               src={"/config/images/trash.png"}
               style={{
-                transform: "scaleX(1)",
+                transform: "translate(-120px)",
                 width: "50%",
               }}
             />
@@ -520,7 +520,7 @@ const getData = async () => {
               alt={"garbagepatch"}
               src={"/config/images/garbagepatch.png"}
               style={{
-                transform: "scaleX(1)",
+                transform: "translate(120px)",
                 width: "50%",
               }}
             />
