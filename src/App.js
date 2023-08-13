@@ -461,8 +461,8 @@ const getData = async () => {
           <s.SpacerMedium />
           <s.Container
             flex={1}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
-              backgroundColor: "#000000",
               padding: 8,
               borderRadius: 8,
               border: "8px solid var(--secondary)",
@@ -485,7 +485,7 @@ const getData = async () => {
               textAlign: "right",
               fontSize: 28,
               fontWeight: "bold",
-              color: "#000000",
+              color: "#ffffff",
             }}
           >
             Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain. 
@@ -495,7 +495,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall />     
-      <s.Container
+      <ResponsiveWrapper>
         flex={1}
         style={{
           backgroundColor: "#000000",
@@ -507,7 +507,7 @@ const getData = async () => {
       >
           <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
           <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
-        </s.Container>
+        </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
   );
