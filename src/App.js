@@ -515,7 +515,7 @@ const getData = async () => {
               alt={"garbagepatch"}
               src={"/config/images/garbagepatch.png"}
             />
-      </s.Container>
+      </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
   );
