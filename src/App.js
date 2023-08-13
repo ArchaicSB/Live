@@ -501,14 +501,35 @@ const getData = async () => {
           flex-direction={"column"}
           display={"flex"}
           style={{ padding: 12 }} >
-          <StyledImg
+          <s.Container
+            flex={1}
+            style={{
+              backgroundColor: "none",
+              padding: 8,
+              borderRadius: 8,
+              border: "none",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+            }}
+          >
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 30,
+                fontWeight: "bold",
+                color: "#000000",
+              }}
+            >
+              Plastic is literally everywhere..
+            </s.TextTitle>
+            <StyledImg
               alt={"trash"}
               src={"/config/images/trash.png"}
-            />
-          <StyledImg
+             />
+            <StyledImg
               alt={"garbagepatch"}
               src={"/config/images/garbagepatch.png"}
             />
+        </s.Container>
       </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
