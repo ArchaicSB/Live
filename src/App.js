@@ -200,12 +200,14 @@ const getData = async () => {
   return (
     <s.Screen>
       <s.Container
-        flex={2}
+        flex={1}
+        ai={"center"}
+        jc={"center"}
         style={{
           backgroundColor: "#000000",
           padding: 8,
           borderRadius: 8,
-          border: "8px solid var(--secondary)",
+          border: "none",
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
@@ -456,13 +458,17 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-        <s.Container flex={2} jc={"center"} ai={"center"}>
-          <StyledImg
-            alt={"bgpic2"}
-            src={"/config/images/bgpic2.png"}
-            style={{ transform: "scaleX(1)" }}
-        />
           <s.SpacerMedium />
+          <s.Container
+            flex={1}
+            style={{
+              backgroundColor: "#000000",
+              padding: 8,
+              borderRadius: 8,
+              border: "8px solid var(--secondary)",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+            }}
+          >
           <s.TextTitle
               style={{
                 textAlign: "left",
@@ -476,7 +482,7 @@ const getData = async () => {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
-              textAlign: "left",
+              textAlign: "right",
               fontSize: 28,
               fontWeight: "bold",
               color: "#000000",
@@ -488,11 +494,20 @@ const getData = async () => {
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
       </s.Container>
-      <s.SpacerSmall />
-      <ResponsiveWrapper jc={"column"} ai={"center"} fd={"row"}>
+      <s.SpacerSmall />     
+      <s.Container
+        flex={1}
+        style={{
+          backgroundColor: "#000000",
+          padding: 8,
+          borderRadius: 8,
+          border: "none",
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+        }}
+      >
           <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
           <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
-      </ResponsiveWrapper>
+        </s.Container>
       <s.SpacerSmall />
     </s.Screen>
   );
