@@ -499,8 +499,8 @@ const getData = async () => {
         <s.Container
           flex={2}
           style={{
-            display: "flex", // Adding display:flex to make sure the images align horizontally
-            justifyContent: "space-between", // Distribute the available space between the images
+            display: "flex",
+            justifyContent: "space-between",
             backgroundColor: "#000000",
             padding: 8,
             borderRadius: 8,
@@ -511,12 +511,18 @@ const getData = async () => {
           <StyledImg
               alt={"trash"}
               src={"/config/images/trash.png"}
-              style={{ transform: "scaleX(1)" }}
+              style={{
+                transform: "scaleX(1)",
+                width: "50%",
+              }}
             />
           <StyledImg
               alt={"garbagepatch"}
               src={"/config/images/garbagepatch.png"}
-              style={{ transform: "scaleX(1)" }}
+              style={{
+                transform: "scaleX(1)",
+                width: "50%",
+              }}
             />
       </s.Container>
       <s.SpacerSmall />
