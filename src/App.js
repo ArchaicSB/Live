@@ -480,7 +480,6 @@ const getData = async () => {
             >
             Who Are We?
           </s.TextTitle>
-          <s.SpacerMedium />
           <s.TextDescription
             style={{
               textAlign: "left",
@@ -495,7 +494,6 @@ const getData = async () => {
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
       </s.Container>
-      <s.SpacerSmall />
     </s.Screen>
   );
 }
