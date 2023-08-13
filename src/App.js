@@ -499,10 +499,10 @@ const getData = async () => {
       </s.Container>
       <s.SpacerSmall />
       <ResponsiveWrapper>
-      <s.Container jc={"center"} ai={"center"}>
-        <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
-        <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
-      </s.Container>
+        <s.Container jc={"center"} ai={"center"}>
+          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+          <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
+        </s.Container>
       </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
