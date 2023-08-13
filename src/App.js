@@ -496,33 +496,24 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall /> 
-        <s.Container
-          flex={2}
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            backgroundColor: "#000000",
-            padding: 8,
-            borderRadius: 8,
-            border: "8px solid var(--secondary)",
-            boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-          }}
+        <ResponsiveWrapper
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          @media (min-width: 767px) {
+            flex-direction: column;
+          }
           >
           <StyledImg
               alt={"trash"}
               src={"/config/images/trash.png"}
-              style={{
-                transform: "translate(-120px)",
-                width: "50%",
-              }}
             />
           <StyledImg
               alt={"garbagepatch"}
               src={"/config/images/garbagepatch.png"}
-              style={{
-                transform: "translate(120px)",
-                width: "50%",
-              }}
             />
       </s.Container>
       <s.SpacerSmall />
