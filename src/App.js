@@ -500,7 +500,6 @@ const getData = async () => {
           flex={1}
           flex-direction={"column"}
           display={"flex"}
-          width={100%}
           style={{ padding: 12 }} >
           <StyledImg
               alt={"trash"}
