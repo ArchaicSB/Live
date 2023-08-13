@@ -492,7 +492,6 @@ const getData = async () => {
       <ResponsiveWrapper jc={"column"} ai={"center"} fd={"row"}>
           <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
           <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
-        </s.Container>
       </ResponsiveWrapper>
       <s.SpacerSmall />
     </s.Screen>
