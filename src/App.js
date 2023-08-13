@@ -466,7 +466,7 @@ const getData = async () => {
               backgroundColor: "none",
               padding: 8,
               borderRadius: 8,
-              border: "8px solid var(--secondary)",
+              border: "none",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
@@ -496,19 +496,17 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.SpacerSmall />     
-      <ResponsiveWrapper>
-        flex={1}
-        style={{
-          backgroundColor: "#000000",
-          padding: 8,
-          borderRadius: 8,
-          border: "none",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-        }}
-      >
-          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
-          <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
-        </ResponsiveWrapper>
+      <s.Container flex={1} jc={"center"} ai={"center"} jd={"column"}>
+        <StyledImg
+            alt={"garbagepatch"}
+            src={"/config/images/garbagepatch.png"}
+          />
+        <StyledImg
+            alt={"trash"}
+            src={"/config/images/trash.png"}
+            style={{ transform: "scaleX(1)" }}
+          />
+      </s.Container>
       <s.SpacerSmall />
     </s.Screen>
   );
