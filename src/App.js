@@ -497,12 +497,12 @@ const getData = async () => {
       </s.Container>
       <s.SpacerSmall /> 
       <s.Container
-        flex={2}
-        ai={"center"}
-        style={{ padding: 12, backgroundColor: true }}
-        image={"/config/images/garbagepatch.png"}
-        image={"/config/images/trash.png"}
-      >
+          flex={2}
+          ai={"center"}
+          style={{ padding: 12, backgroundColor: true }}
+          image={"/config/images/garbagepatch.png"}
+          image={"/config/images/trash.png"}
+        >
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -513,6 +513,7 @@ const getData = async () => {
             >
               Plastic is literally everywhere..
             </s.TextTitle>
+      </s.Container>
       <s.SpacerSmall />
     </s.Screen>
   );
