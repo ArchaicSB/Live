@@ -463,6 +463,7 @@ const getData = async () => {
             flex={1}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
+              backgroundColor: "none",
               padding: 8,
               borderRadius: 8,
               border: "8px solid var(--secondary)",
