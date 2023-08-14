@@ -508,7 +508,7 @@ const getData = async () => {
         padding: 8,
         borderRadius: 8,
         border: "none",
-        width: "100%",
+        width: "device-width",
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}>
         <s.SpacerSmall />
