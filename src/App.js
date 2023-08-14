@@ -512,7 +512,6 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}
     >
-        <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
         <s.SpacerSmall />
       <s.TextSubTitle
         style={{
@@ -522,8 +521,9 @@ const getData = async () => {
           color: "#ffffff",
         }}
       >
-            Plastic pollution is everywhere.
+            Plastic pollution is everywhere
         </s.TextSubTitle>
+      <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
       </s.Container>
     <s.Container flex={1} jc={"center"} ai={"center"}
       style={{
@@ -535,15 +535,16 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}
     >
-      <s.TextDescription
+      <s.TextSubTitle
         style={{
+          fontSize: 28,
           textAlign: "left",
           fontWeight: "bold",
           color: "#ffffff",
         }}
         >
-          This is a map of the great pacific garbage patch. 
-      </s.TextDescription>
+          This is a map of the great pacific garbage patch 
+      </s.TextSubTitle>
         <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
         <s.SpacerSmall />
       </s.Container>
