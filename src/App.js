@@ -517,7 +517,7 @@ const getData = async () => {
       <s.TextSubTitle
         style={{
           textAlign: "left",
-          fontSize: 28,
+          fontSize: 26,
           fontWeight: "bold",
           color: "#ffffff",
         }}
