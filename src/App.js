@@ -513,17 +513,19 @@ const getData = async () => {
       }}
     >
         <s.SpacerSmall />
-      <s.TextSubTitle
+      <s.TextTitle
         style={{
           textAlign: "center",
           fontWeight: "bold",
           color: "#ffffff",
+          textdecoration: "underline",
         }}
       >
             Plastic pollution is everywhere
-        </s.TextSubTitle>
+        </s.TextTitle>
       <StyledLogo alt={"trash"} src={"/config/images/trash.png"}
-        style={{width: "100%"}}
+        style={{width: "75%"
+              }}
       />
       </s.Container>
     <s.Container flex={1} jc={"center"} ai={"center"}
@@ -536,17 +538,18 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}
     >
-      <s.TextSubTitle
+      <s.TextTitle
         style={{
           textAlign: "center",
           fontWeight: "bold",
           color: "#ffffff",
+          textdecoration: "underline",
         }}
         >
           This is a map of the great pacific garbage patch 
-      </s.TextSubTitle>
+      </s.TextTitle>
         <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
-            style={{width: "100%"}}
+            style={{width: "75%"}}
             />
         <s.SpacerSmall />
       </s.Container>
