@@ -524,6 +524,19 @@ const getData = async () => {
         </s.TextSubTitle>
         <div>
         <StyledImg alt={"trash"} src={"/config/images/trash.png"} style={{borderRadius: "10px"}} />
+        </div>
+      </s.Container>
+      <s.Container flex={1} jc={"center"} ai={"center"}
+      style={{
+        backgroundColor: "#000000",
+        padding: 8,
+        borderRadius: 8,
+        border: "none",
+        width: "device-width",
+        boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+      }}>
+        <s.SpacerSmall />
+        <div>
         <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} style={{borderRadius: "10px"}} />
         </div>
       </s.Container>
