@@ -94,6 +94,12 @@ export const StyledLink = styled.a`
   text-decoration: underline overline;
 `;
 
+export const Title = styled.h1`
+  font-size: 50px;
+  text-align: center;
+  color: #000000;
+`;
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -211,7 +217,7 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
-      <s.TextTitle
+      <Title
         style={{
         textAlign: "center",
         fontSize: 50,
@@ -220,7 +226,7 @@ const getData = async () => {
         }}
       >
         Home of the Archaic Shell Babies
-        </s.TextTitle>
+        </Title>
         </s.Container>
       <s.Container
         flex={2}
@@ -461,8 +467,11 @@ const getData = async () => {
           <s.SpacerMedium />
           <s.Container
             flex={1}
+            display={"flex"}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
+              ai: "center",
+              jc: "center",
               backgroundColor: "none",
               padding: 8,
               borderRadius: 8,
@@ -475,7 +484,7 @@ const getData = async () => {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "#000000",
+                color: "var(--primary-text)",
               }}
             >
             Who Are We?
