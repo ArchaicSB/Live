@@ -503,6 +503,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.Container flex={1} jc={"center"} ai={"center"}
+      image={CONFIG.SHOW_BACKGROUND ? "/config/images/trash.png" : true}
       style={{
         backgroundColor: "#000000",
         padding: 8,
@@ -522,11 +523,9 @@ const getData = async () => {
       >
             Plastic pollution is everywhere.
         </s.TextSubTitle>
-        <div>
-        <StyledImg alt={"trash"} src={"/config/images/trash.png"} style={{borderRadius: "10px"}} />
-        </div>
       </s.Container>
-      <s.Container flex={1} jc={"center"} ai={"center"}
+    <s.Container flex={1} jc={"center"} ai={"center"}
+      image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       style={{
         backgroundColor: "#000000",
         padding: 8,
@@ -534,11 +533,9 @@ const getData = async () => {
         border: "none",
         width: "device-width",
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-      }}>
+      }}
+    >
         <s.SpacerSmall />
-        <div>
-        <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} style={{borderRadius: "10px"}} />
-        </div>
       </s.Container>
     </s.Screen>
   );
