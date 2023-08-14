@@ -242,8 +242,9 @@ const getData = async () => {
         style={{fontWeight: "bold",
         color: "#ffffff",
          }}>
-            Live for a purpose.
-            Join the movement. 
+            Live for a purpose and
+            join the movement. We
+            need you.
          </s.TextDescription>
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
