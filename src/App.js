@@ -512,6 +512,16 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}>
         <s.SpacerSmall />
+      <s.TextSubTitle
+        style={{
+          textAlign: "left",
+          fontSize: 28,
+          fontWeight: "bold",
+          color: "#ffffff",
+        }}
+      >
+            Plastic pollution is everywhere.
+        </s.TextSubTitle>
         <div>
         <StyledImg alt={"trash"} src={"/config/images/trash.png"} style={{borderRadius: "10px"}} />
         <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} style={{borderRadius: "10px"}} />
