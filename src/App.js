@@ -512,8 +512,8 @@ const getData = async () => {
       }}>
         <s.SpacerSmall />
         <div>
-        <StyledImg alt={"trash"} src={"/config/images/trash.png"} />
-        <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+        <StyledImg alt={"trash"} src={"/config/images/trash.png"} style={{borderRadius: "10px"}} />
+        <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} style={{borderRadius: "10px"}} />
         </div>
       </s.Container>
     </s.Screen>
