@@ -458,9 +458,8 @@ const getData = async () => {
               color: "var(--secondary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            We have set the gas limit for the contract to successfully mint your NFT.
+            We recommend that you don't change the gas limit.
           </s.TextDescription>
       </s.Container>
       </s.Container>
@@ -502,6 +501,20 @@ const getData = async () => {
             the power of Web3. We're passionate about helping sea turtles, cleaning the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
+      </s.Container>
+      <s.Container flex={1} jc={"center"} ai={"center"}
+      style={{
+        backgroundColor: "#000000",
+        padding: 8,
+        borderRadius: 8,
+        border: "none",
+        boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+      }}>
+        <s.SpacerSmall />
+        <div>
+        <StyledImg alt={"trash"} src={"/config/images/trash.png"} />
+        <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+        </div>
       </s.Container>
     </s.Screen>
   );
