@@ -518,7 +518,6 @@ const getData = async () => {
           textAlign: "center",
           fontWeight: "bold",
           color: "#ffffff",
-          textdecoration: "underline",
         }}
       >
             Plastic pollution is everywhere
@@ -543,7 +542,6 @@ const getData = async () => {
           textAlign: "center",
           fontWeight: "bold",
           color: "#ffffff",
-          textdecoration: "underline",
         }}
         >
           This is a map of the great pacific garbage patch 
