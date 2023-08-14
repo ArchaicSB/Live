@@ -240,7 +240,7 @@ const getData = async () => {
         <s.SpacerSmall />
          <s.TextDescription
         style={{fontWeight: "bold",
-        color: "#ffffff",
+        color: "#ffffff", fontSize: 12,
          }}>
             Live for a purpose and
             join the movement. We
