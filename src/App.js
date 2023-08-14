@@ -238,6 +238,10 @@ const getData = async () => {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
+         <s.TextDescription>
+            Live for a purpose.
+            Join the movement. 
+         </s.TextDescription>
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
