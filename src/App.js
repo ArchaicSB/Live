@@ -503,6 +503,7 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       <s.Container flex={1} jc={"center"} ai={"center"}
+      image={CONFIG.SHOW_BACKGROUND ? "/config/images/trash.png" : true}
       style={{
         backgroundColor: "#000000",
         padding: 8,
@@ -512,7 +513,6 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}
     >
-      <StyledLogo alt={"trash"} src={"/config/images/trash.png"} />
         <s.SpacerSmall />
       <s.TextSubTitle
         style={{
@@ -535,7 +535,16 @@ const getData = async () => {
         boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
       }}
     >
-      <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+      <s.TextDescription
+        style={{
+          textAlign: "left",
+          fontWeight: "bold",
+          color: "#ffffff",
+        }}
+        >
+          This is a map of the great pacific garbage patch. 
+      </s.TextDescription>
+        <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
         <s.SpacerSmall />
       </s.Container>
     </s.Screen>
