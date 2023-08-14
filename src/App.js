@@ -544,7 +544,7 @@ const getData = async () => {
           color: "#ffffff",
         }}
         >
-          This is a map of the great pacific garbage patch 
+          Unveiling the Harsh Reality: The Great Pacific Garbage Patch 
       </s.TextTitle>
         <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
             style={{width: "75%"}}
