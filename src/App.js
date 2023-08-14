@@ -89,6 +89,19 @@ export const StyledImg = styled.img`
   transition: width 0.5s;
 `;
 
+export const PageImg = page.img`
+  box-shadow: 2px 7px 15px 3px rbga(0, 0, 0, 0.7);
+  border: 2px solid var(--secondary);
+  background-color: var(--secondary);
+  border-radius: 8px;
+  width: 100%;
+  @media (min-width: 1280px) {
+    width: 300px;
+  }
+  transition: width 2s;
+  transition: height 2s;
+`;
+
 export const StyledLink = styled.a`
   color: var(-primary);
   text-decoration: underline overline;
@@ -512,8 +525,8 @@ const getData = async () => {
       }}>
         <s.SpacerSmall />
         <div>
-        <StyledImg alt={"trash"} src={"/config/images/trash.png"} />
-        <StyledImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
+        <PageImg alt={"trash"} src={"/config/images/trash.png"} />
+        <PageImg alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} />
         </div>
       </s.Container>
     </s.Screen>
