@@ -238,7 +238,10 @@ const getData = async () => {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-         <s.TextDescription>
+         <s.TextDescription
+        style={{fontWeight: "bold",
+        color: "#ffffff",
+         }}>
             Live for a purpose.
             Join the movement. 
          </s.TextDescription>
