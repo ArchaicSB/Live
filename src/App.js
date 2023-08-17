@@ -590,6 +590,7 @@ const getData = async () => {
               <s.SpacerSmall />
               <s.Title
               style={{
+                fontSize: 30,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -610,6 +611,7 @@ const getData = async () => {
             <s.SpacerSmall />
             <s.Title
               style={{
+                fontSize: 30,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -620,6 +622,7 @@ const getData = async () => {
             <s.SpacerSmall />
             <s.TextTitle
               style={{
+                fontSize: 30,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -630,6 +633,7 @@ const getData = async () => {
             <s.SpacerSmall />
             <s.Title
               style={{
+                fontSize: 30,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
