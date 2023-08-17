@@ -228,6 +228,14 @@ const getData = async () => {
         Home of the Archaic Shell Babies
         </Title>
         </s.Container>
+        <s.TextDescription
+        style={{
+        fontWeight: "bold",
+        color: "#ffffff", 
+        fontSize: 23,
+        }}>
+            Live for a purpose and join the movement.
+         </s.TextDescription>
       <s.Container
         flex={2}
         ai={"center"}
@@ -238,14 +246,6 @@ const getData = async () => {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-         <s.TextDescription
-        style={{fontWeight: "bold",
-        color: "#ffffff", fontSize: 12,
-         }}>
-            Live for a purpose and
-            join the movement. We
-            need you.
-         </s.TextDescription>
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
@@ -263,6 +263,16 @@ const getData = async () => {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 40,
+                fontWeight: "bold",
+                color: "var(--accent-text)",
+              }}
+            >
+              Mint Your NFT!
+            </s.TextTitle>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -369,7 +379,7 @@ const getData = async () => {
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--primary-text)",
+                            color: "var(--accent-text)",
                           }}
                         >
                           {blockchain.errorMsg}
@@ -471,25 +481,26 @@ const getData = async () => {
           </s.TextDescription>
       </s.Container>
       </s.Container>
-          <s.SpacerMedium />
+          <s.SpacerXSmall />
           <s.Container
             flex={1}
+            ai={"center"}
+            jc={"center"}
             display={"flex"}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
-              ai: "center",
-              jc: "center",
               backgroundColor: "none",
               padding: 8,
               borderRadius: 8,
               border: "none",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              width: "device-width",
             }}
           >
           <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 44,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -498,67 +509,119 @@ const getData = async () => {
           </s.TextTitle>
           <s.TextDescription
             style={{
-              textAlign: "left",
-              fontSize: 28,
+              textAlign: "center",
+              fontSize: 26,
               fontWeight: "bold",
               color: "#ffffff",
             }}
           >
-            Archaic Shell Babies are 10,000 unique digital collectible's swimming on the Ethereum Blockchain. 
-            ASB is a groundbreaking NFT project with a mission to revolutionize conservation efforts through 
-            the power of Web3. We're passionate about helping sea turtles, cleaning the ocean and are 
+            Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation 
+            efforts through the power of Web3. We created 10,000 unique Sea Turtle collectible's to take over the 
+            Ethereum Blockchain. We're passionate about helping sea turtles, cleaning the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
-      </s.Container>
-      <s.Container flex={1} jc={"center"} ai={"center"}
-      style={{
-        backgroundColor: "#000000",
-        padding: 8,
-        borderRadius: 8,
-        border: "none",
-        width: "device-width",
-        boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-      }}
-    >
+         </s.Container>
+         <s.SpacerSmall />
+        <ResponsiveWrapper  flex={1} style={{ padding: 12 }} test>
+        <StyledLogo alt={"crab"} src={"/config/images/crab.png"} />
         <s.SpacerSmall />
-      <s.TextTitle
+        <s.Container flex={1} jc={"center"} ai={"center"}
         style={{
-          textAlign: "center",
-          fontWeight: "bold",
-          color: "#ffffff",
+          backgroundColor: "#000",
+          padding: 8,
+          borderRadius: 8,
+          border: "none",
+          width: "device-width",
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
-            Plastic pollution is everywhere
-        </s.TextTitle>
-      <StyledLogo alt={"trash"} src={"/config/images/trash.png"}
-        style={{width: "75%"
-              }}
-      />
-      </s.Container>
-    <s.Container flex={1} jc={"center"} ai={"center"}
-      style={{
-        backgroundColor: "#000000",
-        padding: 8,
-        borderRadius: 8,
-        border: "none",
-        width: "device-width",
-        boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-      }}
-    >
-      <s.TextTitle
-        style={{
-          textAlign: "center",
-          fontWeight: "bold",
-          color: "#ffffff",
-        }}
+        <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#fff",
+          }}
         >
-          Unveiling the Harsh Reality: The Great Pacific Garbage Patch 
-      </s.TextTitle>
-        <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
-            style={{width: "75%"}}
-            />
-        <s.SpacerSmall />
+              Ask yourself... Why are we really here?
+          </s.TextTitle>
+          <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#fff",
+          }}
+        >
+              Do we have more to offer in life? More to contribute?
+          </s.TextTitle>
+        <StyledLogo alt={"trash"} src={"/config/images/trash.png"}
+          style={{width: "75%"
+                }}
+        />
+        </s.Container>
+        <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#fff",
+          }}
+        >
+              Plastic pollution is everywhere..
+          </s.TextTitle>
+      <s.Container flex={1} jc={"center"} ai={"center"}
+        style={{
+          backgroundColor: "#000000",
+          padding: 8,
+          borderRadius: 8,
+          border: "none",
+          width: "device-width",
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+        }}
+      >
+        <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#ffffff",
+          }}
+          >
+            Plastic pollution is everywhere...
+        </s.TextTitle>
+          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
+              style={{width: "75%"}}
+              />
+          <s.SpacerSmall />
+          <s.TextDescription
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#ffffff",
+          }}
+          >
+            The need for change is now more evident than ever. Within the last couple decades,
+            the whole world has become impacted from plastics, garbage, discarded fishing gear,
+            toxic barels, tires and the list goes on.
+        </s.TextDescription>
+        <s.TextSubTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#ffffff",
+          }}
+          >
+            What is the true problem? Are we, the consumers, the cause of this? Are the
+            manufacturers the cause of this? One thing is clear...
+        </s.TextSubTitle>
+        <s.TextTitle
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#ffffff",
+          }}
+          >
+            Something needs to change. It can start with you. 
+        </s.TextTitle>
       </s.Container>
+    </ResponsiveWrapper>
     </s.Screen>
   );
 }
