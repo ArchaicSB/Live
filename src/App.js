@@ -228,8 +228,12 @@ const getData = async () => {
         Home of the Archaic Shell Babies
         </Title>
         </s.Container>
-        <s.TextDescription
+      <s.SpacerSmall />
+      <s.TextDescription
+        ai={"center"}
+        jc={"center"}
         style={{
+        textAlign: "center",
         fontWeight: "bold",
         color: "#ffffff", 
         fontSize: 23,
@@ -522,10 +526,8 @@ const getData = async () => {
           </s.TextDescription>
          </s.Container>
          <s.SpacerSmall />
-        <ResponsiveWrapper  flex={1} style={{ padding: 12 }} test>
-        <StyledLogo alt={"crab"} src={"/config/images/crab.png"} />
-        <s.SpacerSmall />
         <s.Container flex={1} jc={"center"} ai={"center"}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
         style={{
           backgroundColor: "#000",
           padding: 8,
@@ -535,6 +537,7 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
+      <s.SpacerSmall />
         <s.TextTitle
           style={{
             textAlign: "center",
@@ -554,10 +557,8 @@ const getData = async () => {
               Do we have more to offer in life? More to contribute?
           </s.TextTitle>
         <StyledLogo alt={"trash"} src={"/config/images/trash.png"}
-          style={{width: "75%"
-                }}
+          style={{width: "75%"}}
         />
-        </s.Container>
         <s.TextTitle
           style={{
             textAlign: "center",
@@ -565,8 +566,12 @@ const getData = async () => {
             color: "#fff",
           }}
         >
-              Plastic pollution is everywhere..
+              Plastic pollution is everywhere...
           </s.TextTitle>
+          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
+              style={{width: "75%"}}
+              />
+          </s.Container>
       <s.Container flex={1} jc={"center"} ai={"center"}
         style={{
           backgroundColor: "#000000",
@@ -577,18 +582,6 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
-        <s.TextTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#ffffff",
-          }}
-          >
-            Plastic pollution is everywhere...
-        </s.TextTitle>
-          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
-              style={{width: "75%"}}
-              />
           <s.SpacerSmall />
           <s.TextDescription
           style={{
@@ -618,10 +611,9 @@ const getData = async () => {
             color: "#ffffff",
           }}
           >
-            Something needs to change. It can start with you. 
+            Something needs to change. It begins with you.
         </s.TextTitle>
       </s.Container>
-    </ResponsiveWrapper>
     </s.Screen>
   );
 }
