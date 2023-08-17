@@ -508,14 +508,14 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-            The Mission
+            Our Mission
           </s.TextTitle>
           <s.TextDescription
             style={{
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "#ffffff",
+              color: "var(--primary-text)"
             }}
           >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation 
@@ -526,7 +526,7 @@ const getData = async () => {
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "#ffffff",
+              color: "var(--primary-text)",
             }}
           >
             We created 10,000 unique Sea Turtle collectible's to take over the Ethereum Blockchain. 
@@ -536,7 +536,7 @@ const getData = async () => {
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "#ffffff",
+              color: "var(--primary-text)",
             }}
           >
             We're passionate about helping sea turtles, cleaning the ocean and are 
