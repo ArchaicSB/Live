@@ -272,7 +272,7 @@ const getData = async () => {
                 textAlign: "center",
                 fontSize: 40,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "var(--primary-text)",
               }}
             >
               Mint Your NFT!
@@ -504,7 +504,7 @@ const getData = async () => {
           <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 44,
+                fontSize: 40,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -520,8 +520,27 @@ const getData = async () => {
             }}
           >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation 
-            efforts through the power of Web3. We created 10,000 unique Sea Turtle collectible's to take over the 
-            Ethereum Blockchain. We're passionate about helping sea turtles, cleaning the ocean and are 
+            efforts through the power of Web3.
+          </s.TextDescription>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              fontSize: 24,
+              fontWeight: "bold",
+              color: "#ffffff",
+            }}
+          >
+            We created 10,000 unique Sea Turtle collectible's to take over the Ethereum Blockchain. 
+          </s.TextDescription>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              fontSize: 24,
+              fontWeight: "bold",
+              color: "#ffffff",
+            }}
+          >
+            We're passionate about helping sea turtles, cleaning the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
           <s.SpacerSmall />
@@ -539,7 +558,7 @@ const getData = async () => {
           >
             <s.TextTitle
               style={{
-                fontSize: 40,
+                fontSize: 33,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -547,10 +566,9 @@ const getData = async () => {
             >
                   Ask yourself... Why are we really here?
               </s.TextTitle>
-              <s.SpacerXSmall />
               <s.TextTitle
               style={{
-                fontSize: 40,
+                fontSize: 33,
                 textAlign: "center",
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -558,11 +576,9 @@ const getData = async () => {
             >
                   Do we have more to offer in life? More to contribute?
               </s.TextTitle>
-              <s.SpacerXSmall />
             <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
               style={{width: "75%"}}
             />
-              <s.SpacerXSmall />
             <s.TextTitle
               style={{
                 fontSize: 33,
@@ -578,6 +594,7 @@ const getData = async () => {
                   width: "75%"
                 }}
                   />
+              <s.SpacerXSmall />
               </s.Container>
           <s.Container flex={1} jc={"center"} ai={"center"}
             style={{
@@ -590,7 +607,7 @@ const getData = async () => {
             }}
           >
               <s.SpacerSmall />
-              <s.TextSubTitle
+              <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -598,8 +615,8 @@ const getData = async () => {
               }}
               >
                 The need for change is now more evident than ever.
-            </s.TextSubTitle>
-            <s.TextSubTitle
+            </s.TextTitle>
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -607,8 +624,8 @@ const getData = async () => {
               }}
               >
                 Within the last couple decades... The whole world has become impacted from 
-            </s.TextSubTitle>
-            <s.TextSubTitle
+            </s.TextTitle>
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -616,9 +633,9 @@ const getData = async () => {
               }}
               >
                 plastics, garbage, fishing gear, toxic barels, tires and the list goes on.
-            </s.TextSubTitle>
+            </s.TextTitle>
             <s.SpacerSmall />
-            <s.TextSubTitle
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -626,9 +643,9 @@ const getData = async () => {
               }}
               >
                 What is the true problem? Are we, the consumers, the cause of this?
-            </s.TextSubTitle>
+            </s.TextTitle>
             <s.SpacerSmall />
-            <s.TextSubTitle
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -636,7 +653,7 @@ const getData = async () => {
               }}
               >
                 Are the manufacturers the cause of this? One thing is clear...
-            </s.TextSubTitle>
+            </s.TextTitle>
             <s.SpacerSmall />
             <s.TextTitle
               style={{
