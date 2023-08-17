@@ -491,9 +491,8 @@ const getData = async () => {
             ai={"center"}
             jc={"center"}
             display={"flex"}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
             style={{
-              backgroundColor: "none",
+              backgroundColor: "#FFE5B4",
               padding: 8,
               borderRadius: 8,
               border: "none",
