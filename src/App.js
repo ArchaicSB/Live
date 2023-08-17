@@ -492,7 +492,7 @@ const getData = async () => {
             jc={"center"}
             display={"flex"}
             style={{
-              backgroundColor: "#FFE5B4",
+              backgroundColor: "#14452F",
               padding: 8,
               borderRadius: 8,
               border: "none",
