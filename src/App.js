@@ -579,7 +579,7 @@ const getData = async () => {
               </s.Container>
           <s.Container flex={1} jc={"center"} ai={"center"}
             style={{
-              backgroundColor: "#000",
+              backgroundColor: "#FFE5B4",
               padding: 8,
               borderRadius: 8,
               border: "none",
@@ -588,7 +588,7 @@ const getData = async () => {
             }}
           >
               <s.SpacerSmall />
-              <s.Title
+              <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -596,7 +596,7 @@ const getData = async () => {
               }}
               >
                 The need for change is now more evident than ever.
-            </s.Title>
+            </s.TextTitle>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -616,7 +616,7 @@ const getData = async () => {
                 plastics, garbage, fishing gear, toxic barels, tires and the list goes on.
             </s.TextTitle>
             <s.SpacerSmall />
-            <s.Title
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -624,7 +624,7 @@ const getData = async () => {
               }}
               >
                 What is the true problem? Are we, the consumers, the cause of this?
-            </s.Title>
+            </s.TextTitle>
             <s.SpacerSmall />
             <s.TextTitle
               style={{
@@ -636,7 +636,7 @@ const getData = async () => {
                 Are the manufacturers the cause of this? One thing is clear...
             </s.TextTitle>
             <s.SpacerSmall />
-            <s.Title
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -644,7 +644,7 @@ const getData = async () => {
               }}
               >
                 Something needs to change. It begins with you.
-            </s.Title>
+            </s.TextTitle>
           <s.SpacerXSmall />
       </s.Container>
     </s.Screen>
