@@ -509,12 +509,12 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-            Who Are We?
+            The Mission
           </s.TextTitle>
           <s.TextDescription
             style={{
               textAlign: "center",
-              fontSize: 26,
+              fontSize: 24,
               fontWeight: "bold",
               color: "#ffffff",
             }}
@@ -524,95 +524,130 @@ const getData = async () => {
             Ethereum Blockchain. We're passionate about helping sea turtles, cleaning the ocean and are 
             dedicated to inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
-         </s.Container>
-         <s.SpacerSmall />
-        <s.Container flex={1} jc={"center"} ai={"center"}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
-        style={{
-          backgroundColor: "#000",
-          padding: 8,
-          borderRadius: 8,
-          border: "none",
-          width: "device-width",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-        }}
-      >
-      <s.SpacerSmall />
-        <s.TextTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#fff",
-          }}
-        >
-              Ask yourself... Why are we really here?
-          </s.TextTitle>
-          <s.TextTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#fff",
-          }}
-        >
-              Do we have more to offer in life? More to contribute?
-          </s.TextTitle>
-        <StyledLogo alt={"trash"} src={"/config/images/trash.png"}
-          style={{width: "75%"}}
-        />
-        <s.TextTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#fff",
-          }}
-        >
-              Plastic pollution is everywhere...
-          </s.TextTitle>
-          <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"}
-              style={{width: "75%"}}
-              />
-          </s.Container>
-      <s.Container flex={1} jc={"center"} ai={"center"}
-        style={{
-          backgroundColor: "#000000",
-          padding: 8,
-          borderRadius: 8,
-          border: "none",
-          width: "device-width",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-        }}
-      >
           <s.SpacerSmall />
-          <s.TextDescription
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#ffffff",
-          }}
+         </s.Container>
+      <s.Container flex={1} jc={"center"} ai={"center"}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
+            style={{
+              backgroundColor: "#000",
+              padding: 8,
+              borderRadius: 8,
+              border: "none",
+              width: "device-width",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+            }}
           >
-            The need for change is now more evident than ever. Within the last couple decades,
-            the whole world has become impacted from plastics, garbage, discarded fishing gear,
-            toxic barels, tires and the list goes on.
-        </s.TextDescription>
-        <s.TextSubTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#ffffff",
-          }}
+            <s.TextTitle
+              style={{
+                fontSize: 40,
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+                  Ask yourself... Why are we really here?
+              </s.TextTitle>
+              <s.SpacerXSmall />
+              <s.TextTitle
+              style={{
+                fontSize: 40,
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+                  Do we have more to offer in life? More to contribute?
+              </s.TextTitle>
+              <s.SpacerXSmall />
+            <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
+              style={{width: "75%"}}
+            />
+              <s.SpacerXSmall />
+            <s.TextTitle
+              style={{
+                fontSize: 33,
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+                  Plastic pollution is everywhere...
+              </s.TextTitle>
+              <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} ai={"center"}
+                  style={{
+                  width: "75%"
+                }}
+                  />
+              </s.Container>
+          <s.Container flex={1} jc={"center"} ai={"center"}
+            style={{
+              backgroundColor: "#000",
+              padding: 8,
+              borderRadius: 8,
+              border: "none",
+              width: "device-width",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+            }}
           >
-            What is the true problem? Are we, the consumers, the cause of this? Are the
-            manufacturers the cause of this? One thing is clear...
-        </s.TextSubTitle>
-        <s.TextTitle
-          style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#ffffff",
-          }}
-          >
-            Something needs to change. It begins with you.
-        </s.TextTitle>
+              <s.SpacerSmall />
+              <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                The need for change is now more evident than ever.
+            </s.TextSubTitle>
+            <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                Within the last couple decades... The whole world has become impacted from 
+            </s.TextSubTitle>
+            <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                plastics, garbage, fishing gear, toxic barels, tires and the list goes on.
+            </s.TextSubTitle>
+            <s.SpacerSmall />
+            <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                What is the true problem? Are we, the consumers, the cause of this?
+            </s.TextSubTitle>
+            <s.SpacerSmall />
+            <s.TextSubTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                Are the manufacturers the cause of this? One thing is clear...
+            </s.TextSubTitle>
+            <s.SpacerSmall />
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+              >
+                Something needs to change. It begins with you.
+            </s.TextTitle>
+          <s.SpacerXSmall />
       </s.Container>
     </s.Screen>
   );
