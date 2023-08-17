@@ -544,6 +544,7 @@ const getData = async () => {
           </s.TextDescription>
           <s.SpacerSmall />
          </s.Container>
+      <s.SpacerXSmall />
       <s.Container flex={1} jc={"center"} ai={"center"}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
