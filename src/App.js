@@ -588,7 +588,7 @@ const getData = async () => {
             }}
           >
               <s.SpacerSmall />
-              <s.TextTitle
+              <s.Title
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -596,7 +596,7 @@ const getData = async () => {
               }}
               >
                 The need for change is now more evident than ever.
-            </s.TextTitle>
+            </s.Title>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -605,18 +605,10 @@ const getData = async () => {
               }}
               >
                 Within the last couple decades... The whole world has become impacted from 
-            </s.TextTitle>
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-              >
                 plastics, garbage, fishing gear, toxic barels, tires and the list goes on.
             </s.TextTitle>
             <s.SpacerSmall />
-            <s.TextTitle
+            <s.Title
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -624,7 +616,7 @@ const getData = async () => {
               }}
               >
                 What is the true problem? Are we, the consumers, the cause of this?
-            </s.TextTitle>
+            </s.Title>
             <s.SpacerSmall />
             <s.TextTitle
               style={{
@@ -636,7 +628,7 @@ const getData = async () => {
                 Are the manufacturers the cause of this? One thing is clear...
             </s.TextTitle>
             <s.SpacerSmall />
-            <s.TextTitle
+            <s.Title
               style={{
                 textAlign: "center",
                 fontWeight: "bold",
@@ -644,7 +636,7 @@ const getData = async () => {
               }}
               >
                 Something needs to change. It begins with you.
-            </s.TextTitle>
+            </s.Title>
           <s.SpacerXSmall />
       </s.Container>
     </s.Screen>
