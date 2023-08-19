@@ -218,11 +218,6 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
-      <img src="public/config/images/menu.png" 
-        width="30px"
-        ai={"right"}
-        jc={"right"}
-      ></img>
       <Title
         style={{
         textAlign: "center",
