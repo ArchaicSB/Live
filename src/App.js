@@ -541,7 +541,38 @@ const getData = async () => {
           >
             Archaic Shell Babies are 10,000 Sea Turtle digital collectible's on the Ethereum Blockchain. We're passionate about getting the ocean cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
-          <s.SpacerSmall />
+        <s.SpacerSmall />
+        <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            A Little Story 
+          </s.TextTitle>
+         <s.SpacerSmall />
+        <s.TextDescription
+            style={{
+              textAlign: "center",
+              fontSize: 24,
+              fontWeight: "bold",
+              color: "var(--primary-text)"
+            }}
+          >
+         Once upon a time, thousands of years ago, 7 exceedingly important species
+of Sea Turtles thrived in a world full of other marine life. As they swam through the ocean of seeweed forests and kelp beds, they had an abundant food supply. 
+   <s.SpacerSmall />
+          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. 
+   <s.SpacerSmall />
+         And then one day, along came the humans with their everlasting and eternal need to grow, consume, and evolve.
+   <s.SpacerSmall />
+       "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. "How does this change my life..?" As Greenie grew a little bit older, and the humans grew a little bit stronger.. Greenie started looking around and asking.
+    <s.SpacerSmall />
+      "Where did the rest of the kelp go? And who ate all of the fish? Just a couple years ago I saw hundreds of jelly fish and sea sponges and now all I'm seeing are these pieces of a to-go box.
+          </s.TextDescription>
+         <s.SpacerSmall />
          </s.Container>
       <s.SpacerXSmall />
       <s.Container flex={1} jc={"center"} ai={"center"}
