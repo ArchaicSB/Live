@@ -210,7 +210,7 @@ const getData = async () => {
         ai={"center"}
         jc={"center"}
         style={{
-          backgroundColor: "#000000",
+          backgroundColor: linear-gradient("to right", "#333", "#333 50%","#eee 75%", "#333 75%"),
           padding: 8,
           borderRadius: 8,
           border: "none",
