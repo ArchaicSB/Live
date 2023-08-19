@@ -206,6 +206,29 @@ const getData = async () => {
   return (
     <s.Screen>
       <s.Container
+      ai={"center"}
+      display={"flex"}
+      style={{
+        background: linear-gradient("to right", "#333", "#333 50%","#eee 75%", "#333 75%"),
+        width: "device-width",
+        height: "12%",
+        flex: 1,
+      }}
+      >
+        <img src="public/config/images/logo.png" 
+        class="logo" 
+        width="50px"
+        ai={"left"}
+        jc={"left"}
+        ></img>
+        <img src="public/config/images/menu.png" 
+        class="menu-icon"
+        width="30px"
+        ai={"right"}
+        jc={"right"}
+        ></img>
+       </s.Container>
+      <s.Container
         flex={1}
         ai={"center"}
         jc={"center"}
