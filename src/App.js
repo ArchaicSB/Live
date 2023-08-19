@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import { createBootstrapComponent } from "react-bootstrap/esm/ThemeProvider";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -217,6 +218,12 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
+      <img src="public/config/images/menu.png" 
+        class="menu-icon"
+        width="30px"
+        ai={"right"}
+        jc={"right"}
+      ></img>
       <Title
         style={{
         textAlign: "center",
