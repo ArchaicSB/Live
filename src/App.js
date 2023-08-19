@@ -210,7 +210,7 @@ const getData = async () => {
         ai={"center"}
         jc={"center"}
         style={{
-          backgroundColor: "#333",
+          backgroundColor: "#444",
           padding: 8,
           borderRadius: 8,
           border: "none",
