@@ -571,6 +571,14 @@ of Sea Turtles thrived in a world full of other marine life. As they swam throug
        "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. "How does this change my life..?" As Greenie grew a little bit older, and the humans grew a little bit stronger.. Greenie started looking around and asking.
     <s.SpacerSmall />
       "Where did the rest of the kelp go? And who ate all of the fish? Just a couple years ago I saw hundreds of jelly fish and sea sponges and now all I'm seeing are these pieces of a to-go box.
+   <s.SpacerSmall />
+     "WHAT OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!! "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
+      <s.SpacerSmall />
+   CRASH!!!!
+      <s.SpacerSmall />
+    "Awe man. It cracked my shell." said Greenie. "I think it was a boat. I heard that those are everywhere now. I think we should find a new place to live... the food is gone and it's not really safe..."
+       <s.SpacerSmall />
+      "We have nowhere else to go... This is our home... Its everyones home..." 
           </s.TextDescription>
          <s.SpacerSmall />
          </s.Container>
