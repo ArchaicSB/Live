@@ -222,24 +222,23 @@ const getData = async () => {
         textAlign: "center",
         fontSize: 50,
         fontWeight: "bold",
-        color: "#ffffff",
+        color: "#eee",
         }}
       >
         Home of the Archaic Shell Babies
         </Title>
-        </s.Container>
-      <s.SpacerSmall />
       <s.TextDescription
         ai={"center"}
         jc={"center"}
         style={{
         textAlign: "center",
         fontWeight: "bold",
-        color: "#ffffff", 
+        color: "#eee", 
         fontSize: 23,
         }}>
             Live for a purpose and join the movement.
          </s.TextDescription>
+      </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
