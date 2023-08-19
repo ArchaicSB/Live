@@ -563,7 +563,7 @@ const getData = async () => {
           >
          Once upon a time, thousands of years ago, 7 species of Sea Turtles thrived in a world full of other marine life. As they swam through the oceans full of seeweed forests and kelp beds, they had an abundant food supply. 
    <s.SpacerSmall />
-          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. (These ancient creatures are a keystone species which means that they help balance the scale for the ocean food chain.)
+          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. (These archaic creatures are a keystone species which means that they help balance the scale for the ocean food chain.)
    <s.SpacerSmall />
          Then one day, along came the humans with their everlasting and eternal need to grow, consume, and evolve.
    <s.SpacerSmall />
