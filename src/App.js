@@ -550,7 +550,7 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-            A Little Story 
+            Story Time: A Keystone Species
           </s.TextTitle>
          <s.SpacerSmall />
         <s.TextDescription
