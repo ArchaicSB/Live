@@ -520,9 +520,16 @@ const getData = async () => {
             Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
          <s.SpacerSmall />
-         <s.TextTitle>
-        Who Are We? 
-         </s.TextTitle>
+        <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Who Are We?
+          </s.TextTitle>
          <s.SpacerSmall />
           <s.TextDescription
             style={{
