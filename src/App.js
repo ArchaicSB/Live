@@ -542,6 +542,84 @@ const getData = async () => {
             Archaic Shell Babies are 10,000 Sea Turtle digital collectible's on the Ethereum Blockchain. We're passionate about getting the ocean cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
+       <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Utility
+          </s.TextTitle>
+        <s.SpacerSmall />
+       <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 24,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+Every NFT has two parts. Your personal discount book and access into the Archaic Sea Turtle Club.
+      </s.TextDescription>
+       <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Discount Book:
+          </s.TextTitle>
+        <s.SpacerSmall />
+       <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 23,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+One significant part of this discount book is for travel.We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
+       <s.SpacerSmall />
+The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
+          </s.TextDescription>
+       <s.SpacerSmall />
+       <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            The Archaic Sea Turtle Club:
+          </s.TextTitle>
+       <s.SpacerSmall />
+       <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Coming soon! :)
+          </s.TextDescription>
+        <s.SpacerSmall />2px
+       <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            Story Time: A Keystone Species
+          </s.TextDescription>
+        <s.SpacerSmall />
         <s.TextTitle
               style={{
                 textAlign: "center",
