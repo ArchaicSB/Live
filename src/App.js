@@ -561,12 +561,11 @@ const getData = async () => {
               color: "var(--primary-text)"
             }}
           >
-         Once upon a time, thousands of years ago, 7 exceedingly important species
-of Sea Turtles thrived in a world full of other marine life. As they swam through the ocean of seeweed forests and kelp beds, they had an abundant food supply. 
+         Once upon a time, thousands of years ago, 7 species of Sea Turtles thrived in a world full of other marine life. As they swam through the oceans full of seeweed forests and kelp beds, they had an abundant food supply. 
    <s.SpacerSmall />
-          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. 
+          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. (These ancient creatures are a keystone species which means that they help balance the scale for the ocean food chain.)
    <s.SpacerSmall />
-         And then one day, along came the humans with their everlasting and eternal need to grow, consume, and evolve.
+         Then one day, along came the humans with their everlasting and eternal need to grow, consume, and evolve.
    <s.SpacerSmall />
        "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. "How does this change my life..?" As Greenie grew a little bit older, and the humans grew a little bit stronger.. Greenie started looking around and asking.
     <s.SpacerSmall />
