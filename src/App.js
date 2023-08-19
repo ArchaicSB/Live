@@ -219,7 +219,6 @@ const getData = async () => {
         }}
       >
       <img src="public/config/images/menu.png" 
-        class="menu-icon"
         width="30px"
         ai={"right"}
         jc={"right"}
