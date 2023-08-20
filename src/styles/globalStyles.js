@@ -48,6 +48,19 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
+  `;
+
+  export const LinearGradient = styled.div`
+  display: flex;
+  flex: ${({ flex }) => (flex ? flex : 0)};
+  flex-direction: ${({ fd }) => (fd ? fd : "column")};
+  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
+  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
+  background-color: ${({ test }) => (test ? "pink" : "none")};
+  width: device-width;
+  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
+  background-size: cover;
+  background-position: center;
   background: linear-gradient(#006ded 0%, #1bace2 34.48%, #00e2ed 100%);
   `;
 

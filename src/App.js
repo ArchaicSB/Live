@@ -552,9 +552,7 @@ const getData = async () => {
              ai={"center"} 
              jc={"center"} 
              display={"flex"} 
-             colors={['#7DF9FF', '#FFE5B4', '#000000']}
-             start={{x: 0.5, y: 0.5}}
-             end={{x: 1, y: 1}}
+             background={linear-gradient("#006ded 0%", "#1bace2 34.48%", "#00e2ed 100%")}
              style={{ 
                padding: 8, 
                borderRadius: 8, 
