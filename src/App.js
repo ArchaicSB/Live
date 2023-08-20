@@ -36,7 +36,7 @@ export const StyledRoundButton = styled.button`
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   width: 45px;
   height: 45px;
   cursor: pointer;
@@ -326,7 +326,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Minting On The {CONFIG.NETWORK.NAME} Network
+                      Please connect wallet to see the correct # of NFT's minted.
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
