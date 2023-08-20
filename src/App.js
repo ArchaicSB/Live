@@ -590,7 +590,7 @@ const getData = async () => {
             >
             Discount Book:
           </s.TextTitle>
-        <s.SpacerSmall />
+        <s.SpacerMedium />
        <s.TextDescription
               style={{
                 textAlign: "center",
