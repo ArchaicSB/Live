@@ -453,7 +453,7 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              style={{ 
-                backgroundImage: "linear-gradient, (#FFE5B4), (#000)", 
+                backgroundColor: "#FFE5B4",
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
