@@ -32,7 +32,7 @@ export const StyledRoundButton = styled.button`
   padding: 15px;
   border-radius: 100%;
   border: solid;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
@@ -427,7 +427,7 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             Please make sure you are connected to the right network (
