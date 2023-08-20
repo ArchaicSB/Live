@@ -449,7 +449,7 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <s.GradientContainer
+           <s.Container
              ai={"center"} 
              jc={"center"} 
              style={{ 
@@ -507,7 +507,7 @@ function App() {
             cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-        </s.GradientContainer>
+        </s.Container>
         <s.Container
              ai={"center"} 
              jc={"center"} 
