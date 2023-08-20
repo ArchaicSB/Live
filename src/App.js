@@ -513,9 +513,7 @@ function App() {
         <s.Container
              ai={"center"} 
              jc={"center"} 
-             display={"grid"} 
-             grid-template-columns={"1fr 1fr 1fr"}
-             column-gap={"5px"}
+             display={"flex"}
             style={{
               backgroundColor: "#FFE5B4", 
               padding: 8, 
@@ -527,6 +525,7 @@ function App() {
             >
             <s.TextTitle
               style={{
+                paddingleft: "20px",
                 margin: "6px",
                 textAlign: "center",
                 fontSize: 50,
@@ -539,6 +538,7 @@ function App() {
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
+                  paddingleft: "20px",
                   margin: "6px",
                   textAlign: "center",
                   fontSize: 24,
@@ -552,6 +552,7 @@ function App() {
               <s.SpacerMedium />
               <s.TextTitle
                 style={{
+                  paddingright: "20px",
                   margin: "6px",
                   textAlign: "center",
                   fontSize: 50,
@@ -564,6 +565,7 @@ function App() {
               <s.SpacerMedium />
           <s.TextDescription
                   style={{
+                    paddingright: "20px",
                     margin: "6px",
                     textAlign: "center",
                     fontSize: 23,
