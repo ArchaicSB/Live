@@ -551,7 +551,6 @@ const getData = async () => {
              ai={"center"} 
              jc={"center"} 
              display={"flex"} 
-             image={linear-CanvasGradient("blue", "green")}
              style={{ 
                padding: 8, 
                borderRadius: 8, 
