@@ -650,7 +650,7 @@ const getData = async () => {
          food supply. 
    <s.SpacerSmall />
           Feeding on extra sea sponges, jelly fish, algae and more, they could 
-          re-product easily due to their everlasting and eternal environment. 
+          re-produce easily due to their everlasting and eternal environment. 
           (These archaic creatures are a keystone species which means that they 
           help balance the scale for the ocean food chain.)
    <s.SpacerSmall />
