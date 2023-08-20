@@ -4,9 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
