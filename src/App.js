@@ -576,7 +576,7 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-Every NFT has two parts. Your personal discount book and access into the Archaic Sea Turtle Club.
+            Every NFT has two parts. Your personal discount book and access into the Archaic Sea Turtle Club.
       </s.TextDescription>
        <s.TextTitle
               style={{
@@ -597,9 +597,9 @@ Every NFT has two parts. Your personal discount book and access into the Archaic
                 color: "var(--primary-text)",
               }}
             >
-One significant part of this discount book is for travel.We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
+            One significant part of this discount book is for travel.We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
        <s.SpacerSmall />
-The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
+            The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
        <s.SpacerSmall />
        <s.TextTitle
