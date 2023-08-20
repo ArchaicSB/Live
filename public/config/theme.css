@@ -8,3 +8,9 @@
   --gold: #FFD700;
   --cobalt-text: #0047AB;
 }
+
+.gradient_background {
+  background: linear-gradient(90deg, #FFE5B4, #000);
+  height: 100vh;
+  width: 100vw;
+}

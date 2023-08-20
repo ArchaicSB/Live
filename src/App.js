@@ -452,8 +452,9 @@ function App() {
            <s.Container
              ai={"center"} 
              jc={"center"} 
+             background={"linear-gradient(90deg, #FFE5B4, #000)"}
              style={{ 
-                backgroundColor: "#FFE5B4", 
+                backgroundColor: "none", 
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
