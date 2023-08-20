@@ -46,7 +46,6 @@ export const Container = styled.div`
   background-color: ${({ test }) => (test ? "pink" : "none")};
   width: device-width;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  background-image: linear-gradient();
   background-size: cover;
   background-position: center;
   `;
