@@ -491,13 +491,13 @@ function App() {
              jc={"center"} 
              display={"flex"} 
              style={{ 
-               backgroundColor: "#FFE5B4", 
-               padding: 8, 
-               borderRadius: 8, 
-               border: "none", 
-               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-               width: "device-width", 
-             }} 
+                backgroundColor: "#FFE5B4", 
+                padding: 8, 
+                borderRadius: 8, 
+                border: "none", 
+                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+                width: "device-width", 
+             }}
            >
           <s.TextTitle
               style={{
@@ -514,7 +514,7 @@ function App() {
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "var(--primary-text)"
+              color: "var(--primary-text)",
             }}
           >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
