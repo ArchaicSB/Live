@@ -103,15 +103,6 @@ export const Title = styled.h1`
   color: #000000;
 `;
 
-export const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#FFE5B4",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
-
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -558,22 +549,30 @@ const getData = async () => {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
-        <LinearGradient
-        style={styles.container}
-        colors={["#fff", "#000"]}
-        start={{x: 0, y: 0}}
-        end={{x: 0, y: 1}}
-        >
-       <s.TextTitle
+        <s.Container 
+            flex={1} 
+            ai={"center"} 
+            jc={"center"} 
+            display={"flex"} 
+            style={{ 
+               backgroundColor: "#333", 
+               padding: 8, 
+               borderRadius: 8, 
+               border: "none", 
+               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+               width: "device-width", 
+             }} 
+          >
+            <s.TextDescription
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 24,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
             >
             Utility
-          </s.TextTitle>
+          </s.TextDescription>
         <s.SpacerSmall />
        <s.TextDescription
               style={{
@@ -614,7 +613,7 @@ const getData = async () => {
             The discount book holds other various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
        <s.SpacerMedium />
-       </LinearGradient>
+       </s.Container>
         <s.Container 
             flex={1} 
             ai={"center"} 
