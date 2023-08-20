@@ -449,10 +449,11 @@ function App() {
       </s.Container>
           <s.SpacerXSmall />
            <s.Container 
-             flex={1} 
              ai={"center"} 
              jc={"center"} 
-             display={"flex"} 
+             display={"grid"} 
+             grid-template-columns={"1fr 1fr 1fr"}
+             column-gap={"5px"}
              style={{ 
                 backgroundColor: "#FFE5B4", 
                 padding: 8, 
@@ -509,10 +510,20 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
-        <span
-              style={{
-                textAlign: "center",
-              }}
+        <s.Container
+             ai={"center"} 
+             jc={"center"} 
+             display={"grid"} 
+             grid-template-columns={"1fr 1fr 1fr"}
+             column-gap={"5px"}
+            style={{
+              backgroundColor: "#FFE5B4", 
+              padding: 8, 
+              borderRadius: 8, 
+              border: "none", 
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+              width: "device-width", 
+            }}
             >
             <s.TextTitle
               style={{
@@ -570,7 +581,7 @@ function App() {
             water bottles, and more.
           </s.TextDescription>
           <s.SpacerMedium />
-        </span>
+        </s.Container>
         <s.Container 
             flex={1} 
             ai={"center"} 
