@@ -217,7 +217,7 @@ const getData = async () => {
           boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
         }}
       >
-      <h1
+      <TextTitle
         style={{
         textAlign: "center",
         fontSize: 50,
@@ -226,7 +226,7 @@ const getData = async () => {
         }}
       >
         Home of the Archaic Shell Babies
-        </h1>
+        </TextTitle>
       <s.TextDescription
         ai={"center"}
         jc={"center"}
