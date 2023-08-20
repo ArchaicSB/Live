@@ -521,7 +521,7 @@ function App() {
             revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
          <s.SpacerMedium />
-        <s.TextTitle
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontSize: 50,
@@ -529,15 +529,15 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-            Who Are We?
-          </s.TextTitle>
-         <s.SpacerMedium />
+              Who Are We?
+            </s.TextTitle>
+          <s.SpacerMedium />
           <s.TextDescription
             style={{
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "var(--primary-text)"
+              color: "var(--primary-text)",
             }}
           >
             Archaic Shell Babies are 10,000 Sea Turtle digital collectible's 
@@ -568,49 +568,51 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-            Utility
-          </s.TextDescription>
-        <s.SpacerSmall />
-       <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 24,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            Every NFT has two parts. Your personal discount book and access into the Archaic Sea Turtle Club.
-      </s.TextDescription>
-      <s.SpacerMedium />
-       <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            Discount Book:
-          </s.TextTitle>
-        <s.SpacerMedium />
-       <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 23,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
+              Utility
+            </s.TextDescription>
+            <s.SpacerSmall />
+              <s.TextDescription
+                style={{
+                  textAlign: "center",
+                  fontSize: 24,
+                  fontWeight: "bold",
+                  color: "var(--primary-text)",
+                }}
+              >
+                Every NFT has two parts. Your personal discount book 
+                and access into the Archaic Sea Turtle Club.
+              </s.TextDescription>
+              <s.SpacerMedium />
+              <s.TextTitle
+                style={{
+                  textAlign: "center",
+                  fontSize: 50,
+                  fontWeight: "bold",
+                  color: "var(--primary-text)",
+                }}
+              >
+                Discount Book:
+              </s.TextTitle>
+              <s.SpacerMedium />
+          <s.TextDescription
+                  style={{
+                    textAlign: "center",
+                    fontSize: 23,
+                    fontWeight: "bold",
+                    color: "var(--primary-text)",
+                  }}
+                >
             One significant part of this discount book is for travel. 
             We have partnered with an extraordinary Sea Turtle company to 
             give our NFT holders discounts on their travel programs. 
-       <s.SpacerSmall />
+            <s.SpacerSmall />
             Yes.. That's right.. Travel Programs. For ocean-focused trips to other countries.
             <s.SpacerSmall />
-            The discount book holds other various uses like discounts on re-usable tote bags, water bottles, and more.
+            The discount book holds other various uses like discounts on re-usable tote bags, 
+            water bottles, and more.
           </s.TextDescription>
-       <s.SpacerMedium />
-       </s.Container>
+          <s.SpacerMedium />
+        </s.Container>
         <s.Container 
             flex={1} 
             ai={"center"} 
@@ -625,7 +627,7 @@ function App() {
                width: "device-width", 
              }} 
           >
-       <s.TextDescription
+          <s.TextDescription
               style={{
                 textAlign: "center",
                 fontSize: 50,
@@ -635,7 +637,7 @@ function App() {
             >
             Story Time: A Keystone Species
           </s.TextDescription>
-         <s.SpacerSmall />
+          <s.SpacerSmall />
         <s.TextDescription
             style={{
               textAlign: "center",
@@ -643,43 +645,43 @@ function App() {
               fontWeight: "bold",
               color: "#333"
             }}
-          >
-         Once upon a time, thousands of years ago, 7 species of Sea Turtles 
-         thrived in a world full of other marine life. As they swam through 
-         the oceans full of seeweed forests and kelp beds, they had an abundant 
-         food supply. 
-   <s.SpacerSmall />
-          Feeding on extra sea sponges, jelly fish, algae and more, they could 
-          re-produce easily due to their everlasting and eternal environment. 
-          (These archaic creatures are a keystone species which means that they 
-          help balance the scale for the ocean food chain.)
-   <s.SpacerSmall />
+              >
+                Once upon a time, thousands of years ago, 7 species of Sea Turtles 
+                thrived in a world full of other marine life. As they swam through 
+                the oceans full of seeweed forests and kelp beds, they had an abundant 
+                food supply. 
+                  <s.SpacerSmall />
+                Feeding on extra sea sponges, jelly fish, algae and more, they could 
+                re-produce easily due to their everlasting and eternal environment. 
+                (These archaic creatures are a keystone species which means that they 
+                help balance the scale for the ocean food chain.)
+            <s.SpacerSmall />
          Then one day, along came the humans with their everlasting and eternal 
          need to grow, consume, and evolve.
-   <s.SpacerSmall />
-       "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. 
-       "How does this change my life..?" As Greenie grew a little bit older, 
-       and the humans grew a little bit stronger.. Greenie started looking around and asking.
+        <s.SpacerSmall />
+        "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. 
+        "How does this change my life..?" As Greenie grew a little bit older, 
+         and the humans grew a little bit stronger.. Greenie started looking around and asking.
+        <s.SpacerSmall />
+        "Where did the rest of the kelp go? And who ate all of the fish? Just
+         a couple years ago I saw hundreds of jelly fish and sea sponges and now
+         all I'm seeing are these pieces of a to-go box.
+        <s.SpacerSmall />
+        "WHATCH OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!!
+        "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
+        <s.SpacerSmall />
+        CRASH!!!!
+        <s.SpacerSmall />
+        "Awe man. It cracked my shell." said Greenie. "I think it was a boat. I heard that 
+        those are everywhere now. I think we should find a new place to live... the food is
+        gone and it's not really safe..."
+        <s.SpacerSmall />
+        The Luth: "We have nowhere else to go... This is our home... Its everyones home..." 
+      </s.TextDescription>
     <s.SpacerSmall />
-      "Where did the rest of the kelp go? And who ate all of the fish? Just 
-      a couple years ago I saw hundreds of jelly fish and sea sponges and now 
-      all I'm seeing are these pieces of a to-go box.
-   <s.SpacerSmall />
-     "WHATCH OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!!
-      "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
-      <s.SpacerSmall />
-   CRASH!!!!
-      <s.SpacerSmall />
-    "Awe man. It cracked my shell." said Greenie. "I think it was a boat. I heard that 
-    those are everywhere now. I think we should find a new place to live... the food is
-     gone and it's not really safe..."
-       <s.SpacerSmall />
-      The Luth: "We have nowhere else to go... This is our home... Its everyones home..." 
-          </s.TextDescription>
-         <s.SpacerSmall />
-         </s.Container>
-      <s.SpacerXSmall />
-      <s.Container flex={1} jc={"center"} ai={"center"}
+    </s.Container>
+    <s.SpacerXSmall />
+    <s.Container flex={1} jc={"center"} ai={"center"}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
               backgroundColor: "#000",
@@ -723,13 +725,15 @@ function App() {
             >
                   Plastic pollution is everywhere...
               </s.TextTitle>
-              <StyledLogo alt={"garbagepatch"} src={"/config/images/garbagepatch.png"} ai={"center"}
-                  style={{
-                  width: "75%"
-                }}
-                  />
-              <s.SpacerXSmall />
-          </s.Container>
+              <StyledLogo alt={"garbagepatch"} 
+              src={"/config/images/garbagepatch.png"} 
+              ai={"center"}
+              style={{
+                width: "75%"
+              }}
+            />
+          <s.SpacerXSmall />
+      </s.Container>
     </s.Screen>
   );
 }
