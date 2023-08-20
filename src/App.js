@@ -599,7 +599,7 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-            One significant part of this discount book is for travel.We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
+            One significant part of this discount book is for travel. We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
        <s.SpacerSmall />
             The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
