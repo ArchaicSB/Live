@@ -451,9 +451,7 @@ function App() {
            <s.Container 
              ai={"center"} 
              jc={"center"} 
-             display={"grid"} 
-             grid-template-columns={"1fr 1fr 1fr"}
-             column-gap={"5px"}
+             float={"right"}
              style={{ 
                 backgroundColor: "#FFE5B4", 
                 padding: 8, 
@@ -484,6 +482,21 @@ function App() {
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
             revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
+          </s.Container>
+          <s.SpacerMedium />
+          <s.Container 
+             ai={"center"} 
+             jc={"center"} 
+             float={"left"}
+             style={{ 
+                backgroundColor: "#FFE5B4", 
+                padding: 8, 
+                borderRadius: 8, 
+                border: "none", 
+                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+                width: "device-width", 
+             }}
+           >
          <s.SpacerMedium />
             <s.TextTitle
               style={{
@@ -525,8 +538,6 @@ function App() {
             >
             <s.TextTitle
               style={{
-                paddingleft: "20px",
-                margin: "6px",
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
@@ -538,8 +549,6 @@ function App() {
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
-                  paddingleft: "20px",
-                  margin: "6px",
                   textAlign: "center",
                   fontSize: 24,
                   fontWeight: "bold",
@@ -552,8 +561,6 @@ function App() {
               <s.SpacerMedium />
               <s.TextTitle
                 style={{
-                  paddingright: "20px",
-                  margin: "6px",
                   textAlign: "center",
                   fontSize: 50,
                   fontWeight: "bold",
@@ -565,8 +572,6 @@ function App() {
               <s.SpacerMedium />
           <s.TextDescription
                   style={{
-                    paddingright: "20px",
-                    margin: "6px",
                     textAlign: "center",
                     fontSize: 23,
                     fontWeight: "bold",
