@@ -448,10 +448,9 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <s.Container 
+           <table
              ai={"center"} 
              jc={"center"} 
-             float={"right"}
              style={{ 
                 backgroundColor: "#FFE5B4", 
                 padding: 8, 
@@ -482,21 +481,6 @@ function App() {
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
             revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
-          </s.Container>
-          <s.SpacerMedium />
-          <s.Container 
-             ai={"center"} 
-             jc={"center"} 
-             float={"left"}
-             style={{ 
-                backgroundColor: "#FFE5B4", 
-                padding: 8, 
-                borderRadius: 8, 
-                border: "none", 
-                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-                width: "device-width", 
-             }}
-           >
          <s.SpacerMedium />
             <s.TextTitle
               style={{
@@ -522,7 +506,7 @@ function App() {
             cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-        </s.Container>
+        </table>
         <s.Container
              ai={"center"} 
              jc={"center"} 
