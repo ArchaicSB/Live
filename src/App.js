@@ -522,16 +522,16 @@ function App() {
                width: "device-width", 
              }} 
           >
-            <s.TextDescription
+            <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 24,
+                fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
             >
               Utility
-            </s.TextDescription>
+            </s.TextTitle>
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
