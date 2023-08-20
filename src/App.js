@@ -543,13 +543,14 @@ const getData = async () => {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
+        <s.SpacerSmall />
          <s.Container
             flex={1}
             ai={"center"}
             jc={"center"}
             display={"flex"}
             style={{
-              backgroundColor: "#eee",
+              backgroundColor: "#000",
               padding: 8,
               borderRadius: 8,
               border: "none",
@@ -625,13 +626,14 @@ const getData = async () => {
           </s.TextDescription>
         <s.SpacerSmall />
        </s.Container>
+       <s.SpacerSmall />
          <s.Container
             flex={1}
             ai={"center"}
             jc={"center"}
             display={"flex"}
             style={{
-              backgroundColor: "#FFE5B4",
+              backgroundColor: "#eee",
               padding: 8,
               borderRadius: 8,
               border: "none",
