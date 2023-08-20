@@ -94,6 +94,12 @@ export const StyledLink = styled.a`
   text-decoration: underline overline;
 `;
 
+export const Title = styled.h1`
+  font-size: 50px;
+  text-align: center;
+  color: #000000;
+`;
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
