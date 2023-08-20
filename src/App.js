@@ -18,9 +18,9 @@ export const StyledButton = styled.button`
   color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px #0B4008;
-  -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
-  -moz-box-shadow: 1px 6px 0px -2px #0B4008;
+  box-shadow: 0px 6px 0px -2px #000000;
+  -webkit-box-shadow: 1px 6px 0px -2px #000000;
+  -moz-box-shadow: 1px 6px 0px -2px #000000;
   :active {
     box-shadow: #0B4008;
     -webkit-box-shadow: #0B4008;
@@ -103,7 +103,6 @@ export const Title = styled.h1`
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
-  const [totalSupply, setTotalSupply] = useState(0);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
@@ -175,17 +174,11 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
-  const getData = async () => {
+  const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
-      const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
-      setTotalSupply(parseInt(totalSupply, 10));
       dispatch(fetchData(blockchain.account));
     }
   };
-    
-      useEffect(() => {
-      getData();
-    }, [blockchain.account]);
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -201,6 +194,10 @@ function App() {
   useEffect(() => {
     getConfig();
   }, []);
+
+  useEffect(() => {
+    getData();
+  }, [blockchain.account]);
 
   return (
     <s.Screen>
