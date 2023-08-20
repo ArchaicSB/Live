@@ -50,6 +50,18 @@ export const Container = styled.div`
   background-position: center;
 `;
 
+export const GradientContainer = styled.div`
+  display: flex;
+  flex: ${({ flex }) => (flex ? flex : 0)};
+  flex-direction: ${({ fd }) => (fd ? fd : "column")};
+  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
+  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
+  width: device-width;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(direction, color-stop1, color-stop2, ...); 
+`;
+
 export const TextTitle = styled.p`
   color: var(--primary-text);
   font-size: 22px;

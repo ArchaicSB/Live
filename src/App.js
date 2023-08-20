@@ -449,11 +449,11 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <s.Container
+           <s.GradientContainer
              ai={"center"} 
              jc={"center"} 
              style={{ 
-                backgroundColor: "#7DF9FF", 
+                backgroundImage: "linear-gradient, (#FFE5B4), (#000)", 
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
@@ -507,7 +507,7 @@ function App() {
             cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-        </s.Container>
+        </s.GradientContainer>
         <s.Container
              ai={"center"} 
              jc={"center"} 
