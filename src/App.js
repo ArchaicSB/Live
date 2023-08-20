@@ -202,41 +202,6 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={1}
-        ai={"center"}
-        jc={"center"}
-        style={{
-          backgroundColor: "none",
-          padding: 8,
-          borderRadius: 8,
-          border: "none",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-        }}
-      >
-      <TextTitle
-        style={{
-        textAlign: "center",
-        fontSize: 50,
-        fontWeight: "bold",
-        color: "#eee",
-        }}
-        >
-          Home of the Archaic Shell Babies
-      </TextTitle>
-      <s.TextDescription
-            ai={"center"}
-            jc={"center"}
-            style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#eee", 
-            fontSize: 23,
-            }}
-          >
-            Live for a purpose and join the movement.
-        </s.TextDescription>
-    </s.Container>
-      <s.Container
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)" }}
