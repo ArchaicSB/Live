@@ -100,6 +100,12 @@ export const Title = styled.h1`
   color: #000000;
 `;
 
+const GradientBackground = styled.div`
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
+`;
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -453,7 +459,7 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              style={{ 
-                backgroundColor: "#FFE5B4",
+                background: "linear-gradient"("to bottom", "#ff9900", "#ff3399"),
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
