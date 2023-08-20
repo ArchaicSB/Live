@@ -552,7 +552,7 @@ const getData = async () => {
              jc={"center"} 
              display={"flex"} 
              style={{ 
-               backgroundColor: "#eee", 
+               background: linear-gradient("to right", rgba(255,0,0,0), rgba(255,0,0,1)), 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
