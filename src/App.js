@@ -517,7 +517,8 @@ const getData = async () => {
               color: "var(--primary-text)"
             }}
           >
-            Archaic Shell Babies is a groundbreaking NFT project with a mission to revolutionize conservation and humanitarian efforts through the power of Web3.
+            Archaic Shell Babies is a groundbreaking NFT project with a mission to 
+            revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
          <s.SpacerMedium />
         <s.TextTitle
@@ -539,18 +540,19 @@ const getData = async () => {
               color: "var(--primary-text)"
             }}
           >
-            Archaic Shell Babies are 10,000 Sea Turtle digital collectible's on the Ethereum Blockchain. We're passionate about getting the ocean cleaned and inspiring others to live a life in harmony with mother nature.
+            Archaic Shell Babies are 10,000 Sea Turtle digital collectible's 
+            on the Ethereum Blockchain. We're passionate about getting the ocean 
+            cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-       </s.Container>
-       </s.Container>
-            <s.Container 
+        </s.Container>
+        <s.Container 
              flex={1} 
              ai={"center"} 
              jc={"center"} 
              display={"flex"} 
              style={{ 
-               backgroundColor: "#FFE5B4", 
+               backgroundColor: "#eee", 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
@@ -599,26 +601,29 @@ const getData = async () => {
                 color: "var(--primary-text)",
               }}
             >
-            One significant part of this discount book is for travel. We have partnered with an extraordinary Sea Turtle company to give our NFT holders discounts on their travel programs. 
+            One significant part of this discount book is for travel. 
+            We have partnered with an extraordinary Sea Turtle company to 
+            give our NFT holders discounts on their travel programs. 
        <s.SpacerSmall />
-            The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
+            Yes.. That's right.. Travel Programs. For ocean-focused trips toother countries.
+            <s.SpacerSmall />
+            The discount book holds other various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
-        <s.SpacerSmall />
-</s.Container>
        <s.SpacerMedium />
-         <s.Container
-            flex={1}
-            ai={"center"}
-            jc={"center"}
-            display={"flex"}
-            style={{
-              backgroundColor: "#eee",
-              padding: 8,
-              borderRadius: 8,
-              border: "none",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              width: "device-width",
-            }}
+       </s.Container>
+        <s.Container 
+            flex={1} 
+            ai={"center"} 
+            jc={"center"} 
+            display={"flex"} 
+            style={{ 
+               backgroundColor: "#FFE5B4", 
+               padding: 8, 
+               borderRadius: 8, 
+               border: "none", 
+               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+               width: "device-width", 
+             }} 
           >
        <s.TextDescription
               style={{
@@ -639,21 +644,35 @@ const getData = async () => {
               color: "#333"
             }}
           >
-         Once upon a time, thousands of years ago, 7 species of Sea Turtles thrived in a world full of other marine life. As they swam through the oceans full of seeweed forests and kelp beds, they had an abundant food supply. 
+         Once upon a time, thousands of years ago, 7 species of Sea Turtles 
+         thrived in a world full of other marine life. As they swam through 
+         the oceans full of seeweed forests and kelp beds, they had an abundant 
+         food supply. 
    <s.SpacerSmall />
-          Feeding on extra sea sponges, jelly fish, algae and more, they could re-product easily due to their everlasting and eternal environment. (These archaic creatures are a keystone species which means that they help balance the scale for the ocean food chain.)
+          Feeding on extra sea sponges, jelly fish, algae and more, they could 
+          re-product easily due to their everlasting and eternal environment. 
+          (These archaic creatures are a keystone species which means that they 
+          help balance the scale for the ocean food chain.)
    <s.SpacerSmall />
-         Then one day, along came the humans with their everlasting and eternal need to grow, consume, and evolve.
+         Then one day, along came the humans with their everlasting and eternal 
+         need to grow, consume, and evolve.
    <s.SpacerSmall />
-       "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. "How does this change my life..?" As Greenie grew a little bit older, and the humans grew a little bit stronger.. Greenie started looking around and asking.
+       "But.. I don't understand..?" Asked Greenie, one of our Sea Turtles. 
+       "How does this change my life..?" As Greenie grew a little bit older, 
+       and the humans grew a little bit stronger.. Greenie started looking around and asking.
     <s.SpacerSmall />
-      "Where did the rest of the kelp go? And who ate all of the fish? Just a couple years ago I saw hundreds of jelly fish and sea sponges and now all I'm seeing are these pieces of a to-go box.
+      "Where did the rest of the kelp go? And who ate all of the fish? Just 
+      a couple years ago I saw hundreds of jelly fish and sea sponges and now 
+      all I'm seeing are these pieces of a to-go box.
    <s.SpacerSmall />
-     "WHAT OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!! "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
+     "WHAT OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!!
+      "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
       <s.SpacerSmall />
    CRASH!!!!
       <s.SpacerSmall />
-    "Awe man. It cracked my shell." said Greenie. "I think it was a boat. I heard that those are everywhere now. I think we should find a new place to live... the food is gone and it's not really safe..."
+    "Awe man. It cracked my shell." said Greenie. "I think it was a boat. I heard that 
+    those are everywhere now. I think we should find a new place to live... the food is
+     gone and it's not really safe..."
        <s.SpacerSmall />
       "We have nowhere else to go... This is our home... Its everyones home..." 
           </s.TextDescription>
