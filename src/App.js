@@ -205,7 +205,7 @@ const getData = async () => {
 
   return (
     <s.Screen>
-      <s.Container
+    <s.Container
         flex={1}
         ai={"center"}
         jc={"center"}
@@ -224,22 +224,23 @@ const getData = async () => {
         fontWeight: "bold",
         color: "#eee",
         }}
-      >
-        Home of the Archaic Shell Babies
-        </TextTitle>
+        >
+          Home of the Archaic Shell Babies
+      </TextTitle>
       <s.TextDescription
-        ai={"center"}
-        jc={"center"}
-        style={{
-        textAlign: "center",
-        fontWeight: "bold",
-        color: "#eee", 
-        fontSize: 23,
-        }}>
+            ai={"center"}
+            jc={"center"}
+            style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#eee", 
+            fontSize: 23,
+            }}
+          >
             Live for a purpose and join the movement.
-         </s.TextDescription>
-      </s.Container>
-      <s.Container
+        </s.TextDescription>
+    </s.Container>
+    <s.Container
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: true }}
