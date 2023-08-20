@@ -453,7 +453,7 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              style={{ 
-                backgroundColor: "#FFE5B4", 
+                backgroundColor: "#7DF9FF", 
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
