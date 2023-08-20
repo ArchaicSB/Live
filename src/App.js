@@ -15,16 +15,16 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 15px;
   font-weight: bold;
-  color: var(--primary-text);
+  color: var(--secondary-text);
   width: 125px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px #000000;
-  -webkit-box-shadow: 1px 6px 0px -2px #000000;
-  -moz-box-shadow: 1px 6px 0px -2px #000000;
+  box-shadow: 0px 6px 0px -2px #0B4008;
+  -webkit-box-shadow: 1px 6px 0px -2px #0B4008;
+  -moz-box-shadow: 1px 6px 0px -2px #0B4008;
   :active {
-    box-shadow: #000000;
-    -webkit-box-shadow: #000000;
-    -moz-box-shadow: #000000;
+    box-shadow: #0B4008;
+    -webkit-box-shadow: #0B4008;
+    -moz-box-shadow: #0B4008;
   }
 `;
 
@@ -36,7 +36,7 @@ export const StyledRoundButton = styled.button`
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
-  color: var(--primary-text);
+  color: var(--secondary-text);
   width: 45px;
   height: 45px;
   cursor: pointer;
@@ -47,9 +47,9 @@ export const StyledRoundButton = styled.button`
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
-    box-shadow: #000000;
-    -webkit-box-shadow: #000000;
-    -moz-box-shadow: #000000;
+    box-shadow: #0B4008;
+    -webkit-box-shadow: #0B4008;
+    -moz-box-shadow: #0B4008;
   }
 `;
 
@@ -77,7 +77,7 @@ export const StyledLogo = styled.img`
 export const StyledImg = styled.img`
   box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
   border: 2px solid var(--secondary);
-  background-color: var(--secondary);
+  background-color: var(--accent);
   border-radius: 100%;
   width: 100px;
   @media (min-width: 767px) {
@@ -94,16 +94,9 @@ export const StyledLink = styled.a`
   text-decoration: underline overline;
 `;
 
-export const Title = styled.h1`
-  font-size: 50px;
-  text-align: center;
-  color: #000000;
-`;
-
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
-  const [totalSupply, setTotalSupply] = useState(0);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
@@ -175,17 +168,11 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
-const getData = async () => {
-  if (blockchain.account !== "" && blockchain.smartContract !== null) {
-    const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
-    setTotalSupply(parseInt(totalSupply, 10));
-    dispatch(fetchData(blockchain.account));
-  }
-};
-  
-    useEffect(() => {
-    getData();
-  }, [blockchain.account]);
+  const getData = () => {
+    if (blockchain.account !== "" && blockchain.smartContract !== null) {
+      dispatch(fetchData(blockchain.account));
+    }
+  };
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -194,56 +181,24 @@ const getData = async () => {
         Accept: "application/json",
       },
     });
-    
-  const config = await configResponse.json();
+    const config = await configResponse.json();
     SET_CONFIG(config);
   };
-  
+
   useEffect(() => {
     getConfig();
   }, []);
 
+  useEffect(() => {
+    getData();
+  }, [blockchain.account]);
+
   return (
     <s.Screen>
-    <s.Container
-        flex={1}
-        ai={"center"}
-        jc={"center"}
-        style={{
-          backgroundColor: "#444",
-          padding: 8,
-          borderRadius: 8,
-          border: "none",
-          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-        }}
-      >
-      <TextTitle
-        style={{
-        textAlign: "center",
-        fontSize: 50,
-        fontWeight: "bold",
-        color: "#eee",
-        }}
-        >
-          Home of the Archaic Shell Babies
-      </TextTitle>
-      <s.TextDescription
-            ai={"center"}
-            jc={"center"}
-            style={{
-            textAlign: "center",
-            fontWeight: "bold",
-            color: "#eee", 
-            fontSize: 23,
-            }}
-          >
-            Live for a purpose and join the movement.
-        </s.TextDescription>
-    </s.Container>
-    <s.Container
+      <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: true }}
+        style={{ padding: 12, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
@@ -260,7 +215,7 @@ const getData = async () => {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "none",
+              backgroundColor: "var(--primary)",
               padding: 16,
               borderRadius: 16,
               border: "16px solid var(--secondary)",
@@ -270,22 +225,12 @@ const getData = async () => {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 40,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-              Mint Your NFT!
-            </s.TextTitle>
-            <s.TextTitle
-              style={{
-                textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
             >
-              {totalSupply} / {CONFIG.MAX_SUPPLY}
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -344,14 +289,14 @@ const getData = async () => {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--secondary-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--secondary-text)" }}
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -362,10 +307,10 @@ const getData = async () => {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--secondary-text)",
+                        color: "var(--accent-text)",
                       }}
                     >
-                      Please connect wallet to see the correct # of NFT's minted.
+                      Minting On The {CONFIG.NETWORK.NAME} Network
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
@@ -377,19 +322,19 @@ const getData = async () => {
                     >
                       CONNECT METAMASK
                     </StyledButton>
-                    {blockchain.errorMsg !== "" ? (
+                    {blockchain.errorMsg !=="" ? (
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--accent-text)",
+                            color: "var(--primary-text)",
                           }}
                         >
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
-                    ) : null}
+                    ) : getData()}
                   </s.Container>
                 ) : (
                   <>
@@ -466,7 +411,7 @@ const getData = async () => {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--secondary-text)",
+              color: "var(--primary-text)",
             }}
           >
             Please make sure you are connected to the right network (
@@ -480,9 +425,10 @@ const getData = async () => {
               color: "var(--secondary-text)",
             }}
           >
-            We have set the gas limit for the contract to successfully mint your NFT.
-            We recommend that you don't change the gas limit.
-          </s.TextDescription>
+            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. We recommend that you don't lower the
+            gas limit.
+            </s.TextDescription>
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
