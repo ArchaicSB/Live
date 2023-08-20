@@ -602,28 +602,6 @@ const getData = async () => {
        <s.SpacerSmall />
             The discount book holds various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
-       <s.SpacerSmall />
-       <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            The Archaic Sea Turtle Club:
-          </s.TextTitle>
-       <s.SpacerSmall />
-       <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 23,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            Coming soon! :)
-          </s.TextDescription>
         <s.SpacerSmall />
 </s.Container>
        <s.SpacerSmall />
