@@ -665,7 +665,7 @@ const getData = async () => {
       a couple years ago I saw hundreds of jelly fish and sea sponges and now 
       all I'm seeing are these pieces of a to-go box.
    <s.SpacerSmall />
-     "WHAT OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!!
+     "WHATCH OUT GREENIE!!!!" Yells the Luth, one sea turtle weighing in at 500 Kilos!!
       "WHATEVER THAT IS, ITS COMING RIGHT FOR YOU!" ... 
       <s.SpacerSmall />
    CRASH!!!!
@@ -674,7 +674,7 @@ const getData = async () => {
     those are everywhere now. I think we should find a new place to live... the food is
      gone and it's not really safe..."
        <s.SpacerSmall />
-      "We have nowhere else to go... This is our home... Its everyones home..." 
+      The Luth: "We have nowhere else to go... This is our home... Its everyones home..." 
           </s.TextDescription>
          <s.SpacerSmall />
          </s.Container>
