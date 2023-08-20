@@ -48,6 +48,7 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
+  background: linear-gradient(#006ded 0%, #1bace2 34.48%, #00e2ed 100%);
   `;
 
 export const Title = styled.h1`

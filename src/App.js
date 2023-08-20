@@ -9,19 +9,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
-  export const Wrapper = styled.div`
-    width: device-width;
-    flex: 1;
-    height: 100vh;
-    background-position: top;
-    background-size: cover;
-    .overlay  {
-        width:100vw;
-        height:100vh;
-        background:rgba(333, 444, 331, 0.4);
-    }
-`
-
 export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
@@ -560,11 +547,14 @@ const getData = async () => {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
-        <Wrapper
+        <LinearGradient
              flex={1} 
              ai={"center"} 
              jc={"center"} 
              display={"flex"} 
+             colors={['#7DF9FF', '#FFE5B4', '#000000']}
+             start={{x: 0.5, y: 0.5}}
+             end={{x: 1, y: 1}}
              style={{ 
                padding: 8, 
                borderRadius: 8, 
@@ -623,7 +613,7 @@ const getData = async () => {
             The discount book holds other various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
        <s.SpacerMedium />
-       </Wrapper>
+       </LinearGradient>
         <s.Container 
             flex={1} 
             ai={"center"} 
