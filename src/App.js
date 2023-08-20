@@ -601,7 +601,7 @@ The discount book holds various uses like discounts on re-usable tote bags, wate
        <s.TextDescription
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 23,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
