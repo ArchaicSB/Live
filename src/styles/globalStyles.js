@@ -6,7 +6,7 @@ export const Screen = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-  width: device-width;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,16 +44,10 @@ export const Container = styled.div`
   justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
   align-items: ${({ ai }) => (ai ? ai : "flex-start")};
   background-color: ${({ test }) => (test ? "pink" : "none")};
-  width: device-width;
+  width: 100%;
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-`;
-
-export const Title = styled.h1`
-font-size: 50px;
-text-align: center;
-color: #000000;
 `;
 
 export const TextTitle = styled.p`
