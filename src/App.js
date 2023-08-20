@@ -221,7 +221,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--primary)",
+              backgroundColor: "none",
               padding: 16,
               borderRadius: 16,
               border: "16px solid var(--secondary)",
@@ -508,22 +508,14 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
-        <s.Container 
-            flex={1} 
-            ai={"center"} 
-            jc={"center"} 
-            display={"flex"} 
-            style={{ 
-               backgroundColor: "#eee", 
-               padding: 8, 
-               borderRadius: 8, 
-               border: "none", 
-               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-               width: "device-width", 
-             }} 
-          >
+        <span
+              style={{
+                textAlign: "center",
+              }}
+            >
             <s.TextTitle
               style={{
+                margin: "6px",
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
@@ -535,6 +527,7 @@ function App() {
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
+                  margin: "6px",
                   textAlign: "center",
                   fontSize: 24,
                   fontWeight: "bold",
@@ -547,6 +540,7 @@ function App() {
               <s.SpacerMedium />
               <s.TextTitle
                 style={{
+                  margin: "6px",
                   textAlign: "center",
                   fontSize: 50,
                   fontWeight: "bold",
@@ -558,6 +552,7 @@ function App() {
               <s.SpacerMedium />
           <s.TextDescription
                   style={{
+                    margin: "6px",
                     textAlign: "center",
                     fontSize: 23,
                     fontWeight: "bold",
@@ -574,7 +569,7 @@ function App() {
             water bottles, and more.
           </s.TextDescription>
           <s.SpacerMedium />
-        </s.Container>
+        </span>
         <s.Container 
             flex={1} 
             ai={"center"} 
