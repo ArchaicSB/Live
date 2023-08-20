@@ -551,8 +551,8 @@ const getData = async () => {
              ai={"center"} 
              jc={"center"} 
              display={"flex"} 
+             background-image={linear-gradient("to bottom right", rgba(255,0,0,0), rgba(255,0,0,1))}
              style={{ 
-               background: linear-gradient("to right", rgba(255,0,0,0), rgba(255,0,0,1)), 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
