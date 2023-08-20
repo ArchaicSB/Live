@@ -270,6 +270,7 @@ function App() {
                 }}
                 style={{
                   margin: "6px",
+                  color: "var(--primary-text)",
                 }}
               >
                 Social Links ❤️
@@ -448,7 +449,7 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <table
+           <s.Container
              ai={"center"} 
              jc={"center"} 
              style={{ 
@@ -506,7 +507,7 @@ function App() {
             cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-        </table>
+        </s.Container>
         <s.Container
              ai={"center"} 
              jc={"center"} 
