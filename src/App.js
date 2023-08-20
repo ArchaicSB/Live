@@ -514,7 +514,7 @@ function App() {
             jc={"center"} 
             display={"flex"} 
             style={{ 
-               backgroundColor: "#333", 
+               backgroundColor: "#eee", 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
