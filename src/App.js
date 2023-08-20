@@ -103,6 +103,7 @@ export const Title = styled.h1`
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
+  const [totalSupply, setTotalSupply] = useState(0);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
@@ -174,11 +175,17 @@ function App() {
     setMintAmount(newMintAmount);
   };
 
-  const getData = () => {
+  const getData = async () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
+      const totalSupply = await blockchain.smartContract.methods.totalSupply().call();
+      setTotalSupply(parseInt(totalSupply, 10));
       dispatch(fetchData(blockchain.account));
     }
   };
+    
+      useEffect(() => {
+      getData();
+    }, [blockchain.account]);
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -195,12 +202,43 @@ function App() {
     getConfig();
   }, []);
 
-  useEffect(() => {
-    getData();
-  }, [blockchain.account]);
-
   return (
     <s.Screen>
+      <s.Container
+        flex={1}
+        ai={"center"}
+        jc={"center"}
+        style={{
+          backgroundColor: "#444",
+          padding: 8,
+          borderRadius: 8,
+          border: "none",
+          boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+        }}
+      >
+      <TextTitle
+        style={{
+        textAlign: "center",
+        fontSize: 50,
+        fontWeight: "bold",
+        color: "#eee",
+        }}
+        >
+          Home of the Archaic Shell Babies
+      </TextTitle>
+      <s.TextDescription
+            ai={"center"}
+            jc={"center"}
+            style={{
+            textAlign: "center",
+            fontWeight: "bold",
+            color: "#eee", 
+            fontSize: 23,
+            }}
+          >
+            Live for a purpose and join the movement.
+        </s.TextDescription>
+    </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
@@ -231,12 +269,22 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
+                fontSize: 40,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+              Mint Your NFT!
+            </s.TextTitle>
+            <s.TextTitle
+              style={{
+                textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -328,7 +376,7 @@ function App() {
                     >
                       CONNECT METAMASK
                     </StyledButton>
-                    {blockchain.errorMsg !=="" ? (
+                    {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
                         <s.TextDescription
@@ -340,7 +388,7 @@ function App() {
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
-                    ) : getData()}
+                    ) : null}
                   </s.Container>
                 ) : (
                   <>
@@ -431,9 +479,8 @@ function App() {
               color: "var(--secondary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            We have set the gas limit for the contract to successfully mint your NFT.
+            We recommend that you don't change the gas limit.
             </s.TextDescription>
       </s.Container>
       </s.Container>
