@@ -542,22 +542,22 @@ const getData = async () => {
             Archaic Shell Babies are 10,000 Sea Turtle digital collectible's on the Ethereum Blockchain. We're passionate about getting the ocean cleaned and inspiring others to live a life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
-</s.Container>
-        <s.SpacerSmall />
-         <s.Container
-            flex={1}
-            ai={"center"}
-            jc={"center"}
-            display={"flex"}
-            style={{
-              backgroundColor: "#000",
-              padding: 8,
-              borderRadius: 8,
-              border: "none",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              width: "device-width",
-            }}
-          >
+       </s.Container>
+       </s.Container>
+            <s.Container 
+             flex={1} 
+             ai={"center"} 
+             jc={"center"} 
+             display={"flex"} 
+             style={{ 
+               backgroundColor: "#FFE5B4", 
+               padding: 8, 
+               borderRadius: 8, 
+               border: "none", 
+               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+               width: "device-width", 
+             }} 
+           >
        <s.TextTitle
               style={{
                 textAlign: "center",
