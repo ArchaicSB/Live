@@ -608,7 +608,7 @@ The discount book holds various uses like discounts on re-usable tote bags, wate
             >
             Coming soon! :)
           </s.TextDescription>
-        <s.SpacerSmall />2px
+        <s.SpacerSmall />
        <s.TextDescription
               style={{
                 textAlign: "center",
@@ -619,24 +619,13 @@ The discount book holds various uses like discounts on re-usable tote bags, wate
             >
             Story Time: A Keystone Species
           </s.TextDescription>
-        <s.SpacerSmall />
-        <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            Story Time: A Keystone Species
-          </s.TextTitle>
          <s.SpacerSmall />
         <s.TextDescription
             style={{
               textAlign: "center",
               fontSize: 24,
               fontWeight: "bold",
-              color: "var(--primary-text)"
+              color: "#333"
             }}
           >
          Once upon a time, thousands of years ago, 7 species of Sea Turtles thrived in a world full of other marine life. As they swam through the oceans full of seeweed forests and kelp beds, they had an abundant food supply. 
