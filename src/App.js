@@ -729,7 +729,7 @@ const getData = async () => {
                 }}
                   />
               <s.SpacerXSmall />
-              </s.Container>
+          </s.Container>
     </s.Screen>
   );
 }
