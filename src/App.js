@@ -4,7 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import { StatusBar } from "expo-status-bar";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -731,7 +730,6 @@ const getData = async () => {
                   />
               <s.SpacerXSmall />
               </s.Container>
-        <StatusBar style="auto" />
     </s.Screen>
   );
 }
