@@ -230,13 +230,14 @@ function App() {
           >
             <s.TextTitle
               style={{
+                transform: "underline",
                 textAlign: "center",
                 fontSize: 40,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
             >
-              Mint Your NFT!
+              Mint Your NFT
             </s.TextTitle>
             <s.TextTitle
               style={{
