@@ -485,20 +485,20 @@ const getData = async () => {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-          <s.Container
-            flex={1}
-            ai={"center"}
-            jc={"center"}
-            display={"flex"}
-            style={{
-              backgroundColor: "#FFE5B4",
-              padding: 8,
-              borderRadius: 8,
-              border: "none",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-              width: "device-width",
-            }}
-          >
+           <s.Container 
+             flex={1} 
+             ai={"center"} 
+             jc={"center"} 
+             display={"flex"} 
+             style={{ 
+               backgroundColor: "#FFE5B4", 
+               padding: 8, 
+               borderRadius: 8, 
+               border: "none", 
+               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+               width: "device-width", 
+             }} 
+           >
           <s.TextTitle
               style={{
                 textAlign: "center",
