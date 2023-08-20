@@ -4,7 +4,9 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import { LinearGradient } from 'expo-linear-gradient';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -100,6 +102,15 @@ export const Title = styled.h1`
   text-align: center;
   color: #000000;
 `;
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#FFE5B4",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
 
 function App() {
   const dispatch = useDispatch();
@@ -548,19 +559,11 @@ const getData = async () => {
         <s.SpacerSmall />
         </s.Container>
         <LinearGradient
-             flex={1} 
-             ai={"center"} 
-             jc={"center"} 
-             display={"flex"} 
-             background={linear-gradient("#006ded 0%", "#1bace2 34.48%", "#00e2ed 100%")}
-             style={{ 
-               padding: 8, 
-               borderRadius: 8, 
-               border: "none", 
-               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-               width: "device-width", 
-             }} 
-           >
+        style={styles.container}
+        colors={["#fff", "#000"]}
+        start={{x: 0, y: 0}}
+        end={{x: 0, y: 1}}
+        >
        <s.TextTitle
               style={{
                 textAlign: "center",
@@ -731,6 +734,7 @@ const getData = async () => {
                   />
               <s.SpacerXSmall />
               </s.Container>
+        <StatusBar style="auto" />
     </s.Screen>
   );
 }
