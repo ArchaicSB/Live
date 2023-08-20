@@ -513,7 +513,7 @@ function App() {
               fontWeight: "bold",
               color: "var(--primary-text)",
             }}
-          >
+            >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
             revolutionize conservation and humanitarian efforts through the power of Web3.
           </s.TextDescription>
