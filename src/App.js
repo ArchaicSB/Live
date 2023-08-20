@@ -605,7 +605,7 @@ const getData = async () => {
             We have partnered with an extraordinary Sea Turtle company to 
             give our NFT holders discounts on their travel programs. 
        <s.SpacerSmall />
-            Yes.. That's right.. Travel Programs. For ocean-focused trips toother countries.
+            Yes.. That's right.. Travel Programs. For ocean-focused trips to other countries.
             <s.SpacerSmall />
             The discount book holds other various uses like discounts on re-usable tote bags, water bottles, and more.
           </s.TextDescription>
