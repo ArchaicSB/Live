@@ -217,8 +217,8 @@ function App() {
         >
           <s.TextTitle
           flex={1}
-          ai={"center"}
-          jc={"center"}
+          ai={"left"}
+          jc={"left"}
           style={{
             marginRight: "24px",
             textAlign: "left",
