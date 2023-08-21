@@ -248,7 +248,8 @@ function App() {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: "var(--primary)" }}
+        style={{ padding: 12, backgroundColor: "var(--primary)",
+        width="100%"}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
