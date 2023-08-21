@@ -49,20 +49,6 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-  overflow: hidden; /* Hide overflowing gradient overlay */
-
-  /* Gradient overlay using ::before */
-  ::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
-    opacity: 0.5; /* Adjust the opacity as needed */
-    pointer-events: none; /* Allow interactions with the content */
-  }
 `;
 
 export const TextTitle = styled.p`
