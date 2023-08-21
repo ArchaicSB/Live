@@ -212,7 +212,7 @@ function App() {
         ai={"center"}
         style={{ 
           padding: 12, 
-          background: "linear-gradient(to top, #000, #fff)",
+          background: "linear-gradient(to bottom, #000, #eee)",
         }}
         >
           <s.TextTitle
@@ -224,7 +224,7 @@ function App() {
             fontSize: "23px",
             fontWeight: "bold",
             textTransform: "capitalize",
-            background: "linear-gradient(to bottom, #FFE5B4, #7DF9FF)",
+            color: "#000",
           }}
           >
             Home of the Archaic Shell Babies
@@ -238,7 +238,7 @@ function App() {
             fontSize: "13px",
             fontWeight: "bold",
             textTransform: "capitalize",
-            background: "linear-gradient(to bottom, #FFE5B4, #7DF9FF)",
+            background: "linear-gradient(to bottom, #000, #fff)",
           }}
           >
             Live for a purpose and join the movement
