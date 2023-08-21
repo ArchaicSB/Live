@@ -470,7 +470,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
           <s.TextDescription
             style={{
-              fontSize: "12px",
+              fontSize: "16px",
               textAlign: "center",
               color: "var(--secondary-text)",
             }}
@@ -482,7 +482,7 @@ function App() {
           <s.SpacerSmall />
           <s.TextDescription
             style={{
-              fontSize: "12px",
+              fontSize: "16px",
               textAlign: "center",
               color: "var(--secondary-text)",
             }}
