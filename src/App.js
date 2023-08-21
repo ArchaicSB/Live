@@ -210,6 +210,43 @@ function App() {
       <s.Container
         flex={2}
         ai={"center"}
+        style={{ 
+          padding: 12, 
+          background: "linear-gradient(to top, #000, #fff)",
+        }}
+        >
+          <s.TextTitle
+          flex={1}
+          ai={"center"}
+          jc={"center"}
+          style={{
+            textAlign: "left",
+            fontSize: "23px",
+            fontWeight: "bold",
+            textTransform: "capitalize",
+            background: "linear-gradient(to bottom, #FFE5B4, #7DF9FF)",
+          }}
+          >
+            Home of the Archaic Shell Babies
+          </s.TextTitle>
+          <s.TextDescription
+          flex={1}
+          ai={"center"}
+          jc={"center"}
+          style={{
+            textAlign: "left",
+            fontSize: "13px",
+            fontWeight: "bold",
+            textTransform: "capitalize",
+            background: "linear-gradient(to bottom, #FFE5B4, #7DF9FF)",
+          }}
+          >
+            Live for a purpose and join the movement
+          </s.TextDescription>
+      </s.Container>
+      <s.Container
+        flex={2}
+        ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
@@ -236,7 +273,6 @@ function App() {
           >
             <s.TextTitle
               style={{
-                transform: "underline",
                 textAlign: "center",
                 fontSize: 40,
                 fontWeight: "bold",
