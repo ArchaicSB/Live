@@ -512,7 +512,6 @@ function App() {
            >
           <s.TextTitle
               style={{
-                float: "left",
                 textAlign: "left",
                 fontSize: 33,
                 fontWeight: "bold",
@@ -547,6 +546,7 @@ function App() {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
+              float: "right", 
               textAlign: "right",
               fontSize: 18,
               fontWeight: "bold",
