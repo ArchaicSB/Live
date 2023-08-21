@@ -508,6 +508,7 @@ function App() {
            >
           <s.TextTitle
               style={{
+                marginLeft: "200px",
                 textAlign: "center",
                 fontSize: 33,
                 fontWeight: "bold",
