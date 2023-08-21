@@ -616,6 +616,7 @@ function App() {
             The discount book holds other various uses like discounts on re-usable tote bags, 
             water bottles, and more.
           </s.TextDescription>
+          <s.SpacerSmall />
           <s.TextTitle
                 style={{
                   textAlign: "center",
@@ -626,6 +627,7 @@ function App() {
               >
                 Archaic Sea Turtle Club:
               </s.TextTitle>
+              <s.SpacerSmall />
               <s.TextDescription
                   style={{
                     textAlign: "center",
