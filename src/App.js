@@ -221,7 +221,7 @@ function App() {
           jc={"center"}
           style={{
             textAlign: "left",
-            fontSize: "28px",
+            fontSize: "32px",
             fontWeight: "bold",
             textTransform: "capitalize",
             color: "#000",
@@ -235,7 +235,7 @@ function App() {
           jc={"center"}
           style={{
             textAlign: "left",
-            fontSize: "13px",
+            fontSize: "18px",
             fontWeight: "bold",
             textTransform: "capitalize",
             color: "#fff",
