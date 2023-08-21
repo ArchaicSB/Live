@@ -497,12 +497,9 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
-             float={"left"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
-                padding: 8, 
-                float: "left",
-                flexDirection: "row",
+                padding: 12
                 marginRight: "12px",
                 borderRadius: 8, 
                 border: "none", 
@@ -512,7 +509,7 @@ function App() {
            >
           <s.TextTitle
               style={{
-                textAlign: "left",
+                textAlign: "center",
                 fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -522,8 +519,7 @@ function App() {
           </s.TextTitle>
           <s.TextDescription
             style={{
-              float: "left",
-              textAlign: "left",
+              textAlign: "center",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -535,7 +531,7 @@ function App() {
          <s.SpacerMedium />
             <s.TextTitle
               style={{
-                textAlign: "right",
+                textAlign: "center" 
                 fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -546,8 +542,7 @@ function App() {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
-              float: "right", 
-              textAlign: "right",
+              textAlign: "center",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -564,12 +559,10 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
-             float={"right"}
-            style={{
+              style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8, 
-              flexDirection: "row",
-              marginLeft: "12px",
+              margin: "8px",
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
