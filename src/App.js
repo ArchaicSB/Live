@@ -496,7 +496,7 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              style={{ 
-                background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF)",
+                background: "linear-gradient(to bottom right, #7DF9FF, #FFE5B4, #7DF9FF)",
                 padding: 8, 
                 borderRadius: 8, 
                 border: "none", 
@@ -556,7 +556,7 @@ function App() {
              jc={"center"} 
              display={"flex"}
             style={{
-              backgroundColor: "#FFE5B4", 
+              background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8, 
               borderRadius: 8, 
               border: "none", 
