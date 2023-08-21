@@ -224,7 +224,6 @@ function App() {
             textAlign: "left",
             fontSize: "32px",
             fontWeight: "bold",
-            textTransform: "capitalize",
             color: "#000",
           }}
           >
@@ -238,7 +237,6 @@ function App() {
             textAlign: "left",
             fontSize: "18px",
             fontWeight: "bold",
-            textTransform: "capitalize",
             color: "#fff",
           }}
           >
@@ -249,7 +247,7 @@ function App() {
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
-        width="100%"}}
+        width="device-width"}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
@@ -513,7 +511,7 @@ function App() {
               style={{
               float: "left",
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -524,7 +522,7 @@ function App() {
             style={{
               float: "left",
               textAlign: "center",
-              fontSize: 24,
+              fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
             }}
@@ -537,7 +535,7 @@ function App() {
               style={{
               float: "right",
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -549,7 +547,7 @@ function App() {
             style={{
               float: "right",
               textAlign: "center",
-              fontSize: 24,
+              fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
             }}
@@ -578,7 +576,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -589,7 +587,7 @@ function App() {
               <s.TextDescription
                 style={{
                   textAlign: "center",
-                  fontSize: 24,
+                  fontSize: 18,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
@@ -601,7 +599,7 @@ function App() {
               <s.TextTitle
                 style={{
                   textAlign: "center",
-                  fontSize: 50,
+                  fontSize: 33,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
@@ -612,7 +610,7 @@ function App() {
           <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 23,
+                    fontSize: 18,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
@@ -627,7 +625,7 @@ function App() {
           <s.TextTitle
                 style={{
                   textAlign: "center",
-                  fontSize: 50,
+                  fontSize: 33,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
@@ -638,7 +636,7 @@ function App() {
               <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 23,
+                    fontSize: 18,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
@@ -665,7 +663,7 @@ function App() {
           <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -675,7 +673,7 @@ function App() {
           <s.TextDescription
               style={{
                 textAlign: "center",
-                fontSize: 14,
+                fontSize: 18,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -686,7 +684,7 @@ function App() {
         <s.TextDescription
             style={{
               textAlign: "center",
-              fontSize: 24,
+              fontSize: 14,
               fontWeight: "bold",
               color: "#333"
             }}
