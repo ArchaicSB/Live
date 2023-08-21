@@ -611,7 +611,7 @@ function App() {
                   }}
                 >
             One significant part of this discount book is for travel. Yes.. That's right..
-            Travel Programs. For ocean-focused trips to other countries.
+            Travel Programs. To experience the ocean and sea turtle habitats. 
             <s.SpacerSmall />
             The discount book holds other various uses like discounts on re-usable tote bags, 
             water bottles, and more.
