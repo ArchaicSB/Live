@@ -530,7 +530,7 @@ function App() {
          <s.SpacerMedium />
             <s.TextTitle
               style={{
-                textAlign: "center" 
+                textAlign: "center",
                 fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
