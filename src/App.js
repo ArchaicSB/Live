@@ -220,6 +220,7 @@ function App() {
           ai={"center"}
           jc={"center"}
           style={{
+            marginRight: "24px",
             textAlign: "left",
             fontSize: "32px",
             fontWeight: "bold",
