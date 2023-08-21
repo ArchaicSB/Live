@@ -609,14 +609,31 @@ function App() {
                     color: "var(--primary-text)",
                   }}
                 >
-            One significant part of this discount book is for travel. 
-            We have partnered with an extraordinary Sea Turtle company to 
-            give our NFT holders discounts on their travel programs. 
-            <s.SpacerSmall />
-            Yes.. That's right.. Travel Programs. For ocean-focused trips to other countries.
+            One significant part of this discount book is for travel. Yes.. That's right..
+            Travel Programs. For ocean-focused trips to other countries.
             <s.SpacerSmall />
             The discount book holds other various uses like discounts on re-usable tote bags, 
             water bottles, and more.
+          </s.TextDescription>
+          <s.TextTitle
+                style={{
+                  textAlign: "center",
+                  fontSize: 50,
+                  fontWeight: "bold",
+                  color: "var(--primary-text)",
+                }}
+              >
+                Archaic Sea Turtle Club:
+              </s.TextTitle>
+              <s.TextDescription
+                  style={{
+                    textAlign: "center",
+                    fontSize: 23,
+                    fontWeight: "bold",
+                    color: "var(--primary-text)",
+                  }}
+                >
+            This section is coming soon :)
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
