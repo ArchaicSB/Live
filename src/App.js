@@ -501,10 +501,11 @@ function App() {
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 8, 
+                margin: "auto",
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-                width: "100%", 
+                width: "50%", 
              }}
            >
           <s.TextTitle
@@ -562,10 +563,11 @@ function App() {
             style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8, 
+              margin: "auto",
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-              width: "device-width", 
+              width: "50%", 
             }}
             >
             <s.TextTitle
