@@ -212,7 +212,7 @@ function App() {
         ai={"center"}
         style={{ 
           padding: 12, 
-          background: "linear-gradient(to bottom right, #eee, #000)",
+          background: "linear-gradient(to bottom right, #3EB489, #000)",
         }}
         >
           <s.TextTitle
