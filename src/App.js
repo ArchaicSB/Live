@@ -680,7 +680,7 @@ function App() {
               textAlign: "center",
               fontSize: 14,
               fontWeight: "bold",
-              color: "#333"
+              color: "#333",
             }}
               >
                 Once upon a time, thousands of years ago, 7 species of Sea Turtles 
