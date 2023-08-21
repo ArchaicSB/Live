@@ -212,7 +212,7 @@ function App() {
         ai={"center"}
         style={{ 
           padding: 12, 
-          background: "linear-gradient(to bottom, #000, #eee)",
+          background: "linear-gradient(to bottom right, #000, #eee)",
         }}
         >
           <s.TextTitle
@@ -221,7 +221,7 @@ function App() {
           jc={"center"}
           style={{
             textAlign: "left",
-            fontSize: "23px",
+            fontSize: "28px",
             fontWeight: "bold",
             textTransform: "capitalize",
             color: "#000",
@@ -238,7 +238,7 @@ function App() {
             fontSize: "13px",
             fontWeight: "bold",
             textTransform: "capitalize",
-            background: "linear-gradient(to bottom, #000, #fff)",
+            color: "#fff",
           }}
           >
             Live for a purpose and join the movement
