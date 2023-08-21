@@ -247,7 +247,7 @@ function App() {
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
-        width="device-width"}}
+        width:"device-width"}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
