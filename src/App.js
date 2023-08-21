@@ -456,6 +456,7 @@ function App() {
       </s.Container>
           <s.SpacerXSmall />
            <s.Container
+             flex={1}
              ai={"center"} 
              jc={"center"} 
              style={{ 
