@@ -247,7 +247,7 @@ function App() {
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
-        width:"device-width"}}
+        width="device-width"}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
@@ -497,11 +497,13 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
+             float={"left"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 8, 
+                float: "left",
                 flexDirection: "row",
-                margin: "auto",
+                marginRight: "12px",
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
@@ -510,8 +512,8 @@ function App() {
            >
           <s.TextTitle
               style={{
-              float: "left",
-                textAlign: "justify",
+                float: "left",
+                textAlign: "left",
                 fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -522,7 +524,7 @@ function App() {
           <s.TextDescription
             style={{
               float: "left",
-              textAlign: "justify",
+              textAlign: "left",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -534,8 +536,7 @@ function App() {
          <s.SpacerMedium />
             <s.TextTitle
               style={{
-                float: "right",
-                textAlign: "justify",
+                textAlign: "right",
                 fontSize: 33,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
@@ -546,8 +547,7 @@ function App() {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
-              float: "right",
-              textAlign: "justify",
+              textAlign: "right",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -564,11 +564,12 @@ function App() {
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
+             float={"right"}
             style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8, 
               flexDirection: "row",
-              margin: "auto",
+              marginLeft: "12px",
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
