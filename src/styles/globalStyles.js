@@ -38,6 +38,7 @@ export const SpacerLarge = styled.div`
 
 // Used for providing a wrapper around a component
 export const Container = styled.div`
+  position: relative; /* Make the container's position relative */
   display: flex;
   flex: ${({ flex }) => (flex ? flex : 0)};
   flex-direction: ${({ fd }) => (fd ? fd : "column")};
@@ -48,9 +49,20 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-  
-  /* Gradient background */
-  background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
+  overflow: hidden; /* Hide overflowing gradient overlay */
+
+  /* Gradient overlay using ::before */
+  ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
+    opacity: 0.5; /* Adjust the opacity as needed */
+    pointer-events: none; /* Allow interactions with the content */
+  }
 `;
 
 export const TextTitle = styled.p`
