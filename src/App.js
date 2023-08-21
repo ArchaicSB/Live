@@ -551,6 +551,7 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
+        <s.SpacerSmall />
         <s.Container
              ai={"center"} 
              jc={"center"} 
@@ -617,6 +618,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
+        <s.SpacerSmall />
         <s.Container 
             flex={1} 
             ai={"center"} 
