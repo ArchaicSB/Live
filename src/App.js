@@ -653,7 +653,7 @@ function App() {
                width: "device-width", 
              }} 
           >
-          <s.TextDescription
+          <s.TextTitle
               style={{
                 textAlign: "center",
                 fontSize: 50,
@@ -662,6 +662,16 @@ function App() {
               }}
             >
             Story Time: A Keystone Species
+          </s.TextTitle>
+          <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 14,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+            (2 Min Read)
           </s.TextDescription>
           <s.SpacerSmall />
         <s.TextDescription
