@@ -588,7 +588,7 @@ function App() {
                 }}
               >
                 Every NFT has two parts. Your personal discount book 
-                and access into the Archaic Sea Turtle Club.
+                and the Archaic Sea Turtle Club.
               </s.TextDescription>
               <s.SpacerMedium />
               <s.TextTitle
