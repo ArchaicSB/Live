@@ -251,12 +251,9 @@ function App() {
       >
         <a href={CONFIG.MARKETPLACE_LINK2}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} 
-          style={{
-            paddingTop: "12px"
-          }}
           />
         </a>
-        <s.SpacerSmall />
+        <s.SpacerXSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
