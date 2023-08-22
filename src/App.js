@@ -537,7 +537,7 @@ function App() {
             >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
             revolutionize conservation and humanitarian efforts through the power of Web3.
-            We are donating a huge portion of the proceeds to extraordinary companies 
+            We are donating a portion of the proceeds to extraordinary companies 
             cleaning the ocean and saving sea turtles.
           </s.TextDescription>
          <s.SpacerMedium />
