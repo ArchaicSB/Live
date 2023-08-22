@@ -743,6 +743,7 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
+     <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
     <s.Container flex={1} jc={"center"} ai={"center"}
             image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
@@ -796,6 +797,7 @@ function App() {
             />
           <s.SpacerXSmall />
       </s.Container>
+     </ResponsiveWrapper>
     </s.Screen>
   );
 }
