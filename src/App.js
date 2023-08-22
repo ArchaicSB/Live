@@ -503,7 +503,7 @@ function App() {
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-                width: "device-width", 
+                width: "100%", 
              }}
            >
            <s.Container
@@ -630,7 +630,21 @@ function App() {
             The discount book holds other various uses like discounts on re-usable tote bags, 
             water bottles, and more.
           </s.TextDescription>
+         </s.Container>
           <s.SpacerSmall />
+          <s.Container
+             ai={"center"} 
+             jc={"center"} 
+             display={"flex"}
+             style={{ 
+                background: "linear-gradient(to bottom right, #333, #7DF9FF)",
+                padding: 12,
+                borderRadius: 8, 
+                border: "none", 
+                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+                width: "100%",
+             }}
+           >
           <s.TextTitle
                 style={{
                   textAlign: "center",
