@@ -676,7 +676,7 @@ function App() {
             jc={"center"} 
             display={"flex"} 
             style={{ 
-               backgroundColor: "#FFE5B4", 
+                  background: "linear-gradient(to bottom left, #333, #7DF9FF)", 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
