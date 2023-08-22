@@ -743,6 +743,7 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
+<ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
         <s.Container
              flex={1}
              ai={"center"}
@@ -787,7 +788,6 @@ function App() {
             >
                   Do we have more to offer in life? More to contribute?
               </s.TextTitle>
-  <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
             <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
               style={{width: "75%"}}
             />
@@ -809,8 +809,8 @@ function App() {
               }}
             />
           <s.SpacerXSmall />
-      </ResponsiveWrapper>
-     </s.Container>
+      </s.Container>
+     </ResponsiveWrapper>
     </s.Screen>
   );
 }
