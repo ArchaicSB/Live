@@ -510,7 +510,7 @@ function App() {
              display={"flex"}
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 8,
+              padding: 12,
               flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
