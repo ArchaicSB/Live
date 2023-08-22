@@ -504,11 +504,14 @@ function App() {
              }}
            >
            <s.Container
-             flex={2}
-             fd={"row"}
+             flex={1}
+             ai={"center"}
+             jc={"center"}
+             display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
+                flexWrap: "wrap",
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
@@ -563,11 +566,14 @@ function App() {
         </s.Container>
         <s.SpacerSmall />
         <s.Container
-             flex={2}
-             fd={"row"}
+             flex={1}
+             ai={"center"}
+             jc={"center"}
+             display={"flex"}
               style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
+              flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
