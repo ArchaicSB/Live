@@ -508,15 +508,15 @@ function App() {
              ai={"center"}
              jc={"center"}
              display={"flex"}
-             style={{ 
-                background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
-                padding: 12,
-                flexWrap: "wrap",
-                borderRadius: 8, 
-                border: "none", 
-                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-             }}
-           >
+              style={{
+              background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
+              padding: 8,
+              flexWrap: "wrap",
+              borderRadius: 8, 
+              border: "none", 
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+            }}
+            >
           <s.TextTitle
               style={{
                 textAlign: "center",
