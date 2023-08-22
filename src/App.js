@@ -493,10 +493,23 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <s.Container
+          <s.Container
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
+             style={{ 
+                background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
+                padding: 12,
+                borderRadius: 8, 
+                border: "none", 
+                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+                width: "device-width", 
+             }}
+           >
+           <s.Container
+             ai={"center"} 
+             jc={"center"} 
+             display={"table-cell"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
@@ -558,7 +571,7 @@ function App() {
         <s.Container
              ai={"center"} 
              jc={"center"} 
-             display={"flex"}
+             display={"table-cell"}
               style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
@@ -641,6 +654,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
+     </s.Container>
         <s.SpacerSmall />
         <s.Container 
             flex={1} 
