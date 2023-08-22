@@ -481,7 +481,7 @@ function App() {
           <s.SpacerSmall />
           <s.TextDescription
             style={{
-              fontSize: "16px",
+              fontSize: "12px",
               textAlign: "center",
               color: "var(--secondary-text)",
             }}
@@ -528,7 +528,7 @@ function App() {
           </s.TextTitle>
           <s.TextDescription
             style={{
-              textAlign: "left",
+              textAlign: "center",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -551,7 +551,7 @@ function App() {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
-              textAlign: "left",
+              textAlign: "center",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -591,7 +591,7 @@ function App() {
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
-                  textAlign: "right",
+                  textAlign: "center",
                   fontSize: 18,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
@@ -614,7 +614,7 @@ function App() {
               <s.SpacerMedium />
           <s.TextDescription
                   style={{
-                    textAlign: "right",
+                    textAlign: "center",
                     fontSize: 18,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
@@ -743,9 +743,21 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
-     <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
-    <s.Container flex={1} jc={"center"} ai={"center"}
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
+        <s.Container
+             flex={1}
+             ai={"center"}
+             jc={"center"}
+             display={"flex"}
+              style={{
+              background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
+              padding: 8,
+              flexWrap: "wrap",
+              borderRadius: 8, 
+              border: "none", 
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+            }}
+            >
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
               backgroundColor: "#000",
               padding: 8,
@@ -775,6 +787,7 @@ function App() {
             >
                   Do we have more to offer in life? More to contribute?
               </s.TextTitle>
+  <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
             <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
               style={{width: "75%"}}
             />
@@ -796,8 +809,8 @@ function App() {
               }}
             />
           <s.SpacerXSmall />
-      </s.Container>
-     </ResponsiveWrapper>
+      </ResponsiveWrapper>
+     </s.Container>
     </s.Screen>
   );
 }
