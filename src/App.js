@@ -743,20 +743,11 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
-<ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
         <s.Container
              flex={1}
              ai={"center"}
              jc={"center"}
              display={"flex"}
-              style={{
-              background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 8,
-              flexWrap: "wrap",
-              borderRadius: 8, 
-              border: "none", 
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-            }}
             >
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
@@ -810,7 +801,6 @@ function App() {
             />
           <s.SpacerXSmall />
       </s.Container>
-     </ResponsiveWrapper>
     </s.Screen>
   );
 }
