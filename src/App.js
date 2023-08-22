@@ -579,7 +579,7 @@ function App() {
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
               width: "50%", 
-              float: "right",
+              float: "left",
             }}
             >
             <s.TextTitle
