@@ -493,7 +493,7 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-          <s.ResponsiveWrapper
+          <ResponsiveWrapper
              flex={1}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
@@ -659,7 +659,6 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
-       </s.Container>
     </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container 
