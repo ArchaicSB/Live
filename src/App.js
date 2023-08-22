@@ -493,9 +493,7 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-          <s.Container
-             ai={"center"} 
-             jc={"center"} 
+          <s.ResponsiveWrapper
              display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
@@ -503,7 +501,7 @@ function App() {
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-                width: "100%", 
+                flexDirection: "row", 
              }}
            >
            <s.Container
@@ -578,8 +576,6 @@ function App() {
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-              width: "50%", 
-              float: "left",
             }}
             >
             <s.TextTitle
@@ -642,7 +638,6 @@ function App() {
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-                width: "100%",
              }}
            >
           <s.TextTitle
@@ -668,7 +663,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
-     </s.Container>
+     </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container 
             flex={1} 
