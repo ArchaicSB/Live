@@ -562,11 +562,11 @@ function App() {
               style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
-              marginLeft: "50%", 
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-              width: "100%", 
+              width: "50%", 
+              float: "right",
             }}
             >
             <s.TextTitle
