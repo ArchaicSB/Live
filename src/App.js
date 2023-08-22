@@ -212,7 +212,7 @@ function App() {
         ai={"center"}
         style={{ 
           padding: 12, 
-          background: "linear-gradient(to bottom, #7DF9FF, #000)",
+          background: "linear-gradient(to bottom, #3EB489, #000)",
         }}
         >
           <s.TextTitle
@@ -495,7 +495,7 @@ function App() {
           <ResponsiveWrapper
              flex={1}
              style={{ 
-                background: "linear-gradient(to top right, #3EB489, #FFE5B4)",
+                background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
                 borderRadius: 8, 
                 border: "none", 
@@ -508,7 +508,7 @@ function App() {
              jc={"center"}
              display={"flex"}
              style={{ 
-                background: "linear-gradient(to top left, #FFE5B4, #7DF9FF, #FFE5B4)",
+                background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
                 padding: 12,
                 flexWrap: "wrap",
                 borderRadius: 8, 
@@ -570,7 +570,7 @@ function App() {
              jc={"center"}
              display={"flex"}
               style={{
-              background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
+              background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
               flexWrap: "wrap",
               borderRadius: 8, 
