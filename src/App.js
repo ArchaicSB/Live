@@ -748,8 +748,7 @@ function App() {
              ai={"center"}
              jc={"center"}
              display={"flex"}
-            >
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
+           image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             style={{
               backgroundColor: "#000",
               padding: 8,
