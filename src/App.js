@@ -467,17 +467,16 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "75%" }}>
           <s.TextDescription
             style={{
-              fontSize: "16px",
+              fontSize: "12px",
               textAlign: "center",
               color: "var(--secondary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} ) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            Please make sure you are connected to the (
+            {CONFIG.NETWORK.NAME} ) network and the correct address. Please note: Once you make the purchase, you cannot undo this action.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
