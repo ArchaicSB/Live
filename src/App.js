@@ -659,6 +659,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
+       </s.Container>
     </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container 
