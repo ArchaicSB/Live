@@ -510,7 +510,7 @@ function App() {
              display={"flex"}
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 12,
+              padding: 8,
               flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
@@ -537,6 +537,8 @@ function App() {
             >
             Archaic Shell Babies is a groundbreaking NFT project with a mission to 
             revolutionize conservation and humanitarian efforts through the power of Web3.
+            We are donating a huge portion of the proceeds to extraordinary companies 
+            cleaning the ocean and saving sea turtles.
           </s.TextDescription>
          <s.SpacerMedium />
             <s.TextTitle
@@ -558,9 +560,10 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Archaic Shell Babies are 10,000 Sea Turtle digital collectible's 
-            on the Ethereum Blockchain. We're passionate about getting the ocean 
-            cleaned and inspiring others to live a life in harmony with mother nature.
+            Archaic Shell Babies are 10,000 Sea Turtle digital collectible's, aka,  
+            non-fungible-tokens(NFTs) on the Ethereum Blockchain. We're passionate about 
+            getting the ocean cleaned and inspiring others to live a life in harmony with 
+            mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
