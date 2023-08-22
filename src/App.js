@@ -504,8 +504,8 @@ function App() {
              }}
            >
            <s.Container
-             ai={"center"} 
-             jc={"center"}
+             flex={2}
+             fd={"row"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
@@ -526,7 +526,7 @@ function App() {
           </s.TextTitle>
           <s.TextDescription
             style={{
-              textAlign: "center",
+              textAlign: "left",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -549,7 +549,7 @@ function App() {
           <s.SpacerMedium />
           <s.TextDescription
             style={{
-              textAlign: "center",
+              textAlign: "left",
               fontSize: 18,
               fontWeight: "bold",
               color: "var(--primary-text)",
@@ -563,9 +563,8 @@ function App() {
         </s.Container>
         <s.SpacerSmall />
         <s.Container
-             ai={"center"} 
-             jc={"center"} 
-             display={"flex"}
+             flex={2}
+             fd={"row"}
               style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
@@ -587,7 +586,7 @@ function App() {
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
-                  textAlign: "center",
+                  textAlign: "right",
                   fontSize: 18,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
@@ -610,7 +609,7 @@ function App() {
               <s.SpacerMedium />
           <s.TextDescription
                   style={{
-                    textAlign: "center",
+                    textAlign: "right",
                     fontSize: 18,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
@@ -623,6 +622,7 @@ function App() {
             water bottles, and more.
           </s.TextDescription>
          </s.Container>
+         </ResponsiveWrapper>
           <s.SpacerSmall />
           <s.Container
              ai={"center"} 
@@ -659,7 +659,6 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
-    </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container 
             flex={1} 
