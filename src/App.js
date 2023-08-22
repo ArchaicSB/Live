@@ -509,7 +509,7 @@ function App() {
            <s.Container
              ai={"center"} 
              jc={"center"} 
-             display={"table"}
+             display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
@@ -571,7 +571,7 @@ function App() {
         <s.Container
              ai={"center"} 
              jc={"center"} 
-             display={"table"}
+             display={"flex"}
               style={{
               background: "linear-gradient(to bottom left, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
