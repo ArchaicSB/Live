@@ -578,8 +578,7 @@ function App() {
               padding: 8,
               flexWrap: "wrap",
               borderRadius: 8, 
-              borderTop: "2px", 
-              borderBottom: "2px",
+              border: "none",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
@@ -602,8 +601,7 @@ function App() {
                   color: "var(--primary-text)",
                 }}
               >
-                Every NFT has two parts. Your personal discount book 
-                and the Archaic Sea Turtle Club.
+                Every NFT has two parts. Your personal eco-friendly discount book and acess into the exclusive Archaic Sea Turtle Club.
               </s.TextDescription>
               <s.SpacerMedium />
               <s.TextTitle
@@ -629,7 +627,7 @@ function App() {
             Travel Programs. To experience the ocean and sea turtle habitats. 
             <s.SpacerSmall />
             The discount book holds other various uses like discounts on re-usable tote bags, 
-            water bottles, and more.
+            water bottles and more.
           </s.TextDescription>
          </s.Container>
          </ResponsiveWrapper>
