@@ -511,7 +511,6 @@ function App() {
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
-              flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
@@ -576,10 +575,8 @@ function App() {
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
-              flexWrap: "wrap",
               borderRadius: 8, 
-              borderTop: "2px", 
-              borderBottom: "2px",
+              border: "none",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
