@@ -494,18 +494,15 @@ function App() {
       </s.Container>
           <s.SpacerXSmall />
           <ResponsiveWrapper
-             display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
-                borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
              }}
            >
            <s.Container
-             flex={1}
-             display={"inline-block"}
+             display={"flex"}
              ai={"center"}
              jc={"center"}
               style={{
@@ -569,7 +566,7 @@ function App() {
         </s.Container>
         <s.SpacerSmall />
         <s.Container
-             flex={1}
+             display={"flex"}
              ai={"center"}
              jc={"center"}
               style={{
