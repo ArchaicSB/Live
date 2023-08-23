@@ -494,7 +494,7 @@ function App() {
       </s.Container>
           <s.SpacerXSmall />
           <ResponsiveWrapper
-             flex={1}
+             display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
                 padding: 12,
@@ -505,9 +505,9 @@ function App() {
            >
            <s.Container
              flex={1}
+             display={"inline-block"}
              ai={"center"}
              jc={"center"}
-             display={"flex"}
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
@@ -570,15 +570,16 @@ function App() {
         <s.SpacerSmall />
         <s.Container
              flex={1}
+             display={"inline-block"}
              ai={"center"}
              jc={"center"}
-             display={"flex"}
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
               flexWrap: "wrap",
               borderRadius: 8, 
-              border: "none",
+              borderTop: "2px", 
+              borderBottom: "2px",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
@@ -601,7 +602,8 @@ function App() {
                   color: "var(--primary-text)",
                 }}
               >
-                Every NFT has two parts. Your personal eco-friendly discount book and acess into the exclusive Archaic Sea Turtle Club.
+                Every NFT has two parts. Your personal discount book 
+                and the Archaic Sea Turtle Club.
               </s.TextDescription>
               <s.SpacerMedium />
               <s.TextTitle
@@ -627,7 +629,7 @@ function App() {
             Travel Programs. To experience the ocean and sea turtle habitats. 
             <s.SpacerSmall />
             The discount book holds other various uses like discounts on re-usable tote bags, 
-            water bottles and more.
+            water bottles, and more.
           </s.TextDescription>
          </s.Container>
          </ResponsiveWrapper>
