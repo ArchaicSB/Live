@@ -574,7 +574,7 @@ function App() {
              jc={"center"}
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 8,
+              padding: 24,
               height: "100%",
               borderRadius: 8, 
               border: "none",
