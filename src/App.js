@@ -511,6 +511,7 @@ function App() {
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
+              boxSizing: "border-box",
               flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
@@ -576,6 +577,7 @@ function App() {
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 8,
+              boxSizing: "border-box",
               flexWrap: "wrap",
               borderRadius: 8, 
               border: "none", 
