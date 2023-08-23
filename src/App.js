@@ -575,10 +575,11 @@ function App() {
              display={"flex"}
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 4,
+              padding: 8,
               flexWrap: "wrap",
-              borderRadius: 4, 
-              border: "none", 
+              borderRadius: 8, 
+              borderTop: "2px", 
+              borderBottom: "2px",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
