@@ -208,7 +208,7 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={2}
+        flex={1}
         ai={"center"}
         style={{ 
           padding: 12, 
@@ -494,6 +494,7 @@ function App() {
       </s.Container>
           <s.SpacerXSmall />
           <ResponsiveWrapper
+             flex={2}
              display={"flex"}
              style={{ 
                 background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
@@ -568,8 +569,7 @@ function App() {
         </s.Container>
         <s.SpacerSmall />
         <s.Container
-             flex={1}
-             display={"inline-block"}
+             flex={2}
              ai={"center"}
              jc={"center"}
               style={{
