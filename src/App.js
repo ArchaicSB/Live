@@ -205,27 +205,6 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-  const missionRef = useRef(null);
-  const utilityRef = useRef(null);
-  const storeRef = useRef(null);
-  const whyRef = useRef(null);
-
-  const scrollToMission = () => {
-    missionRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const scrollToUtility = () => {
-    clubRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const scrollToStore = () => {
-    storeRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const scrollToWhy = () => {
-    aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <s.Screen>
         <s.Container style={{ textAlign: "left" }}>
@@ -509,9 +488,7 @@ function App() {
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
              }}
            >
-           <section ref={missionRef}>
            <s.Container
-             id={"mission"}
              display={"flex"}
              flex={1}
              ai={"center"}
@@ -575,11 +552,8 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
-        </section>
         <s.SpacerSmall />
-        <section ref={utilityRef}>
         <s.Container
-             id={"utility"}
              display={"flex"}
              flex={1}
              ai={"center"}
@@ -642,12 +616,9 @@ function App() {
             water bottles, and more.
           </s.TextDescription>
          </s.Container>
-         </section>
          </ResponsiveWrapper>
           <s.SpacerSmall />
-          <section ref={clubRef}>
           <s.Container
-             id={"club"}
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
@@ -682,16 +653,14 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
-        </section>
         <s.SpacerSmall />
-        <section ref={whyRef}>
         <s.Container 
             id={"why"}
             ai={"center"} 
             jc={"center"} 
             display={"flex"} 
             style={{ 
-                  background: "linear-gradient(to bottom, #7DF9DF, #333)", 
+               background: "linear-gradient(to bottom, #7DF9DF, #333)", 
                padding: 8, 
                borderRadius: 8, 
                border: "none", 
@@ -820,7 +789,6 @@ function App() {
             />
           <s.SpacerXSmall />
       </s.Container>
-      </section>
     </s.Screen>
   );
 }
