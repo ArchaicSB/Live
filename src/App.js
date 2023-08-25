@@ -229,8 +229,8 @@ function App() {
             Home of the Archaic Shell Babies
           </s.TextTitle>
           <s.TextDescription
-          flex={1}
-          ai={"center"}
+          display={"flex"}
+          fd={"column"}
           jc={"center"}
           style={{
             textAlign: "left",
