@@ -182,7 +182,7 @@ function App() {
 
   const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
-      dispatch(fetchData(blockchain.account));
+      dispatch(fetchData(blockchain.account));  
     }
   };
 
@@ -233,9 +233,9 @@ function App() {
         flex={1}
         fd={"column"}
         style={{
-          padding: "12px 0", // Add vertical padding
+          padding: "12px 0",
           background: "linear-gradient(to bottom, #7DF9FF, #000)",
-          alignItems: "center", // Align items horizontally in the center
+          alignItems: "center",
         }}
       >
         <div style={{ textAlign: "left" }}>
@@ -263,7 +263,7 @@ function App() {
           <s.StyledClickable onClick={scrollToMission}>
             Mission
           </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToUtility}>
+          <s.StyledClickable onClick={scrollToClub}>
             Utility
           </s.StyledClickable>
           <s.StyledClickable onClick={scrollToStore}>
@@ -706,6 +706,7 @@ function App() {
         </s.Container>
         </section>
         <s.SpacerSmall />
+        <section ref={whyRef}>
         <s.Container 
             ai={"center"} 
             jc={"center"} 
@@ -783,7 +784,6 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
-    <section ref={whyRef}>
         <s.Container
              flex={1}
              ai={"center"}
