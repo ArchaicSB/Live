@@ -227,7 +227,7 @@ function App() {
             style={{
               fontSize: "18px",
               fontWeight: "bold",
-              color: "#fff",
+              color: "#000",
             }}
           >
             Live for a purpose and join the movement
