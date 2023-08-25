@@ -228,10 +228,11 @@ function App() {
           >
             Home of the Archaic Shell Babies
           </s.TextTitle>
+          <div style={{ flex: 1 }}>
           <s.TextDescription
-          display={"flex"}
           fd={"column"}
-          jc={"center"}
+          jc={"left"}
+          ai={"left"}
           style={{
             textAlign: "left",
             fontSize: "18px",
@@ -241,6 +242,7 @@ function App() {
           >
             Live for a purpose and join the movement
           </s.TextDescription>
+          </div>
       </s.NavBar>
       <s.Container
         flex={2}
