@@ -1,5 +1,18 @@
 import styled from "styled-components";
 
+// Used to create the Nav bar for header
+export const NavBar = styled.div`
+  position: relative;
+  background-color: var(--primary);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: ${({ fd }) => (fd ? fd : "row")};
+  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
+  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
+`;
+
 // Used for wrapping a page component
 export const Screen = styled.div`
   background-color: var(--primary);
@@ -56,6 +69,10 @@ export const TextTitle = styled.p`
   font-size: 22px;
   font-weight: 500;
   line-height: 1.6;
+  highlight{
+    background-color: #fff;
+    font-weight: bold;
+  }
 `;
 
 export const TextSubTitle = styled.p`

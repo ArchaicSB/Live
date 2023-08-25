@@ -221,7 +221,7 @@ function App() {
           jc={"left"}
           style={{
             textAlign: "left",
-            fontSize: "32px",
+            fontSize: "28px",
             fontWeight: "bold",
             color: "#000",
           }}
