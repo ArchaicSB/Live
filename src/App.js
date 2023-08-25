@@ -205,44 +205,74 @@ function App() {
     getData();
   }, [blockchain.account]);
 
+  const missionRef = useRef(null);
+  const utilityRef = useRef(null);
+  const storeRef = useRef(null);
+  const whyRef = useRef(null);
+
+  const scrollToMission = () => {
+    missionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToUtility = () => {
+    clubRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToStore = () => {
+    storeRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToWhy = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <s.Screen>
       <s.NavBar
         display={"flex"}
         flex={1}
-        style={{ 
-          padding: 12, 
+        fd={"column"}
+        style={{
+          padding: "12px 0", // Add vertical padding
           background: "linear-gradient(to bottom, #7DF9FF, #000)",
+          alignItems: "center", // Align items horizontally in the center
         }}
-        >
+      >
+        <div style={{ textAlign: "left" }}>
           <s.TextTitle
-          flex={1}
-          ai={"left"}
-          jc={"left"}
-          style={{
-            textAlign: "left",
-            fontSize: "28px",
-            fontWeight: "bold",
-            color: "#000",
-          }}
+            style={{
+              fontSize: "28px",
+              fontWeight: "bold",
+              color: "#000",
+              marginBottom: "8px",
+            }}
           >
             Home of the Archaic Shell Babies
           </s.TextTitle>
-          <div style={{ flex: 1 }}>
           <s.TextDescription
-          fd={"column"}
-          jc={"left"}
-          ai={"left"}
-          style={{
-            textAlign: "left",
-            fontSize: "18px",
-            fontWeight: "bold",
-            color: "#fff",
-          }}
+            style={{
+              fontSize: "18px",
+              fontWeight: "bold",
+              color: "#fff",
+            }}
           >
             Live for a purpose and join the movement
           </s.TextDescription>
-          </div>
+        </div>
+        <div style={{ marginTop: "20px" }}>
+          <s.StyledClickable onClick={scrollToMission}>
+            Mission
+          </s.StyledClickable>
+          <s.StyledClickable onClick={scrollToUtility}>
+            Utility
+          </s.StyledClickable>
+          <s.StyledClickable onClick={scrollToStore}>
+            Store
+          </s.StyledClickable>
+          <s.StyledClickable onClick={scrollToAbout}>
+            Why
+          </s.StyledClickable>
+        </div>
       </s.NavBar>
       <s.Container
         flex={2}
@@ -504,6 +534,7 @@ function App() {
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
              }}
            >
+           <section ref={missionRef}>
            <s.Container
              display={"flex"}
              flex={1}
@@ -568,7 +599,9 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
+        </section>
         <s.SpacerSmall />
+        <section ref={utilityRef}>
         <s.Container
              display={"flex"}
              flex={1}
@@ -632,8 +665,10 @@ function App() {
             water bottles, and more.
           </s.TextDescription>
          </s.Container>
+         </section>
          </ResponsiveWrapper>
           <s.SpacerSmall />
+          <section ref={clubRef}>
           <s.Container
              ai={"center"} 
              jc={"center"} 
@@ -669,6 +704,7 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
+        </section>
         <s.SpacerSmall />
         <s.Container 
             ai={"center"} 
@@ -747,6 +783,7 @@ function App() {
     <s.SpacerSmall />
     </s.Container>
     <s.SpacerXSmall />
+    <section ref={whyRef}>
         <s.Container
              flex={1}
              ai={"center"}
@@ -804,6 +841,7 @@ function App() {
             />
           <s.SpacerXSmall />
       </s.Container>
+      </section>
     </s.Screen>
   );
 }
