@@ -207,10 +207,15 @@ function App() {
 
   return (
     <s.Screen>
-        <s.Container style={{ textAlign: "left" }}>
+        <s.Container 
+        style={{ 
+          background: "linear-gradient(to bottom right, #000, #fff)",
+          textAlign: "left" 
+          }}
+          >
           <s.TextTitle
             style={{
-              background: "linear-gradient(to bottom right, #000, #fff)",
+              color: "#000",
               fontSize: "28px",
               fontWeight: "bold",
               marginBottom: "8px",
