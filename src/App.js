@@ -263,13 +263,13 @@ function App() {
           <s.StyledClickable onClick={scrollToMission}>
             Mission
           </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToClub}>
+          <s.StyledClickable onClick={scrollToUtility}>
             Utility
           </s.StyledClickable>
           <s.StyledClickable onClick={scrollToStore}>
             Store
           </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToAbout}>
+          <s.StyledClickable onClick={scrollToWhy}>
             Why
           </s.StyledClickable>
         </div>
