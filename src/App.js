@@ -536,6 +536,7 @@ function App() {
            >
            <section ref={missionRef}>
            <s.Container
+             id={"mission"}
              display={"flex"}
              flex={1}
              ai={"center"}
@@ -603,6 +604,7 @@ function App() {
         <s.SpacerSmall />
         <section ref={utilityRef}>
         <s.Container
+             id={"utility"}
              display={"flex"}
              flex={1}
              ai={"center"}
@@ -670,6 +672,7 @@ function App() {
           <s.SpacerSmall />
           <section ref={clubRef}>
           <s.Container
+             id={"club"}
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
@@ -708,6 +711,7 @@ function App() {
         <s.SpacerSmall />
         <section ref={whyRef}>
         <s.Container 
+            id={"why"}
             ai={"center"} 
             jc={"center"} 
             display={"flex"} 
