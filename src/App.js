@@ -228,7 +228,6 @@ function App() {
 
   return (
     <s.Screen>
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
         <s.Container style={{ textAlign: "left" }}>
           <s.TextTitle
             style={{
@@ -250,21 +249,6 @@ function App() {
             Live for a purpose and join the movement
           </s.TextDescription>
         </s.Container>
-        <s.Container style={{ marginTop: "20px" }}>
-          <s.StyledClickable onClick={scrollToMission}>
-            Mission
-          </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToUtility}>
-            Utility
-          </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToStore}>
-            Store
-          </s.StyledClickable>
-          <s.StyledClickable onClick={scrollToWhy}>
-            Why
-          </s.StyledClickable>
-        </s.Container>
-      </ResponsiveWrapper>
       <s.Container
         flex={2}
         ai={"center"}
