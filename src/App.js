@@ -215,7 +215,7 @@ function App() {
           >
           <s.TextTitle
             style={{
-              color: "#000",
+              color: "#fff",
               fontSize: "28px",
               fontWeight: "bold",
               marginBottom: "8px",
