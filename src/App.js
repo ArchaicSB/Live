@@ -238,7 +238,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <div style={{ textAlign: "left" }}>
+        <s.Container style={{ textAlign: "left" }}>
           <s.TextTitle
             style={{
               fontSize: "28px",
@@ -258,8 +258,8 @@ function App() {
           >
             Live for a purpose and join the movement
           </s.TextDescription>
-        </div>
-        <div style={{ marginTop: "20px" }}>
+        </s.Container>
+        <s.Container style={{ marginTop: "20px" }}>
           <s.StyledClickable onClick={scrollToMission}>
             Mission
           </s.StyledClickable>
@@ -272,7 +272,7 @@ function App() {
           <s.StyledClickable onClick={scrollToWhy}>
             Why
           </s.StyledClickable>
-        </div>
+        </s.Container>
       </s.NavBar>
       <s.Container
         flex={2}
