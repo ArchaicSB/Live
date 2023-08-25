@@ -207,9 +207,9 @@ function App() {
 
   return (
     <s.Screen>
-      <s.Container
+      <s.NavBar
+        display={"flex"}
         flex={1}
-        ai={"center"}
         style={{ 
           padding: 12, 
           background: "linear-gradient(to bottom, #7DF9FF, #000)",
@@ -241,7 +241,7 @@ function App() {
           >
             Live for a purpose and join the movement
           </s.TextDescription>
-      </s.Container>
+      </s.NavBar>
       <s.Container
         flex={2}
         ai={"center"}
