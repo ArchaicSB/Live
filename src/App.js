@@ -210,9 +210,9 @@ function App() {
         <s.Container style={{ textAlign: "left" }}>
           <s.TextTitle
             style={{
+              background: "linear-gradient(to bottom right, #000, #fff)",
               fontSize: "28px",
               fontWeight: "bold",
-              color: "#000",
               marginBottom: "8px",
             }}
           >
