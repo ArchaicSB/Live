@@ -1,18 +1,5 @@
 import styled from "styled-components";
 
-// Used to create the Nav bar for header
-export const NavBar = styled.div`
-  position: relative;
-  background-color: var(--primary);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  display: flex;
-  flex-direction: ${({ fd }) => (fd ? fd : "row")};
-  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
-  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
-`;
-
 // Used for wrapping a page component
 export const Screen = styled.div`
   background-color: var(--primary);

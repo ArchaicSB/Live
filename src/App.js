@@ -228,16 +228,7 @@ function App() {
 
   return (
     <s.Screen>
-      <s.NavBar
-        display={"flex"}
-        flex={1}
-        fd={"column"}
-        style={{
-          padding: "12px 0",
-          background: "linear-gradient(to bottom, #7DF9FF, #000)",
-          alignItems: "center",
-        }}
-      >
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
         <s.Container style={{ textAlign: "left" }}>
           <s.TextTitle
             style={{
@@ -273,7 +264,7 @@ function App() {
             Why
           </s.StyledClickable>
         </s.Container>
-      </s.NavBar>
+      </ResponsiveWrapper>
       <s.Container
         flex={2}
         ai={"center"}
