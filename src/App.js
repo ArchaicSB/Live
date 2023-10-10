@@ -219,6 +219,7 @@ function App() {
               fontSize: "28px",
               fontWeight: "bold",
               marginBottom: "8px",
+              textAlign: "center",
             }}
           >
             Home of the Archaic Shell Babies
@@ -671,7 +672,7 @@ function App() {
                   color: "var(--primary-text)",
                 }}
               >
-                Archaic Sea Turtle Club:
+                Visit Our Store!
               </s.TextTitle>
               <s.SpacerSmall />
               <s.TextDescription
