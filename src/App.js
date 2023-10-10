@@ -208,10 +208,6 @@ function App() {
 
   return (
     <s.Screen>
-      <Router>
-        {/*All our root paths go here*/}
-        <Route exact path="/app.js" component={MainPage} />
-      </Router>
       <s.Container
         flex={2}
         ai={"center"}
