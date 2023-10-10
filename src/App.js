@@ -209,8 +209,7 @@ function App() {
     <s.Screen>
         <s.Container 
         style={{ 
-          background: "linear-gradient(to bottom right, #000, #fff)",
-          textAlign: "center" 
+          background: "linear-gradient(to bottom right, #000, #fff)", 
           }}
           >
           <s.TextTitle
@@ -218,7 +217,6 @@ function App() {
               color: "#fff",
               fontSize: "28px",
               fontWeight: "bold",
-              marginBottom: "8px",
               textAlign: "center",
             }}
           >
@@ -688,7 +686,7 @@ function App() {
           <s.SpacerMedium />
         </s.Container>
             <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
-              style={{width: "75%"}}
+              style={{width: "250px", height: "250px"}}
             />
             <s.TextTitle
               style={{
@@ -704,7 +702,7 @@ function App() {
               src={"/config/images/garbagepatch.png"} 
               ai={"center"}
               style={{
-                width: "75%"
+                width: "250px", height: "250px",
               }}
             />
           <s.SpacerXSmall />
