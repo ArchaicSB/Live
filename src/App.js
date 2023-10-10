@@ -218,8 +218,6 @@ function App() {
           color: "#fff",
           fontWeight: "bold",
           fontSize: "33px",
-          margin: "8px",
-          padding: "8px",
         }}>
         Home of the Archaic Shell Babies
       </s.TextTitle>
