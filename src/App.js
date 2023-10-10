@@ -651,30 +651,41 @@ function App() {
           <s.SpacerMedium />
         </s.Container>
         <s.SpacerSmall />
-        <s.Container 
-            id={"why"}
-            ai={"center"} 
-            jc={"center"} 
-            display={"flex"} 
-            style={{ 
-               background: "linear-gradient(to bottom, #7DF9DF, #333)", 
-               padding: 8, 
-               borderRadius: 8, 
-               border: "none", 
-               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
-               width: "device-width", 
-             }} 
-          >
+        <s.Container
+             ai={"center"} 
+             jc={"center"} 
+             display={"flex"}
+             style={{ 
+                background: "linear-gradient(to bottom right, #000, #fff)",
+                padding: 12,
+                borderRadius: 8, 
+                border: "none", 
+                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+             }}
+           >
           <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 33,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-            Shop Coming Soon!
-          </s.TextTitle>
+                style={{
+                  textAlign: "center",
+                  fontSize: 33,
+                  fontWeight: "bold",
+                  color: "var(--primary-text)",
+                }}
+              >
+                Archaic Sea Turtle Club:
+              </s.TextTitle>
+              <s.SpacerSmall />
+              <s.TextDescription
+                  style={{
+                    textAlign: "center",
+                    fontSize: 18,
+                    fontWeight: "bold",
+                    color: "var(--primary-text)",
+                  }}
+                >
+            This section is coming soon :)
+          </s.TextDescription>
+          <s.SpacerMedium />
+        </s.Container>
             <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
               style={{width: "75%"}}
             />
@@ -696,7 +707,6 @@ function App() {
               }}
             />
           <s.SpacerXSmall />
-      </s.Container>
     </s.Screen>
   );
 }
