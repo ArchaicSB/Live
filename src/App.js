@@ -4,6 +4,14 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route }
+    from 'react-router-dom';
+import Home from './pages';
+import Benefits from './pages/benefits';
+import Store from './pages/store';
+import Club from './pages/club';
+import About from './pages/about';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -73,7 +81,6 @@ export const StyledLogo = styled.img`
   transition: width 1s;
   transition: height 1s;
 `;
-
 
 export const StyledImg = styled.img`
   box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
@@ -208,6 +215,16 @@ function App() {
 
   return (
     <s.Screen>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' exact element={<Home />} />
+          <Route path='/benefits' element={<Benefits />} />
+          <Route path='/store' element={<Store />} />
+          <Route path='/club' element={<Club />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+        </Router>
       <s.Container
         flex={2}
         ai={"center"}
