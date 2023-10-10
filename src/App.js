@@ -74,6 +74,7 @@ export const StyledLogo = styled.img`
   transition: height 1s;
 `;
 
+
 export const StyledImg = styled.img`
   box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
   border: 2px solid var(--secondary);
@@ -207,21 +208,33 @@ function App() {
 
   return (
     <s.Screen>
-      <s.Container
+      <s.NavBar class="navbar"
       display={"flex"}
-      ai={"center"}
-      jc={"center"}
       >
       <s.TextTitle
         style={{
-          textAlign: "center",
+          textAlign: "left",
+          float: "left",
           color: "#fff",
           fontWeight: "bold",
           fontSize: "33px",
         }}>
         Home of the Archaic Shell Babies
       </s.TextTitle>
-        </s.Container>
+      <s.TextTitle
+      style={{
+        textAlign: "center",
+        float: "center",
+        color: "#fff",
+        fontWeight: "bold"
+      }}>
+    <a href="#"></a>
+    <a href="#mint">Mint</a>
+    <a href="#utility">Utility</a>
+    <a href="#club">Club</a>
+    <a href="#shop">Shop</a>
+      </s.TextTitle>
+        </s.NavBar>
       <s.Container
         flex={2}
         ai={"center"}
@@ -252,7 +265,7 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
-            <s.TextTitle
+            <s.TextTitle id="mint"
               style={{
                 textAlign: "center",
                 fontSize: 40,
@@ -497,7 +510,7 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
-          <s.TextTitle
+          <s.TextTitle id="utility"
               style={{
                 textAlign: "center",
                 fontSize: 33,
@@ -613,7 +626,7 @@ function App() {
          </s.Container>
          </ResponsiveWrapper>
           <s.SpacerSmall />
-          <s.Container
+          <s.Container id="club"
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
@@ -649,7 +662,7 @@ function App() {
           <s.SpacerMedium />
         </s.Container>
         <s.SpacerSmall />
-        <s.Container
+        <s.Container id="shop"
              ai={"center"} 
              jc={"center"} 
              display={"flex"}
@@ -684,26 +697,6 @@ function App() {
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
-            <StyledLogo alt={"trash"} src={"/config/images/trash.png"} ai={"center"}
-              style={{width: "250px", height: "250px"}}
-            />
-            <s.TextTitle
-              style={{
-                fontSize: 33,
-                textAlign: "center",
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-                  Plastic pollution is everywhere...
-              </s.TextTitle>
-              <StyledLogo alt={"garbagepatch"} 
-              src={"/config/images/garbagepatch.png"} 
-              ai={"center"}
-              style={{
-                width: "250px", height: "250px",
-              }}
-            />
           <s.SpacerXSmall />
     </s.Screen>
   );
