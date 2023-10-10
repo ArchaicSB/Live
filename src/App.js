@@ -227,7 +227,7 @@ function App() {
         <a href="#mint">Mint</a>
         <a href="#utility">Utility</a>
         <a href="#club">Club</a>
-        <a href="/src/shop.html">Shop</a>
+        <a href="/shop.html">Shop</a>
         </s.NavBar>
       <s.Container
         flex={2}
