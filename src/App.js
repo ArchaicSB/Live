@@ -207,21 +207,19 @@ function App() {
 
   return (
     <s.Screen>
-        <s.Container 
-        style={{ 
-          background: "linear-gradient(to bottom right, #000, #fff)", 
-          }}
-          >
-          <s.TextTitle
-            style={{
-              color: "#fff",
-              fontSize: "28px",
-              fontWeight: "bold",
-              textAlign: "center",
-            }}
-          >
-            Home of the Archaic Shell Babies
-          </s.TextTitle>
+      <s.Container
+      display={"flex"}
+      ai={"center"}
+      jc={"center"}
+      >
+      <s.TextTitle
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          fontSize: "33px",
+        }}>
+        Home of the Archaic Shell Babies
+      </s.TextTitle>
         </s.Container>
       <s.Container
         flex={2}
