@@ -222,12 +222,12 @@ function App() {
           padding: "2px 2px",
         }}>
         Home of the Archaic Shell Babies
+        </s.TextTitle>
         <a href="#"></a>
-    <a href="#mint">Mint</a>
-    <a href="#utility">Utility</a>
-    <a href="#club">Club</a>
-    <a href="#shop">Shop</a>
-      </s.TextTitle>
+        <a href="#mint">Mint</a>
+        <a href="#utility">Utility</a>
+        <a href="#club">Club</a>
+        <a href="#shop">Shop</a>
         </s.NavBar>
       <s.Container
         flex={2}
