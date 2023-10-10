@@ -15,7 +15,7 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 15px;
   font-weight: bold;
-  color: var(--secondary-text);
+  color: var(--primary-text);
   width: 125px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px #000000;
@@ -312,6 +312,7 @@ function App() {
               <StyledButton
                 style={{
                   margin: "6px",
+                  color: "var(--primary-text)",
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "https://linktr.ee/archaicsb");
