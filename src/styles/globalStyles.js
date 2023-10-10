@@ -51,6 +51,25 @@ export const Container = styled.div`
   background-position: center;
 `;
 
+export const NavBar = styled.div`
+position: relative; /* Make the container's position relative */
+display: flex;
+flex: ${({ flex }) => (flex ? flex : 0)};
+flex-direction: ${({ fd }) => (fd ? fd : "column")};
+justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
+align-items: ${({ ai }) => (ai ? ai : "flex-start")};
+background-color: ${({ test }) => (test ? "pink" : "none")};
+font-size: 32px;
+font-weight: bold;
+color: white;
+text-decoration: none;
+text-align: center;
+padding: 8px 8px;
+width: 100%;
+background-size: cover;
+background-position: center;
+`;
+
 export const TextTitle = styled.p`
   color: var(--primary-text);
   font-size: 22px;
