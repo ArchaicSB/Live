@@ -210,7 +210,7 @@ function App() {
     <s.Screen>
       <Router>
         {/*All our root paths go here*/}
-        <Route exact path="/" component={MainPage} />
+        <Route exact path="/app.js" component={MainPage} />
       </Router>
       <s.Container
         flex={2}
