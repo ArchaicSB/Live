@@ -4,14 +4,19 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import Navbar from './components/NavbarElements';
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
-import Home from './pages';
-import Benefits from './pages/benefits';
-import Store from './pages/store';
-import Club from './pages/club';
-import About from './pages/about';
+import { BrowserRouter as Router,Route,Switch,Link,Redirect} from 'react-router-dom';
+
+class App extends Component {
+  render() {
+    return(
+      <Router>
+        {/*All our root paths go here*/}
+        <Route path="/" component={} />
+        <Route exact path="/" component={MainPage} />
+      </Router>
+    )
+  }
+}
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -215,16 +220,6 @@ function App() {
 
   return (
     <s.Screen>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path='/' exact element={<Home />} />
-          <Route path='/benefits' element={<Benefits />} />
-          <Route path='/store' element={<Store />} />
-          <Route path='/club' element={<Club />} />
-          <Route path='/about' element={<About />} />
-        </Routes>
-        </Router>
       <s.Container
         flex={2}
         ai={"center"}
