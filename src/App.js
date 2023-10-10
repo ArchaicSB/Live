@@ -210,7 +210,7 @@ function App() {
         <s.Container 
         style={{ 
           background: "linear-gradient(to bottom right, #000, #fff)",
-          textAlign: "left" 
+          textAlign: "center" 
           }}
           >
           <s.TextTitle
@@ -223,15 +223,6 @@ function App() {
           >
             Home of the Archaic Shell Babies
           </s.TextTitle>
-          <s.TextDescription
-            style={{
-              fontSize: "18px",
-              fontWeight: "bold",
-              color: "#000",
-            }}
-          >
-            Live for a purpose and join the movement
-          </s.TextDescription>
         </s.Container>
       <s.Container
         flex={2}
