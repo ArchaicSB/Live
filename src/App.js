@@ -208,27 +208,6 @@ function App() {
 
   return (
     <s.Screen>
-      <s.NavBar class="navbar"
-      display={"flex"}
-      >
-      <s.TextTitle
-        style={{
-          textAlign: "left",
-          float: "left",
-          color: "#fff",
-          fontWeight: "bold",
-          fontSize: "33px",
-          margin: "2px 2px",
-          padding: "2px 2px",
-        }}>
-        Home of the Archaic Shell Babies
-        </s.TextTitle>
-        <a href="#"></a>
-        <a href="#mint">Mint</a>
-        <a href="#utility">Utility</a>
-        <a href="#club">Club</a>
-        <a href="/shop.html">Shop</a>
-        </s.NavBar>
       <s.Container
         flex={2}
         ai={"center"}
