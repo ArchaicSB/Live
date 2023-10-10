@@ -218,17 +218,11 @@ function App() {
           color: "#fff",
           fontWeight: "bold",
           fontSize: "33px",
+          margin: "2px 2px",
+          padding: "2px 2px",
         }}>
         Home of the Archaic Shell Babies
-      </s.TextTitle>
-      <s.TextTitle
-      style={{
-        textAlign: "center",
-        float: "center",
-        color: "#fff",
-        fontWeight: "bold"
-      }}>
-    <a href="#"></a>
+        <a href="#"></a>
     <a href="#mint">Mint</a>
     <a href="#utility">Utility</a>
     <a href="#club">Club</a>
