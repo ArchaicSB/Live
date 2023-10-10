@@ -11,7 +11,6 @@ class App extends Component {
     return(
       <Router>
         {/*All our root paths go here*/}
-        <Route path="/" component={} />
         <Route exact path="/" component={MainPage} />
       </Router>
     )
