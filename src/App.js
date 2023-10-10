@@ -6,17 +6,6 @@ import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import { BrowserRouter as Router,Route,Switch,Link,Redirect} from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return(
-      <Router>
-        {/*All our root paths go here*/}
-        <Route exact path="/" component={MainPage} />
-      </Router>
-    )
-  }
-}
-
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
@@ -219,6 +208,10 @@ function App() {
 
   return (
     <s.Screen>
+      <Router>
+        {/*All our root paths go here*/}
+        <Route exact path="/" component={MainPage} />
+      </Router>
       <s.Container
         flex={2}
         ai={"center"}
