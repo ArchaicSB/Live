@@ -226,13 +226,6 @@ function App() {
 
   return (
     <s.Screen>
-      <Banner
-      style={{
-        color: "#fff",
-        background: "linear-gradient(to bottom right, #eee, #rrr)",
-      }}>
-        Archaic Shell Babies
-      </Banner>
       <s.Container
         flex={2}
         ai={"center"}
