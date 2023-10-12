@@ -218,10 +218,9 @@ function App() {
       <marquee style={{
       fontWeight: "bold",
       fontSize: "28px",
-      background: "linear-gradient(to right, #000, #fff, #eee)",
       }}
       >
-        Home of the Archaic Shell Babies || Web3 Sea Turtles || Home of the Archaic Shell Babies || Web3 Sea Turtles
+        Home of the Archaic Shell Babies|| Web3 Sea Turtles<span><StyledImg alt={"example"} src={"/config/images/logo.gif"} /></span> || Home of the Archaic Shell Babies || Web3 Sea Turtles<span><StyledImg alt={"example"} src={"/config/images/logo.gif"} /></span>
       </marquee>
       </s.Container>
       <s.Container
