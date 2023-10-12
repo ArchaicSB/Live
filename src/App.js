@@ -218,10 +218,10 @@ function App() {
       <marquee behavior="slide" direction="left"
       style={{
       fontWeight: "bold",
-      fontSize: "28px",
+      fontSize: "22px",
       }}
       >
-        Home of the Archaic Shell Babies|| Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img> || Home of the Archaic Shell Babies || Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img> ||
+        Home of the Archaic Shell Babies|| Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img> || Home of the Archaic Shell Babies || Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img>
       </marquee>
       </s.Container>
       <s.Container
