@@ -210,7 +210,7 @@ function App() {
       <s.Container
       style={{
         padding: 8,
-        background: "linear-gradient(to right bottom, #eee, #fff, #eee)",
+        background: "#000",
         width: "device-width"}}
       >
       <s.TextTitle
@@ -220,6 +220,7 @@ function App() {
         color: "#000",
         textAlign: "left",
         marginLeft: "8px",
+        color: "#fff",
       }}
       >
         Archaic Shell Babies
