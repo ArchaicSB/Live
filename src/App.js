@@ -227,6 +227,7 @@ function App() {
       style={{
       fontWeight: "bold",
       fontSize: "22px",
+      border: "6px solid #000",
       }}
       >
         Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img> 
