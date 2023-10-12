@@ -84,6 +84,8 @@ export const carousel = styled.div`
   white-space: nowrap;
   overflow: hidden;
   position: relative;
+  display: inline-block:
+  animation: marquee 10s linear infinite;
   @keyframes {
     0% {
       transform: translateX(100%);
@@ -92,9 +94,4 @@ export const carousel = styled.div`
       transform: translateX(-100%);
     }
   } 
-`
-
-export const carouselspan = styled.div`
-  display: inline-block:
-  animation: marquee 10s linear infinite;
 `
