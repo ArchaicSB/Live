@@ -463,15 +463,6 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-          <ResponsiveWrapper
-             display={"flex"}
-             style={{ 
-                background: "linear-gradient(to bottom right, #3EB489, #FFE5B4)",
-                padding: 8,
-                border: "none", 
-                boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-             }}
-           >
            <s.Container
              display={"flex"}
              flex={1}
@@ -608,7 +599,6 @@ function App() {
                   the discount book.
           </s.TextDescription>
          </s.Container>
-         </ResponsiveWrapper>
           <s.SpacerSmall />
           <s.Container id="club"
              ai={"center"} 
