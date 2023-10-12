@@ -49,9 +49,6 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-  @media (min-width: 767px) {
-    flex-direction: row;
-  }
 `;
 
 export const TextTitle = styled.p`
