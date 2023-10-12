@@ -226,7 +226,11 @@ function App() {
 
   return (
     <s.Screen>
-      <Banner>
+      <Banner
+      style={{
+        color: "#fff",
+        background: "linear-gradient(to bottom right, #eee, #rrr)",
+      }}>
         Archaic Shell Babies
       </Banner>
       <s.Container
