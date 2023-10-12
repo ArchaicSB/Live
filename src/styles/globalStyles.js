@@ -79,3 +79,22 @@ export const StyledClickable = styled.div`
     opacity: 0.6;
   }
 `;
+
+export const carousel = styled.div`
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  @keyframes {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } 
+`
+
+export const carouselspan = styled.div`
+  display: inline-block:
+  animation: marquee 10s linear infinite;
+`

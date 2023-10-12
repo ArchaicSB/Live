@@ -97,11 +97,13 @@ export const Title = styled.h1`
   color: #000000;
 `;
 
-const GradientBackground = styled.div`
+export const GradientBackground = styled.div`
   width: 100%;
   height: 100vh; /* Adjust as needed */
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
+
+
 
 function App() {
   const dispatch = useDispatch();
@@ -204,17 +206,11 @@ function App() {
 
   return (
     <s.Screen>
-      <marquee behavior="scroll" direction="left" scrollamount="7" loop="-1"
-      style={{
-      fontWeight: "bold",
-      fontSize: "22px",
-      border: "6px solid #000",
-      }}
-      >
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img> 
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>
-      </marquee>
+      <s.carousel>
+      <span>
+          Home of the Archaic Shell Babies, Web3 Sea Turtles <img src="logo32.png" alt="Turtle"/>
+      </span>
+      </s.carousel>
       <s.Container
         flex={2}
         ai={"center"}
