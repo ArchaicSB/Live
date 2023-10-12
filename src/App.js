@@ -60,7 +60,7 @@ export const ResponsiveWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  @media (min-width: 767px) {
+  @media (min-width: 500px) {
     flex-direction: row;
   }
 `;
