@@ -216,6 +216,7 @@ function App() {
       <marquee style={{
       fontWeight: "bold",
       scrolldelay: "70",
+      color: "#fff",
       }}
       >
         Home of the Archaic Shell Babies
