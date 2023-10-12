@@ -216,15 +216,15 @@ function App() {
         width: "device-width"}}
       >
       <marquee behavior="scroll" direction="left"
-      scrollamount="10"
+      scrollamount="7"
       loop="-1"
       style={{
       fontWeight: "bold",
       fontSize: "22px",
       }}
       >
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>   
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>   
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img><br/>
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img><br/>
       </marquee>
       </s.Container>
       <s.Container
