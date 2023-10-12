@@ -215,14 +215,27 @@ function App() {
       >
       <marquee style={{
       fontWeight: "bold",
-      scrolldelay: "70",
+      scrollDelay: "5",
       fontSize: "28px",
       background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
       color: "#000",
       }}
       >
-        Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies ||
+        Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies ||
       </marquee>
+      </s.Container>
+      <s.Container
+        ai={"center"}
+        style={{padding: 12, backgroundColor: "var(--primary)", width:"device-width"}}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
+      >
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
+          <s.Container flex={1} jc={"center"} ai={"center"}>
+            <s.TextTitle style={{fontWeight: "bold", fontSize: "24px"}}>
+              10,000 Sea Turtles swimming on the Blockchain. 
+            </s.TextTitle>
+          </s.Container>
+        </ResponsiveWrapper>
       </s.Container>
       <s.Container
         flex={2}
@@ -231,10 +244,6 @@ function App() {
         width:"device-width"}}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
-        <a href={CONFIG.MARKETPLACE_LINK2}>
-          <StyledLogo alt={"logo"} src={"/config/images/logo.png"} 
-          />
-        </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
