@@ -485,6 +485,7 @@ function App() {
            <s.Container
              display={"flex"}
              flex={1}
+             width={"device-width"}
              ai={"center"}
              jc={"center"}
               style={{
@@ -496,7 +497,7 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
-          <s.TextTitle id="utility"
+          <s.TextTitle id="mission"
               style={{
                 textAlign: "center",
                 fontSize: 33,
@@ -509,17 +510,17 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: "bold",
               color: "var(--primary-text)",
             }}
             >
-            Archaic Shell Babies is a Web3 project with a mission to 
-            revolutionize conservation efforts through the power of NFTs. 
-            The goal we have is to include our community in fun events and 
-            donate money to companies who are actively doing great things in 
-            the space of plastic clean-up and sea turtle conservation. Eventually, 
-            we would like to have a place within both Web3 and hands-on projects.
+            Welcome to Archaic Shell Babies, where the magic of Web3 meets the beauty of nature. 
+            Our mission is to protect and preserve the ancient sea turtles and our precious 
+            oceans. We're combining technology and conservation to create a meaningful community. 
+            As our NFT collection grows, so does our impact. We pledge to donate to Sea 
+            Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
+            future for our planet.
           </s.TextDescription>
          <s.SpacerMedium />
             <s.TextTitle
@@ -536,23 +537,26 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: "bold",
               color: "var(--primary-text)",
             }}
           >
-            10,000 Sea Turtle non-fungible-tokens(NFTs) swimming on the Ethereum Blockchain. 
+            A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
             We're passionate about getting the ocean cleaned and inspiring others to live a 
-            life in harmony with mother nature.
+            life in harmony with mother nature. Web3 and the internet have created amazing 
+            communities that have the ability to come together and make a difference. We 
+            are harnessing that ability to make an impact for the ocean and its life.
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
         <s.SpacerSmall />
-        <s.Container
+        <s.Container id="utility"
              display={"flex"}
              flex={1}
              ai={"center"}
              jc={"center"}
+             width={"device-width"}
               style={{
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 24,
@@ -576,13 +580,15 @@ function App() {
               <s.TextDescription
                 style={{
                   textAlign: "center",
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
               >
-                Every NFT has two parts. Your personal discount book 
-                and the Archaic Sea Turtle Club.
+              Owning an ArchaicSB NFT is your key into future opportunities 
+              and benefits through the Sea Turtle Club. As an NFT holder, you'll gain special access to upcoming projects, 
+              ventures, and in-person events. It's not just about collecting our NFTs... but joining a 
+              movement to be a part of something special. Let's shape the future together. 
               </s.TextDescription>
               <s.SpacerMedium />
               <s.TextTitle
@@ -596,20 +602,20 @@ function App() {
                 Discount Book:
               </s.TextTitle>
               <s.SpacerMedium />
-          <s.TextDescription
+                <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
                 >
-            The discount book will be for discounts on travel/vacation plans.
-            To express our passion about the ocean and it's life, we are offering 
-            all NFT holders disounts to our sea turtle partners travel programs. 
-            <s.SpacerSmall />
-            The book will also hold discouts for re-usable tote bags, water bottles, 
-            and other eco-friendly products. 
+                   We've partnered with a Sea Turtle organization that offer unforgettable travel experiences. 
+                  As an NFT holder, you'll enjoy special discounts on these unforgettable journeys and experiences. 
+                  The discount book is your access to a range of eco-friendly and sustainable products.
+                  Savings on stylish tote bags, reusable water bottles, metal straws, clothing, and 
+                  unique sea turtle merchandise can be discovered here. As our partnerships grow, so will 
+                  the discount book.
           </s.TextDescription>
          </s.Container>
          </ResponsiveWrapper>
