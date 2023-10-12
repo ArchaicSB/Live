@@ -209,19 +209,21 @@ function App() {
     <s.Screen>
       <s.Container
       style={{
-        padding: 8,
+        padding: "2px 2px",
         background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
         border: "8px",
         borderColor: "#00FFFF",
         width: "device-width"}}
       >
-      <marquee behavior="slide" direction="left"
+      <marquee behavior="scroll" direction="left"
+      scrollamount="10"
       style={{
       fontWeight: "bold",
       fontSize: "22px",
       }}
       >
-        Home of the Archaic Shell Babies|| Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img> || Home of the Archaic Shell Babies || Web3 Sea Turtles<img src="logo32.png" alt="Turtle"></img>
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>   
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>   
       </marquee>
       </s.Container>
       <s.Container
