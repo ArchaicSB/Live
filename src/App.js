@@ -211,16 +211,18 @@ function App() {
       style={{
         padding: 8,
         background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
+        border: "8px",
+        borderColor: "#00FFFF",
         width: "device-width"}}
       >
       <marquee style={{
       fontWeight: "bold",
       scrollDelay: "5",
       fontSize: "28px",
-      color: "#000",
+      color: "linear-gradient(to right, #000, #fff, #eee)",
       }}
       >
-        Web3 Sea Turtles || Archaic Shell Babies || Web3 Sea Turtles || Archaic Shell Babies || 
+        Home of the Archaic Shell Babies || Web3 Sea Turtles || Home of the Archaic Shell Babies || Web3 Sea Turtles
       </marquee>
       </s.Container>
       <s.Container
