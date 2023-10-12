@@ -217,9 +217,8 @@ function App() {
       >
       <marquee style={{
       fontWeight: "bold",
-      scrollDelay: "5",
       fontSize: "28px",
-      color: "linear-gradient(to right, #000, #fff, #eee)",
+      background: "linear-gradient(to right, #000, #fff, #eee)",
       }}
       >
         Home of the Archaic Shell Babies || Web3 Sea Turtles || Home of the Archaic Shell Babies || Web3 Sea Turtles
