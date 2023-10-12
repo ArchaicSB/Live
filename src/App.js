@@ -103,6 +103,26 @@ export const GradientBackground = styled.div`
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
 
+export const Banner = styled.div`
+  width: device-width;
+  height: 45px;
+  padding: 15px;
+  border-radius: 100%;
+  border: solid;
+  background-color: var(--primary);
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--primary-text);
+  @keyframes {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+`
 
 
 function App() {
@@ -206,11 +226,9 @@ function App() {
 
   return (
     <s.Screen>
-      <s.carousel>
-      <span>
-          Home of the Archaic Shell Babies, Web3 Sea Turtles <img src="logo32.png" alt="Turtle"/>
-      </span>
-      </s.carousel>
+      <s.Banner>
+        Archaic Shell Babies
+      </s.Banner>
       <s.Container
         flex={2}
         ai={"center"}
