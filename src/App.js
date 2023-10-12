@@ -223,8 +223,8 @@ function App() {
       fontSize: "22px",
       }}
       >
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img><br/>
-        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img><br/>
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>
+        Home of the Archaic Shell Babies, Web3 Sea Turtles   <img src="logo32.png" alt="Turtle"></img>
       </marquee>
       </s.Container>
       <s.Container
