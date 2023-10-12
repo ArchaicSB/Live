@@ -210,7 +210,7 @@ function App() {
       <s.Container
       style={{
         padding: 8,
-        background: "linear-gradient(to bottom, #eee, #fff, #000)",
+        background: "linear-gradient(to right bottom, #eee, #fff, #eee)",
         width: "device-width"}}
       >
       <s.TextTitle
