@@ -210,18 +210,17 @@ function App() {
       <s.Container
       style={{
         padding: 8,
-        background: "#000",
+        background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
         width: "device-width"}}
       >
       <marquee style={{
       fontWeight: "bold",
       scrollDelay: "5",
       fontSize: "28px",
-      background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
       color: "#000",
       }}
       >
-        Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies ||
+        Web3 Sea Turtles || Archaic Shell Babies || Web3 Sea Turtles || Archaic Shell Babies || 
       </marquee>
       </s.Container>
       <s.Container
