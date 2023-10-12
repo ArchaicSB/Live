@@ -217,6 +217,7 @@ function App() {
       >
       <marquee behavior="scroll" direction="left"
       scrollamount="10"
+      loop="-1"
       style={{
       fontWeight: "bold",
       fontSize: "22px",
