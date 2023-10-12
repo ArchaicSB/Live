@@ -213,18 +213,13 @@ function App() {
         background: "#000",
         width: "device-width"}}
       >
-      <s.TextTitle
-      style={{
-        fontWeight: "bold",
-        fontSize: "20",
-        color: "#000",
-        textAlign: "left",
-        marginLeft: "8px",
-        color: "#fff",
+      <marquee style={{
+      fontWeight: "bold",
+      scrolldelay: "70",
       }}
       >
-        Archaic Shell Babies
-      </s.TextTitle>
+        Home of the Archaic Shell Babies
+      </marquee>
       </s.Container>
       <s.Container
         flex={2}
