@@ -221,7 +221,7 @@ function App() {
         borderColor: "#00FFFF",
         width: "device-width"}}
       >
-      <marquee behavior="alternate" direction="left"
+      <marquee behavior="scroll" direction="left"
       scrollamount="7" 
       loop="-1"
       style={{
