@@ -220,7 +220,7 @@ function App() {
       fontSize: "28px",
       }}
       >
-        Home of the Archaic Shell Babies|| Web3 Sea Turtles<span><StyledImg alt={"example"} src={"/config/images/logo.gif"} /></span> || Home of the Archaic Shell Babies || Web3 Sea Turtles<span><StyledImg alt={"example"} src={"/config/images/logo.gif"} /></span>
+        Home of the Archaic Shell Babies|| Web3 Sea Turtles<span><StyledImg alt={"turtle"} src={"/config/images/logo32.png"} /></span> || Home of the Archaic Shell Babies || Web3 Sea Turtles<span><StyledImg alt={"turtle"} src={"/config/images/logo32.png"} /></span>
       </marquee>
       </s.Container>
       <s.Container
