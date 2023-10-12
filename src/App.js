@@ -216,10 +216,12 @@ function App() {
       <marquee style={{
       fontWeight: "bold",
       scrolldelay: "70",
-      color: "#fff",
+      fontSize: "28px",
+      background: "linear-gradient(to right , #ADD8E6 #eee)",
+      color: "#000",
       }}
       >
-        Home of the Archaic Shell Babies
+        Home of the Archaic Shell Babies || Home of the Archaic Shell Babies || Home of the Archaic Shell Babies ||
       </marquee>
       </s.Container>
       <s.Container
