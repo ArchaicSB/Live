@@ -519,10 +519,12 @@ function App() {
               color: "var(--primary-text)",
             }}
             >
-            Archaic Shell Babies is a groundbreaking NFT project with a mission to 
-            revolutionize conservation and humanitarian efforts through the power of Web3.
-            We are donating a portion of the proceeds to extraordinary companies 
-            cleaning the ocean and saving sea turtles.
+            Archaic Shell Babies is a Web3 project with a mission to 
+            revolutionize conservation efforts through the power of NFTs. 
+            The goal we have is to include our community in fun events and 
+            donate money to companies who are actively doing great things in 
+            the space of plastic clean-up and sea turtle conservation. Eventually, 
+            we would like to have a place within both Web3 and hands-on projects.
           </s.TextDescription>
          <s.SpacerMedium />
             <s.TextTitle
@@ -544,10 +546,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Archaic Shell Babies are 10,000 Sea Turtle digital collectible's, aka,  
-            non-fungible-tokens(NFTs) on the Ethereum Blockchain. We're passionate about 
-            getting the ocean cleaned and inspiring others to live a life in harmony with 
-            mother nature.
+            10,000 Sea Turtle non-fungible-tokens(NFTs) swimming on the Ethereum Blockchain. 
+            We're passionate about getting the ocean cleaned and inspiring others to live a 
+            life in harmony with mother nature.
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
@@ -608,11 +609,12 @@ function App() {
                     color: "var(--primary-text)",
                   }}
                 >
-            One significant part of this discount book is for travel. Yes.. That's right..
-            Travel Programs. To experience the ocean and sea turtle habitats. 
+            The discount book will be for discounts on travel/vacation plans.
+            To express our passion about the ocean and it's life, we are offering 
+            all NFT holders disounts to our sea turtle partners travel programs. 
             <s.SpacerSmall />
-            The discount book holds other various uses like discounts on re-usable tote bags, 
-            water bottles, and more.
+            The book will also hold discouts for re-usable tote bags, water bottles, 
+            and other eco-friendly products. 
           </s.TextDescription>
          </s.Container>
          </ResponsiveWrapper>
@@ -648,7 +650,7 @@ function App() {
                     color: "var(--primary-text)",
                   }}
                 >
-            This section is coming soon :)
+            This section is coming soon!
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
@@ -684,7 +686,7 @@ function App() {
                     color: "var(--primary-text)",
                   }}
                 >
-            This section is coming soon :)
+            This section is coming soon!
           </s.TextDescription>
           <s.SpacerMedium />
         </s.Container>
