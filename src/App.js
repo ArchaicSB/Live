@@ -217,7 +217,7 @@ function App() {
       fontWeight: "bold",
       scrolldelay: "70",
       fontSize: "28px",
-      background: "linear-gradient(to right , #ADD8E6 #eee)",
+      background: "linear-gradient(to right, #ADD8E6, #eee, #ADD8E6)",
       color: "#000",
       }}
       >
