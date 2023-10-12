@@ -4,7 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import { BrowserRouter as Router,Route,Switch,Link,Redirect} from 'react-router-dom';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -208,6 +207,24 @@ function App() {
 
   return (
     <s.Screen>
+      <s.Container
+      style={{
+        padding: 8,
+        background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
+        width: "device-width"}}
+      >
+      <s.TextTitle
+      style={{
+        fontWeight: "bold",
+        fontSize: "20",
+        color: "#000",
+        textAlign: "left",
+        marginLeft: "8px",
+      }}
+      >
+        Archaic Shell Babies
+      </s.TextTitle>
+      </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
