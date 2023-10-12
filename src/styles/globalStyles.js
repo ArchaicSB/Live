@@ -49,11 +49,8 @@ export const Container = styled.div`
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
   background-position: center;
-  @media screen and (max-width: 600px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
+  @media (min-width: 767px) {
+    flex-direction: row;
   }
 `;
 
