@@ -226,9 +226,9 @@ function App() {
 
   return (
     <s.Screen>
-      <s.Banner>
+      <Banner>
         Archaic Shell Babies
-      </s.Banner>
+      </Banner>
       <s.Container
         flex={2}
         ai={"center"}
