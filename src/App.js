@@ -225,19 +225,6 @@ function App() {
       </marquee>
       </s.Container>
       <s.Container
-        ai={"center"}
-        style={{padding: 12, backgroundColor: "var(--primary)", width:"device-width"}}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bgpic2.png" : true}
-      >
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <s.TextTitle style={{fontWeight: "bold", fontSize: "24px"}}>
-              10,000 Sea Turtles swimming on the Blockchain. 
-            </s.TextTitle>
-          </s.Container>
-        </ResponsiveWrapper>
-      </s.Container>
-      <s.Container
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
