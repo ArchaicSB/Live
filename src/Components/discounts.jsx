@@ -1,6 +1,6 @@
-import React from 'react'
-import * as s from "./styles/globalStyles";
+import React from 'react';
 import styled from "styled-components";
+import * as s from "./styles/globalStyles";
 
 const Discounts = () => {
     return (

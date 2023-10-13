@@ -1,6 +1,7 @@
 import Reac from 'react'
-import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import * as s from "./styles/globalStyles";
+
 
 const Hero = () => {
     return (
