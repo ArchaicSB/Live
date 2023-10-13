@@ -212,7 +212,6 @@ function App() {
       >
         <TextTitle style={{
           color:"#fff",
-          transform: "translate3d(0px 0px 0px)"
           }}>
           Archaic Shell Babies
         </TextTitle>
