@@ -103,6 +103,16 @@ export const GradientBackground = styled.div`
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
 
+export const Banner = styled.div`
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+      @-moz-keyframes banner {
+       0%   { -moz-transform: translateX(100%); }
+       100% { -moz-transform: translateX(-100%); }
+       -moz-animation: example1 5s linear infinite;
+      }
+`
 
 function App() {
   const dispatch = useDispatch();
@@ -205,8 +215,9 @@ function App() {
 
   return (
   <s.Screen>
-      <s.Container>
-      </s.Container>
+      <Banner>
+        
+      </Banner>
       <s.Container
         flex={2}
         ai={"center"}
