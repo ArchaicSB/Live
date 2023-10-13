@@ -56,6 +56,7 @@ export const TextTitle = styled.p`
   font-size: 22px;
   font-weight: 500;
   line-height: 1.6;
+  cursor: text;
   highlight{
     background-color: #fff;
     font-weight: bold;
