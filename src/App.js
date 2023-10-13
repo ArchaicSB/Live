@@ -204,7 +204,7 @@ function App() {
 
   return (
   <s.Screen>
-      <s.Container id="header"
+      <s.Container
       style={{
         background:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
         border: "4px solid #000"
