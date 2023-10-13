@@ -103,17 +103,6 @@ export const GradientBackground = styled.div`
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
 
-export const Banner = styled.div`
-  width: 100%;
-  height: 40px;
-  overflow: hidden;
-      @-moz-keyframes banner {
-       0%   { -moz-transform: translateX(100%); }
-       100% { -moz-transform: translateX(-100%); }
-       -moz-animation: example1 5s linear infinite;
-      }
-`
-
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -215,7 +204,7 @@ function App() {
 
   return (
   <s.Screen>
-      <Banner
+      <s.Container
       style={{
         background:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
         border: "4px solid #000"
@@ -224,7 +213,7 @@ function App() {
         <TextTitle style={{color:"#fff"}}>
           Archaic Shell Babies
         </TextTitle>
-      </Banner>
+      </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
