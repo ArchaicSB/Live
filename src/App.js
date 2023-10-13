@@ -204,13 +204,16 @@ function App() {
 
   return (
   <s.Screen>
-      <s.Container
+      <s.Container id="header"
       style={{
         background:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
         border: "4px solid #000"
       }}
       >
-        <TextTitle style={{color:"#fff"}}>
+        <TextTitle style={{
+          color:"#fff",
+          transform: "translate3d(0px 0px 0px)"
+          }}>
           Archaic Shell Babies
         </TextTitle>
       </s.Container>
