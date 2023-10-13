@@ -201,13 +201,7 @@ function App() {
       style={{
         color:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
         border: "4px solid #000"
-      }}
-      >
-        <TextTitle style={{
-          color:"#fff",
-          }}>
-          Archaic Shell Babies
-        </TextTitle>
+      }}>
       </s.Container>
       <s.Container
         flex={2}
