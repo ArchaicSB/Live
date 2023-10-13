@@ -8,7 +8,7 @@ import styled from "styled-components";
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
-export const StyledButton = styled.button`
+  export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
   border: none;
@@ -27,7 +27,6 @@ export const StyledButton = styled.button`
     -moz-box-shadow: #0B4008;
   }
 `;
-
 export const StyledRoundButton = styled.button`
   padding: 15px;
   border-radius: 100%;
@@ -52,7 +51,6 @@ export const StyledRoundButton = styled.button`
     -moz-box-shadow: #0B4008;
   }
 `;
-
 export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
@@ -61,7 +59,6 @@ export const ResponsiveWrapper = styled.div`
   align-items: center;
   width: 100%;
 `;
-
 export const StyledLogo = styled.img`
   width: 300px;
   @media (min-width: 767px) {
@@ -70,7 +67,6 @@ export const StyledLogo = styled.img`
   transition: width 1s;
   transition: height 1s;
 `;
-
 export const StyledImg = styled.img`
   box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
   border: 2px solid var(--secondary);
@@ -85,18 +81,15 @@ export const StyledImg = styled.img`
   }
   transition: width 0.5s;
 `;
-
 export const StyledLink = styled.a`
   color: var(-primary);
   text-decoration: underline overline;
 `;
-
 export const Title = styled.h1`
   font-size: 50px;
   text-align: center;
   color: #000000;
 `;
-
 export const GradientBackground = styled.div`
   width: 100%;
   height: 100vh; /* Adjust as needed */
