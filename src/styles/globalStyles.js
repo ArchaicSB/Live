@@ -11,11 +11,6 @@ export const Screen = styled.div`
   display: flex;
   flex-direction: column;
 `;
-let screen = cursor();
-if (screen = cursor("pointer")) {
-  cursor = "pointer"; } else {
-    cursor = "text";
-  }
 
 // Used for providing space between components
 export const SpacerXSmall = styled.div`
