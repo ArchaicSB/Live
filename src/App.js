@@ -212,7 +212,6 @@ function App() {
       >
         <TextTitle style={{
           color:"#fff",
-          transform: "translate "
           }}>
           Archaic Shell Babies
         </TextTitle>
