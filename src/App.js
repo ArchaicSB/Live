@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import { navbar , hero , about , mission , utility , discounts , club, footer } from "./Components";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -225,7 +226,9 @@ function App() {
   }, [blockchain.account]);
 
   return (
-    <s.Screen>
+  <s.Screen>
+    <s.navbar />
+    <s.hero />
       <s.Container
         flex={2}
         ai={"center"}
@@ -683,7 +686,7 @@ function App() {
           <s.SpacerMedium />
         </s.Container>
           <s.SpacerXSmall />
-    </s.Screen>
+  </s.Screen>
   );
 }
 
