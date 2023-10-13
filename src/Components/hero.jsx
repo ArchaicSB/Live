@@ -1,4 +1,4 @@
-import Reac from 'react'
+import Reac from 'react';
 import styled from "styled-components";
 import * as s from "./styles/globalStyles";
 
