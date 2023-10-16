@@ -280,7 +280,7 @@ function App() {
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
-        <StyledButton style={{fontSize:"12px", paddingLeft: "12px"}}
+        <StyledButton style={{fontSize:"12px"}}
           onClick={(e) => { e.preventDefault();
           dispatch(connect()); getData();}}
           >
