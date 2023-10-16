@@ -22,13 +22,13 @@ const scrollTo = (element) => {
 
 const Navbar = styled.div`
   background-color: #357960;
-  padding: 10px 0;
+  padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 100;
-  border: 1px solid #eee;
+  border: 1px solid #000;
 `;
 const MovingTitle = styled.div`
   display: flex;
@@ -244,18 +244,30 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-      <img jc={"left"} width={"50px"} height={"50px"} alt="Logo" src="logo32.png" 
+      <img width={"100"} height={"100"} alt="Logo" src="logo32.png" 
       onClick={(e) => { window.open("https://www.archaicshellbabies.com");}}/>
-      <s.TextTitle ai={"left"} style={{textAlign: "left", fontWeight: "bold", fontSize:"16px"}}>
+      <s.TextTitle style={{textAlign: "left",paddingRight:"20px", fontWeight: "bold", fontSize:"16px"}}>
         Archaic Shell Babies
       </s.TextTitle>
       <StyledButton onClick={() => scrollTo(mint)}
-        style={{ margin:"6px", color:"var(--primary-text)"}}>
+        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
           Mint
       </StyledButton>
       <StyledButton onClick={() => scrollTo(mission)}
-        style={{ margin:"6px", color:"var(--primary-text)"}}>
+        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
           Mission
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(utility)}
+        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+          Utility
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(club)}
+        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+          Club
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(shop)}
+        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+          Shop
       </StyledButton>
     </Navbar>
       <s.Container
@@ -506,7 +518,7 @@ function App() {
       </s.Container>
       </s.Container>
           <s.SpacerXSmall />
-           <s.Container
+           <s.Container id="mission"
              display={"flex"}
              flex={1}
              width={"device-width"}
@@ -521,7 +533,7 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
-          <s.TextTitle id="mission"
+          <s.TextTitle
               style={{
                 textAlign: "center",
                 fontSize: 33,
