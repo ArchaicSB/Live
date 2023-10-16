@@ -16,6 +16,21 @@ const MoveTitle = keyframes`
   transform: translateX(-100%);
 }`;
 
+const scrollTo = (element) => {
+    element.scrollIntoView({ behavior: 'smooth' });
+};
+
+const Navbar = styled.div`
+  background-color: #357960;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border: 1px solid #eee;
+`;
+
 const MovingTitle = styled.div`
   display: flex;
   flex-direction: row;
@@ -42,7 +57,7 @@ const AnimateTitle = styled.h1`
   animation: ${MoveTitle} 7s linear infinite;
 `;
 
-  export const StyledButton = styled.button`
+export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
   border: none;
@@ -232,16 +247,17 @@ function App() {
 
   return (
   <s.Screen>
-    <s.Container ai={"center"} jc={"center"} width={"100vw"}
-    height={"10vh"}
-    style={{
-      margin: "6px",
-      padding: "2px",
-      border: "2px solid black",
-      backgroundColor: "#357960",
-    }}>
-
-    </s.Container>
+    <Navbar>
+      <img ai={"left"} width={"32px"} height={"32px"} alt="Logo" src="logo32.png" />
+      <StyledButton onClick={() => scrollTo(mint)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
+          Mint
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(mission)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
+          Mission
+      </StyledButton>
+    </Navbar>
       <s.Container
         flex={2}
         ai={"center"}
