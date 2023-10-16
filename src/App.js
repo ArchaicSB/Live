@@ -323,16 +323,6 @@ function App() {
             >
               Connect wallet to mint your NFT
             </s.TextTitle>
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 32,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
-            >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
             <span
               style={{
                 textAlign: "center",
@@ -360,6 +350,16 @@ function App() {
                 {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 32,
+                fontWeight: "bold",
+                color: "var(--primary-text)",
+              }}
+            >
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
