@@ -232,14 +232,15 @@ function App() {
 
   return (
   <s.Screen>
-    <s.Container ai={"center"} jc={"center"} 
+    <s.Container ai={"center"} jc={"center"} width={"100%"}
+    height={"70px"}
     style={{
       margin: "6px",
       padding: "2px",
       border: "2px solid black",
       backgroundColor: "emerald",
     }}>
-      
+
     </s.Container>
       <s.Container
         flex={2}
