@@ -251,7 +251,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left", fontWeight:"bold", fontSize:"16px"}}>
+    <s.TextTitle style={{textAlign:"left", fontWeight:"bold", fontSize:"20px"}}>
       ArchaicShellBabies
     </s.TextTitle>
       <ButtonContainer>
@@ -280,7 +280,7 @@ function App() {
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
-        <StyledButton style={{fontSize:"12px"}}
+        <StyledButton style={{fontSize:"12px", paddingRight: "12px"}}
           onClick={(e) => { e.preventDefault();
           dispatch(connect()); getData();}}
           >
