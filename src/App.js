@@ -255,7 +255,7 @@ function App() {
     style={{textAlign:"left", fontWeight:"bold", fontSize:"20px"}}>
       ArchaicShellBabies
     </s.TextTitle>
-      <ButtonContainer>
+      <ButtonContainer style={{marginRight: "5%"}}>
       <s.TextTitle
       style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
