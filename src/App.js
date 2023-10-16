@@ -292,7 +292,7 @@ function App() {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: "var(--primary)",
+        style={{ padding: 12, backgroundColor: "none",
         width:"device-width"}}
       >
         <s.SpacerSmall />
