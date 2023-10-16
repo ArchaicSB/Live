@@ -349,17 +349,6 @@ function App() {
               }}
             >
               <StyledButton
-                onClick={(e) => {
-                  window.open("https://linktr.ee/archaicsb");
-                }}
-                style={{
-                  margin: "6px",
-                  color: "var(--primary-text)",
-                }}
-              >
-                Social Links ❤️
-              </StyledButton>
-              <StyledButton
                 style={{
                   margin: "6px",
                   color: "var(--primary-text)",
