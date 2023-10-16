@@ -30,7 +30,7 @@ const AnimateTitle = styled.h1`
   font-size: 36px;
   font-weight: bold;
   color: #333;
-  animation: ${MoveTitle} 3s linear infinite;
+  animation: ${MoveTitle} 7s linear infinite;
 `;
 
   export const StyledButton = styled.button`
