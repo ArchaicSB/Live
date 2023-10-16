@@ -22,12 +22,13 @@ const MovingTitle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100px;
   background-color: var(--secondary);
 `;
 
 const AnimateTitle = styled.h1`
   font-size: 36px;
+  font-weight: bold;
   color: #333;
   animation: ${MoveTitle} 5s linear infinite;
 `;
@@ -232,8 +233,9 @@ function App() {
   return (
   <s.Screen>
     <MovingTitle>
-      <AnimateTitle>Home of the Archaic Shell Babies</AnimateTitle>
+      <AnimateTitle>Home of the Archaic Shell Babies
       <TitleImg alt="Logo" src="logo32.png" />
+      </AnimateTitle>
     </MovingTitle>
       <s.Container
         flex={2}
