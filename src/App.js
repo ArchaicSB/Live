@@ -24,6 +24,14 @@ const MovingTitle = styled.div`
   height: 60px;
   background-color: white;
   overflow: hidden;
+  box-shadow: 0px 6px 0px -2px #000000;
+  -webkit-box-shadow: 1px 6px 0px -2px #000000;
+  -moz-box-shadow: 1px 6px 0px -2px #000000;
+  :active {
+    box-shadow: #0B4008;
+    -webkit-box-shadow: #0B4008;
+    -moz-box-shadow: #0B4008;
+  }
 `;
 
 const AnimateTitle = styled.h1`
