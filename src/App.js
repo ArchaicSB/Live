@@ -295,7 +295,7 @@ function App() {
         width:"device-width"}}
       >
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 12, backgroundColor: "#fff"}} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 12}} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -305,7 +305,7 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "none",
+              backgroundColor: "#F5FEFD",
               padding: 16,
               marginLeft: 36,
               borderRadius: 16,
