@@ -23,7 +23,7 @@ const MovingTitle = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(to right bottom, #2B35AF, #eee);
+  background-color: var(--secondary);
 `;
 
 const AnimateTitle = styled.h1`
