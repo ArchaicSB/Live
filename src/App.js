@@ -23,6 +23,8 @@ const scrollTo = (element) => {
 const Navbar = styled.div`
   background-color: #357960;
   padding: 20px;
+  margin: 0 5%;
+  width: 90%
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -249,7 +251,7 @@ function App() {
 
   return (
   <s.Screen>
-    <Navbar margin={"16px"}>
+    <Navbar>
       <ButtonContainer>
         <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
           Archaic Shell Babies
