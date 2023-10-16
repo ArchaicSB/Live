@@ -31,8 +31,8 @@ const Navbar = styled.div`
   border: 1px solid #000;
 `;
 const ButtonContainer = styled.div`
-  width: 70%;
-  margin: 0 15%;
+  width: 80%;
+  margin: 0 10%;
   display: flex;
   justify-content: space-between;
 `;
