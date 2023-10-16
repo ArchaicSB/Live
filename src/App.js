@@ -245,12 +245,10 @@ function App() {
 
   return (
   <s.Screen>
-    <Navbar  style={{perspective: "1000px"}}>
-      <s.TextTitle transform={"rotateY(45deg)"}
-      style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
+    <Navbar margin={"16px"}>
+      <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
         Archaic Shell Babies
       </s.TextTitle>
-      <s.Container>
       <StyledButton onClick={() => scrollTo(mint)}
         style={{ margin:"2px", color:"var(--primary-text)"}}>
           Mint
@@ -271,7 +269,6 @@ function App() {
         style={{ margin:"2px", color:"var(--primary-text)"}}>
           Shop
       </StyledButton>
-    </s.Container>
     </Navbar>
       <s.Container
         flex={2}
