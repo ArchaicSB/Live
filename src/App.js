@@ -388,11 +388,6 @@ function App() {
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Excluding gas fees.
-                </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
@@ -500,7 +495,7 @@ function App() {
             }}
           >
             Please make sure you are connected to the (
-            {CONFIG.NETWORK.NAME} ) network and the correct address. Please note: Once you make the purchase, you cannot undo this action.
+            {CONFIG.NETWORK.NAME} ) network and the correct address.
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
