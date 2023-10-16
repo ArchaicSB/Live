@@ -22,7 +22,7 @@ const scrollTo = (element) => {
 
 const Navbar = styled.div`
   background-color: #eee;
-  padding: 20px;
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -32,8 +32,8 @@ const Navbar = styled.div`
   border: 2px solid #000;
 `;
 const ButtonContainer = styled.div`
-  width: 80%;
-  margin: 0 10%;
+  width: 90%;
+  margin: 0 5%;
   display: flex;
   justify-content: space-between;
 `;
