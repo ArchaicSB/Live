@@ -251,7 +251,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
+    <s.TextTitle style={{textAlign:"left", fontWeight:"bold", fontSize:"18px"}}>
       Archaic Shell Babies
     </s.TextTitle>
       <ButtonContainer>
