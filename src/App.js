@@ -251,7 +251,8 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left", fontWeight:"bold", fontSize:"20px"}}>
+    <s.TextTitle onClick={(e) => {window.open("https://linktr.ee/archaicsb");}}
+    style={{textAlign:"left", fontWeight:"bold", fontSize:"20px"}}>
       ArchaicShellBabies
     </s.TextTitle>
       <ButtonContainer>
