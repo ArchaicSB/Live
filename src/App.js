@@ -302,11 +302,11 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container id="mint"
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
             flex={3}
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#F5FEFD",
               padding: 16,
               marginLeft: 36,
               borderRadius: 16,
