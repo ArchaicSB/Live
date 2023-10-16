@@ -232,8 +232,8 @@ function App() {
 
   return (
   <s.Screen>
-    <s.Container ai={"center"} jc={"center"} width={"100%"}
-    height={"70px"}
+    <s.Container ai={"center"} jc={"center"} width={"100vw"}
+    height={"10vh"}
     style={{
       margin: "6px",
       padding: "2px",
