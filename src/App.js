@@ -302,14 +302,13 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container id="mint"
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/snail.png" : true}
+            image={CONFIG.SHOW_BACKGROUND ? "/config/images/emerald.png" : true}
             flex={3}
             jc={"center"}
             ai={"center"}
             style={{
-              padding: 16,
               marginLeft: 36,
-              borderRadius: 16,
+              borderRadius: 8,
               border: "16px solid var(--secondary)",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
