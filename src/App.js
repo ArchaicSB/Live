@@ -11,11 +11,9 @@ const truncate = (input, len) =>
 const MoveTitle = keyframes`
 0% {
   transform: translateX(100%);
-  animation-timing-function: ease-in-out; /* Start slow */
 }
 100% {
   transform: translateX(-100%);
-  animation-timing-function: ease-in-out; /* Slow down at the end */
 }`;
 
 const MovingTitle = styled.div`
@@ -24,7 +22,7 @@ const MovingTitle = styled.div`
   align-items: center;
   justify-content: center;
   height: 60px;
-  background: linear-gradient(45deg, blue, green);
+  background-color: white;
   overflow: hidden;
 `;
 
@@ -33,7 +31,7 @@ const AnimateTitle = styled.h1`
   font-weight: bold;
   color: #000;
   white-space: nowrap;
-  animation: ${MoveTitle} 7s infinite;
+  animation: ${MoveTitle} 7s linear infinite;
 `;
 
   export const StyledButton = styled.button`
