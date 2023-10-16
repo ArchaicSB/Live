@@ -30,6 +30,7 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 1px solid #000;
+  transform-style: preserve-3d;
 `;
 const MovingTitle = styled.div`
   display: flex;
@@ -245,7 +246,7 @@ function App() {
   return (
   <s.Screen>
     <Navbar width={"80%"}>
-      <s.TextTitle style={{textAlign: "left",paddingLeft:"20px", fontWeight: "bold", fontSize:"32px"}}>
+      <s.TextTitle style={{textAlign: "left",paddingLeft:"20px", fontWeight: "bold", fontSize:"26px"}}>
         Archaic Shell Babies
       </s.TextTitle>
       <StyledButton onClick={() => scrollTo(mint)}
