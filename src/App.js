@@ -35,7 +35,7 @@ const ButtonContainer = styled.div`
   width: 90%;
   margin: 0 5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between ;
 `;
 const MovingTitle = styled.div`
   display: flex;
@@ -257,27 +257,27 @@ function App() {
     </s.TextTitle>
       <ButtonContainer>
       <s.TextTitle
-      style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+      style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
