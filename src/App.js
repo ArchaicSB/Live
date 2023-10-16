@@ -29,7 +29,7 @@ const MovingTitle = styled.div`
 const AnimateTitle = styled.h1`
   font-size: 36px;
   color: #333;
-  animation: ${moveTitleAnimation} 5s linear infinite;
+  animation: ${MoveTitle} 5s linear infinite;
 `;
 
 const TitleImg = styled.img`
@@ -38,7 +38,7 @@ const TitleImg = styled.img`
   background-color: var(--accent);
   border-radius: 100%;
   width: 100px;
-  animation: ${moveTitleAnimation} 5s linear infinite;
+  animation: ${MoveTitle} 5s linear infinite;
 `;
 
   export const StyledButton = styled.button`
