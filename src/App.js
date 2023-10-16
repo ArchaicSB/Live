@@ -249,26 +249,26 @@ function App() {
       <s.TextTitle style={{textAlign: "left",paddingRight:"20px", fontWeight: "bold", fontSize:"16px"}}>
         Archaic Shell Babies
       </s.TextTitle>
-      <StyledButton onClick={() => scrollTo(mint)}
-        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+      <StyledRoundButton onClick={() => scrollTo(mint)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
           Mint
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(mission)}
-        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+      </StyledRoundButton>
+      <StyledRoundButton onClick={() => scrollTo(mission)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
           Mission
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(utility)}
-        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+      </StyledRoundButton>
+      <StyledRoundButton onClick={() => scrollTo(utility)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
           Utility
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(club)}
-        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+      </StyledRoundButton>
+      <StyledRoundButton onClick={() => scrollTo(club)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
           Club
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(shop)}
-        style={{ margin:"6px", color:"var(--primary-text)", flexGrow: "1"}}>
+      </StyledRoundButton>
+      <StyledRoundButton onClick={() => scrollTo(shop)}
+        style={{ margin:"6px", color:"var(--primary-text)"}}>
           Shop
-      </StyledButton>
+      </StyledRoundButton>
     </Navbar>
       <s.Container
         flex={2}
