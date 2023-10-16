@@ -295,7 +295,7 @@ function App() {
         width:"device-width"}}
       >
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 12, backgroundColor: "#fff"}} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
