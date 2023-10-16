@@ -250,25 +250,35 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
+    <Title style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
       Archaic Shell Babies
-    </s.TextTitle>
+    </Title>
       <ButtonContainer>
-      <s.TextTitle onClick={() => scrollTo(mint)}>
+      <Title
+      style={{textDecoration: "underline", fontWeight: "bold"}} 
+      onClick={() => scrollTo(mint)}>
           Mint
-        </s.TextTitle>
-        <s.TextTitle onClick={() => scrollTo(mission)}>
+        </Title>
+        <Title
+        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        onClick={() => scrollTo(mission)}>
           Mission
-        </s.TextTitle>
-        <s.TextTitle onClick={() => scrollTo(utility)}>
+        </Title>
+        <Title
+        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        onClick={() => scrollTo(utility)}>
           Utility
-        </s.TextTitle>
-        <s.TextTitle onClick={() => scrollTo(club)}>
+        </Title>
+        <Title
+        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        onClick={() => scrollTo(club)}>
           Club
-        </s.TextTitle>
-        <s.TextTitle onClick={() => scrollTo(shop)}>
+        </Title>
+        <Title
+        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        onClick={() => scrollTo(shop)}>
           Shop
-        </s.TextTitle>
+        </Title>
         <StyledButton style={{fontSize:"12px"}}
           onClick={(e) => { e.preventDefault();
           dispatch(connect()); getData();}}
