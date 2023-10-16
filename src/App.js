@@ -256,27 +256,27 @@ function App() {
     </s.TextTitle>
       <ButtonContainer>
       <s.TextTitle
-      style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+      style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
         </s.TextTitle>
         <s.TextTitle
-        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
         </s.TextTitle>
         <s.TextTitle
-        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
         </s.TextTitle>
         <s.TextTitle
-        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
         </s.TextTitle>
         <s.TextTitle
-        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
