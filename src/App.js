@@ -250,6 +250,7 @@ function App() {
       style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
         Archaic Shell Babies
       </s.TextTitle>
+      <s.Container>
       <StyledButton onClick={() => scrollTo(mint)}
         style={{ margin:"2px", color:"var(--primary-text)"}}>
           Mint
@@ -270,6 +271,7 @@ function App() {
         style={{ margin:"2px", marginRight:"48px", color:"var(--primary-text)"}}>
           Shop
       </StyledButton>
+    </s.Container>
     </Navbar>
       <s.Container
         flex={2}
