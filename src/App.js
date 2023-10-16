@@ -31,7 +31,6 @@ const Navbar = styled.div`
   z-index: 100;
   border: 1px solid #000;
   transform-style: preserve-3d;
-  width: 80%;
 `;
 const MovingTitle = styled.div`
   display: flex;
@@ -247,23 +246,23 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-      <s.TextTitle style={{textAlign: "left",paddingLeft:"20px", fontWeight: "bold", fontSize:"26px"}}>
+      <s.TextTitle style={{textAlign:"left",paddingLeft:"20px", fontWeight:"bold", fontSize:"26px"}}>
         Archaic Shell Babies
       </s.TextTitle>
       <StyledButton onClick={() => scrollTo(mint)}
-        style={{ margin:"4px", color:"var(--primary-text)"}}>
+        style={{ marginRight:"4px", color:"var(--primary-text)"}}>
           Mint
       </StyledButton>
       <StyledButton onClick={() => scrollTo(mission)}
-        style={{ margin:"4px", color:"var(--primary-text)"}}>
+        style={{ marginRight:"4px", color:"var(--primary-text)"}}>
           Mission
       </StyledButton>
       <StyledButton onClick={() => scrollTo(utility)}
-        style={{ margin:"4px", color:"var(--primary-text)"}}>
+        style={{ marginRight:"4px", color:"var(--primary-text)"}}>
           Utility
       </StyledButton>
       <StyledButton onClick={() => scrollTo(club)}
-        style={{ margin:"4px", color:"var(--primary-text)"}}>
+        style={{ marginRight:"4px", color:"var(--primary-text)"}}>
           Club
       </StyledButton>
       <StyledButton onClick={() => scrollTo(shop)}
