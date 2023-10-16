@@ -21,7 +21,7 @@ const scrollTo = (element) => {
 };
 
 const Navbar = styled.div`
-  background-color: #eee;
+  background-color: #F5FEFD;
   padding: 12px;
   display: flex;
   justify-content: space-between;
