@@ -248,7 +248,7 @@ function App() {
   }, [blockchain.account]);
 
   return (
-  <s.Screen>
+  <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
     <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"24px"}}>
       Archaic Shell Babies
@@ -281,13 +281,13 @@ function App() {
             CONNECT WALLET
         </StyledButton>
       </ButtonContainer>
-    </Navbar>
+    </Navbar> 
+          
       <s.Container
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
         width:"device-width"}}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}
       >
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
