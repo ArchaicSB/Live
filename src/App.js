@@ -341,7 +341,6 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                Contract Address <br />
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
@@ -394,7 +393,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--primary-text)" }}
+                  style={{ textAlign: "center",fontSize: "14px", color: "var(--primary-text)" }}
                 >
                   0.15 ETH per NFT. 3 Max per wallet.
                 </s.TextTitle>
