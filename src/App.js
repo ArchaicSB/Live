@@ -9,13 +9,18 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 const MoveTitle = keyframes`
-  0% {
-    transform: translate(100%, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
-`;
+0% {
+  transform: translateX(100%);
+  animation-timing-function: ease-in; /* Start slow */
+}
+50% {
+  transform: translateX(-100%);
+  animation-timing-function: linear; /* Maintain constant speed in the middle */
+}
+100% {
+  transform: translateX(100%);
+  animation-timing-function: ease-out; /* Slow down at the end */
+}`;
 
 const MovingTitle = styled.div`
   display: flex;
@@ -25,7 +30,6 @@ const MovingTitle = styled.div`
   height: 100px;
   background: linear-gradient(45deg, blue, green);
   overflow: hidden;
-
 `;
 
 const AnimateTitle = styled.h1`
@@ -34,7 +38,6 @@ const AnimateTitle = styled.h1`
   color: #000;
   white-space: nowrap;
   animation: ${MoveTitle} 7s linear infinite;
-  animation-timing-function: ease-in-out;
 `;
 
   export const StyledButton = styled.button`
@@ -233,7 +236,7 @@ function App() {
       padding: "8px",
       margin: "8px",
     }}>
-      <AnimateTitle>Home of the Archaic Shell Babies <img alt= "Logo" src="logo32.png"/> Web3 Sea Turtles, 
+      <AnimateTitle>Home of the Archaic Shell Babies, <img alt= "Logo" src="logo32.png"/> Web3 Sea Turtles 
       </AnimateTitle>
     </MovingTitle>
       <s.Container
@@ -270,7 +273,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Mint Your NFT
+              Mint your NFT 
             </s.TextTitle>
             <s.TextTitle
               style={{
