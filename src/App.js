@@ -249,6 +249,9 @@ function App() {
   <s.Screen>
     <Navbar>
       <img ai={"left"} width={"32px"} height={"32px"} alt="Logo" src="logo32.png" />
+      <TextTitle ai={"left"} style={{fontWeight: "bold", fontSize:"16px"}}>
+        Archaic Shell Babies
+      </TextTitle>
       <StyledButton onClick={() => scrollTo(mint)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Mint
