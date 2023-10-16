@@ -23,6 +23,7 @@ const scrollTo = (element) => {
 const Navbar = styled.div`
   background-color: #357960;
   padding: 20px;
+  marginRight: 20px;
   display: flex;
   justify-content: space-between;
   position: sticky;
