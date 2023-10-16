@@ -16,10 +16,6 @@ const MoveTitle = keyframes`
   transform: translateX(-100%);
 }`;
 
-const scrollTo = (element) => {
-    element.scrollIntoView({ behavior: 'smooth' });
-};
-
 const Navbar = styled.div`
   background-color: #F5FEFD;
   padding: 12px;
@@ -150,6 +146,10 @@ export const GradientBackground = styled.div`
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
 
+const scrollTo = (element) => {
+  element.scrollIntoView({ behavior: 'smooth' });
+};
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -258,27 +258,27 @@ function App() {
     </s.TextTitle>
       <ButtonContainer>
       <s.TextTitle
-      style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
+      style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",marginRight: "4px",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
