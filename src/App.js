@@ -534,22 +534,12 @@ function App() {
             }}
             >
           <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 33,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
+              style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
             >
             Our Mission
           </s.TextTitle>
           <s.TextDescription
-            style={{
-              textAlign: "center",
-              fontSize: 16,
-              fontWeight: "bold",
-              color: "var(--primary-text)",
-            }}
+            style={{textAlign: "center",fontWeight: "bold"}}
             >
             Welcome to Archaic Shell Babies, where the magic of Web3 meets the beauty of nature. 
             Our mission is to protect and preserve the ancient sea turtles and our precious 
@@ -560,24 +550,14 @@ function App() {
           </s.TextDescription>
          <s.SpacerMedium />
             <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 33,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
+              style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
             >
               Who Are We?
             </s.TextTitle>
           <s.SpacerMedium />
           <s.TextDescription
-            style={{
-              textAlign: "center",
-              fontSize: 16,
-              fontWeight: "bold",
-              color: "var(--primary-text)",
-            }}
-          >
+            style={{textAlign: "center",fontWeight: "bold"}}
+            >
             A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
             We're passionate about getting the ocean cleaned and inspiring others to live a 
             life in harmony with mother nature. Web3 and the internet have created amazing 
