@@ -251,35 +251,35 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <Title style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
+    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
       Archaic Shell Babies
-    </Title>
+    </s.TextTitle>
       <ButtonContainer>
-      <Title
-      style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
+      <s.TextTitle
+      style={{cursor: "finger",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
-        </Title>
-        <Title
-        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
+        </s.TextTitle>
+        <s.TextTitle
+        style={{cursor: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
-        </Title>
-        <Title
-        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
+        </s.TextTitle>
+        <s.TextTitle
+        style={{cursor: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
-        </Title>
-        <Title
-        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
+        </s.TextTitle>
+        <s.TextTitle
+        style={{cursor: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
-        </Title>
-        <Title
-        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
+        </s.TextTitle>
+        <s.TextTitle
+        style={{cursor: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
-        </Title>
+        </s.TextTitle>
         <StyledButton style={{fontSize:"12px"}}
           onClick={(e) => { e.preventDefault();
           dispatch(connect()); getData();}}
