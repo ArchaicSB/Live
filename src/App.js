@@ -244,7 +244,6 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-      onClick={(e) => { window.open("https://www.archaicshellbabies.com");}}/>
       <s.TextTitle style={{textAlign: "left",paddingRight:"20px", fontWeight: "bold", fontSize:"16px"}}>
         Archaic Shell Babies
       </s.TextTitle>
