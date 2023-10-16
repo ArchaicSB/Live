@@ -35,7 +35,8 @@ const ButtonContainer = styled.div`
   width: 90%;
   margin: 0 5%;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
+  marginRight: 5%;
 `;
 const MovingTitle = styled.div`
   display: flex;
