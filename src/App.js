@@ -381,7 +381,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center",fontSize: "14px", color: "var(--primary-text)",
+                  style={{ textAlign: "center",fontSize: "16px", color: "var(--primary-text)",
                   fontWeight: "bold" }}
                 >
                   0.15 ETH per NFT. 3 Max per wallet.
