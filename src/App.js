@@ -250,7 +250,7 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
+    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"24px"}}>
       Archaic Shell Babies
     </s.TextTitle>
       <ButtonContainer>
