@@ -21,7 +21,7 @@ const scrollTo = (element) => {
 };
 
 const Navbar = styled.div`
-  background-color: #F5FEFD;
+  background-color: #eee;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -256,27 +256,27 @@ function App() {
     </s.TextTitle>
       <ButtonContainer>
       <s.TextTitle
-      style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+      style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
         </s.TextTitle>
         <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+        style={{color: "#F5FEFD", cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
         </s.TextTitle>
@@ -288,11 +288,10 @@ function App() {
         </StyledButton>
       </ButtonContainer>
     </Navbar> 
-    <s.SpacerSmall />
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: "var(--primary)",
+        style={{ padding: 12, backgroundColor: "#F5FEFD",
         width:"device-width"}}
       >
         <s.SpacerSmall />
@@ -329,7 +328,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "#000",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
