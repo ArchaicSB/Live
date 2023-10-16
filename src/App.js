@@ -24,7 +24,7 @@ const Navbar = styled.div`
   background-color: #357960;
   padding: 10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: sticky;
   top: 0;
   z-index: 100;
