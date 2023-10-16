@@ -322,7 +322,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Mint your Sea Turtle NFT
+              Connect Wallet to Mint an NFT
             </s.TextTitle>
             <s.TextTitle
               style={{
