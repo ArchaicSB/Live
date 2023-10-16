@@ -252,10 +252,10 @@ function App() {
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
     <s.TextTitle onClick={(e) => {window.open("https://linktr.ee/archaicsb");}}
-    style={{textAlign:"left", fontWeight:"bold", fontSize:"20px"}}>
+    style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
       ArchaicShellBabies
     </s.TextTitle>
-      <ButtonContainer style={{marginRight: "5%"}}>
+      <ButtonContainer>
       <s.TextTitle
       style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
