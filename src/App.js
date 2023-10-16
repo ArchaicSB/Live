@@ -244,7 +244,7 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-      <s.TextTitle style={{textAlign: "left",paddingRight:"20px", fontWeight: "bold", fontSize:"16px"}}>
+      <s.TextTitle style={{textAlign: "left",paddingLeft:"20px", fontWeight: "bold", fontSize:"16px"}}>
         Archaic Shell Babies
       </s.TextTitle>
       <StyledButton onClick={() => scrollTo(mint)}
