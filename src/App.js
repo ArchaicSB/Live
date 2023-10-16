@@ -254,24 +254,19 @@ function App() {
       Archaic Shell Babies
     </s.TextTitle>
       <ButtonContainer>
-        <StyledButton onClick={() => scrollTo(mint)}
-          style={{ margin:"2px", color:"var(--primary-text)"}}>
+        <StyledButton onClick={() => scrollTo(mint)}>
             Mint
         </StyledButton>
-        <StyledButton onClick={() => scrollTo(mission)}
-          style={{ margin:"2px", color:"var(--primary-text)"}}>
+        <StyledButton onClick={() => scrollTo(mission)}>
             Mission
         </StyledButton>
-        <StyledButton onClick={() => scrollTo(utility)}
-          style={{ margin:"2px", color:"var(--primary-text)"}}>
+        <StyledButton onClick={() => scrollTo(utility)}>
             Utility
         </StyledButton>
-        <StyledButton onClick={() => scrollTo(club)}
-          style={{ margin:"2px", color:"var(--primary-text)"}}>
+        <StyledButton onClick={() => scrollTo(club)}>
             Club
         </StyledButton>
-        <StyledButton onClick={() => scrollTo(shop)}
-          style={{ margin:"2px", color:"var(--primary-text)"}}>
+        <StyledButton onClick={() => scrollTo(shop)}>
             Shop
         </StyledButton>
         <StyledButton
