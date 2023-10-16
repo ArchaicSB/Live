@@ -317,12 +317,13 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 40,
+                fontSize: 28,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
             >
-              Mint your NFT 
+              To mint an NFT, connect your wallet. <br />
+              After connecting, the real number of minted NFTs will show. 
             </s.TextTitle>
             <s.TextTitle
               style={{
@@ -403,14 +404,6 @@ function App() {
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--primary-text)",
-                      }}
-                    >
-                      Please connect wallet to see the correct # of NFT's minted.
-                    </s.TextDescription>
                     <s.SpacerSmall />
                     {blockchain.errorMsg !== "" ? (
                       <>
