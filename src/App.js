@@ -267,7 +267,7 @@ function App() {
           Club
       </StyledButton>
       <StyledButton onClick={() => scrollTo(shop)}
-        style={{ margin:"4px", color:"var(--primary-text)"}}>
+        style={{ marginRight:"4px", color:"var(--primary-text)"}}>
           Shop
       </StyledButton>
     </Navbar>
