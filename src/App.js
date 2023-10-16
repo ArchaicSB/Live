@@ -291,7 +291,7 @@ function App() {
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container
+          <s.Container id="mint"
             flex={3}
             jc={"center"}
             ai={"center"}
@@ -304,7 +304,7 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
-            <s.TextTitle id="mint"
+            <s.TextTitle
               style={{
                 textAlign: "center",
                 fontSize: 40,
