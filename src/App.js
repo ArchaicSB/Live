@@ -13,10 +13,6 @@ const MoveTitle = keyframes`
   transform: translateX(100%);
   animation-timing-function: ease-in; /* Start slow */
 }
-50% {
-  transform: translateX(0%);
-  animation-timing-function: linear; /* Maintain constant speed in the middle */
-}
 100% {
   transform: translateX(-100%);
   animation-timing-function: ease-out; /* Slow down at the end */
