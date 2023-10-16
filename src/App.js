@@ -33,15 +33,6 @@ const AnimateTitle = styled.h1`
   animation: ${MoveTitle} 5s linear infinite;
 `;
 
-const TitleImg = styled.img`
-  box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
-  border: 2px solid var(--secondary);
-  background-color: var(--accent);
-  border-radius: 100%;
-  width: 100px;
-  animation: ${MoveTitle} 5s linear infinite;
-`;
-
   export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
@@ -233,8 +224,7 @@ function App() {
   return (
   <s.Screen>
     <MovingTitle>
-      <AnimateTitle>Home of the Archaic Shell Babies
-      <TitleImg alt="Logo" src="logo32.png" />
+      <AnimateTitle>Home of the Archaic Shell Babies <img alt= "Logo" src="logo32.png"/>
       </AnimateTitle>
     </MovingTitle>
       <s.Container
