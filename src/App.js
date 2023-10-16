@@ -322,7 +322,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Connect Wallet to Mint an NFT
+              Connect Wallet to mint your NFT
             </s.TextTitle>
             <s.TextTitle
               style={{
