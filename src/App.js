@@ -236,18 +236,6 @@ function App() {
       <TitleImg alt="Logo" src="logo32.png" />
     </MovingTitle>
       <s.Container
-      style={{
-        color:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
-        border: "4px solid #000"
-      }}
-      >
-        <s.TextTitle style={{
-          color:"#fff",
-          }}>
-          Archaic Shell Babies
-        </s.TextTitle>
-      </s.Container>
-      <s.Container
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "var(--primary)",
