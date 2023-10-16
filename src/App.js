@@ -29,7 +29,7 @@ const Navbar = styled.div`
   height: 10vh;
   top: 0;
   z-index: 100;
-  border: 1px solid #000;
+  border: 2px solid #000;
 `;
 const ButtonContainer = styled.div`
   width: 80%;
