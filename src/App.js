@@ -274,6 +274,12 @@ function App() {
           style={{ margin:"2px", color:"var(--primary-text)"}}>
             Shop
         </StyledButton>
+        <StyledButton
+          onClick={(e) => { e.preventDefault();
+          dispatch(connect()); getData();}}
+          >
+            CONNECT WALLET
+        </StyledButton>
       </ButtonContainer>
     </Navbar>
       <s.Container
@@ -405,15 +411,6 @@ function App() {
                       Please connect wallet to see the correct # of NFT's minted.
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT METAMASK
-                    </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
