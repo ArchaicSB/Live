@@ -443,7 +443,7 @@ function App() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--accent-text)",
+                          color: "var(--primary-text)",
                         }}
                       >
                         {mintAmount}
