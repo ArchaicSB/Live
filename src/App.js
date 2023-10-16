@@ -322,8 +322,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              To mint an NFT, connect your wallet. <br />
-              After connecting, the real number of minted NFTs will show. 
+              Mint your Sea Turtle NFT
             </s.TextTitle>
             <s.TextTitle
               style={{
