@@ -333,6 +333,11 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
+            <span
+              style={{
+                textAlign: "center",
+              }}
+            >
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -343,11 +348,6 @@ function App() {
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
-            <span
-              style={{
-                textAlign: "center",
-              }}
-            >
               <StyledButton
                 style={{
                   margin: "6px",
