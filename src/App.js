@@ -232,15 +232,15 @@ function App() {
 
   return (
   <s.Screen>
-    <MovingTitle display={"flex"} ai={"center"} jc={"center"}
+    <s.Container ai={"center"} jc={"center"} 
     style={{
-      border: "2px solid #000",
+      margin: "6px",
       padding: "2px",
-      margin: "2px",
+      border: "2px solid black",
+      backgroundColor: "emerald",
     }}>
-      <AnimateTitle>Home of the Archaic Shell Babies, <img alt= "Logo" src="logo32.png"/> Web3 Sea Turtles 
-      </AnimateTitle>
-    </MovingTitle>
+      
+    </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
