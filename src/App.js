@@ -250,39 +250,34 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"24px"}}>
+    <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"18px"}}>
       Archaic Shell Babies
     </s.TextTitle>
       <ButtonContainer>
-        <StyledButton style={{backgroundColor: "#fff"}}
-        onClick={() => scrollTo(mint)}>
-            Mint
-        </StyledButton>
-        <StyledButton style={{backgroundColor: "#fff"}}
-        onClick={() => scrollTo(mission)}>
-            Mission
-        </StyledButton>
-        <StyledButton style={{backgroundColor: "#fff"}}
-        onClick={() => scrollTo(utility)}>
-            Utility
-        </StyledButton>
-        <StyledButton style={{backgroundColor: "#fff"}}
-        onClick={() => scrollTo(club)}>
-            Club
-        </StyledButton>
-        <StyledButton style={{backgroundColor: "#fff"}}
-        onClick={() => scrollTo(shop)}>
-            Shop
-        </StyledButton>
-        <StyledButton
+      <s.TextTitle onClick={() => scrollTo(mint)}>
+          Mint
+        </s.TextTitle>
+        <s.TextTitle onClick={() => scrollTo(mission)}>
+          Mission
+        </s.TextTitle>
+        <s.TextTitle onClick={() => scrollTo(utility)}>
+          Utility
+        </s.TextTitle>
+        <s.TextTitle onClick={() => scrollTo(club)}>
+          Club
+        </s.TextTitle>
+        <s.TextTitle onClick={() => scrollTo(shop)}>
+          Shop
+        </s.TextTitle>
+        <StyledButton style={{fontSize:"12px"}}
           onClick={(e) => { e.preventDefault();
           dispatch(connect()); getData();}}
           >
-            CONNECT WALLET
+            Connect Wallet
         </StyledButton>
       </ButtonContainer>
     </Navbar> 
-          
+    <s.SpacerSmall />
       <s.Container
         flex={2}
         ai={"center"}
