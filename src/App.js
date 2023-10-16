@@ -26,6 +26,7 @@ const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
   position: sticky;
+  height: 10vh;
   top: 0;
   z-index: 100;
   border: 1px solid #000;
