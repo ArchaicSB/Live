@@ -11,11 +11,11 @@ const truncate = (input, len) =>
 const MoveTitle = keyframes`
 0% {
   transform: translateX(100%);
-  animation-timing-function: ease-in; /* Start slow */
+  animation-timing-function: ease-in-out; /* Start slow */
 }
 100% {
   transform: translateX(-100%);
-  animation-timing-function: ease-out; /* Slow down at the end */
+  animation-timing-function: ease-in-out; /* Slow down at the end */
 }`;
 
 const MovingTitle = styled.div`
