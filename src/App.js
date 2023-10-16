@@ -23,14 +23,18 @@ const MovingTitle = styled.div`
   align-items: center;
   justify-content: center;
   height: 100px;
-  background-color: var(--secondary);
+  background: linear-gradient(45deg, blue, green);
+  overflow: hidden;
+
 `;
 
 const AnimateTitle = styled.h1`
   font-size: 36px;
   font-weight: bold;
-  color: #333;
+  color: #000;
+  white-space: nowrap;
   animation: ${MoveTitle} 7s linear infinite;
+  animation-timing-function: ease-in-out;
 `;
 
   export const StyledButton = styled.button`
@@ -223,8 +227,13 @@ function App() {
 
   return (
   <s.Screen>
-    <MovingTitle>
-      <AnimateTitle>Home of the Archaic Shell Babies <img alt= "Logo" src="logo32.png"/>
+    <MovingTitle display={"flex"} ai={"center"} jc={"center"}
+    style={{
+      border: "4px solid #000",
+      padding: "8px",
+      margin: "8px",
+    }}>
+      <AnimateTitle>Home of the Archaic Shell Babies <img alt= "Logo" src="logo32.png"/> Web3 Sea Turtles, 
       </AnimateTitle>
     </MovingTitle>
       <s.Container
