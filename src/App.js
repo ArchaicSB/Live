@@ -255,27 +255,27 @@ function App() {
     </Title>
       <ButtonContainer>
       <Title
-      style={{textDecoration: "underline", fontWeight: "bold"}} 
+      style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
       onClick={() => scrollTo(mint)}>
           Mint
         </Title>
         <Title
-        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(mission)}>
           Mission
         </Title>
         <Title
-        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(utility)}>
           Utility
         </Title>
         <Title
-        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(club)}>
           Club
         </Title>
         <Title
-        style={{textDecoration: "underline", fontWeight: "bold"}} 
+        style={{hover: "finger",textDecoration: "underline", fontWeight: "bold"}} 
         onClick={() => scrollTo(shop)}>
           Shop
         </Title>
