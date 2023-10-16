@@ -84,11 +84,11 @@ export const StyledRoundButton = styled.button`
   padding: 15px;
   border-radius: 100%;
   border: solid;
-  background-color: var(--primary);
+  background-color:#fff;
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
-  color: var(--primary-text);
+  color: #000;
   width: 45px;
   height: 45px;
   cursor: pointer;
@@ -328,7 +328,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
-                color: "#000",
+                color: "var(--primary-text)",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
@@ -392,10 +392,9 @@ function App() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  1 NFT is 0.15 (ETH) ; 3 max per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.SpacerSmall />
@@ -405,7 +404,7 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--primary-text)",
                       }}
                     >
                       Please connect wallet to see the correct # of NFT's minted.
@@ -430,7 +429,7 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--primary-text)",
                       }}
                     >
                       {feedback}
@@ -501,7 +500,7 @@ function App() {
             style={{
               fontSize: "12px",
               textAlign: "center",
-              color: "var(--secondary-text)",
+              color: "var(--primary-text)",
             }}
           >
             Please make sure you are connected to the (
@@ -512,7 +511,7 @@ function App() {
             style={{
               fontSize: "12px",
               textAlign: "center",
-              color: "var(--secondary-text)",
+              color: "var(--primary-text)",
             }}
           >
             We have set the gas limit for the contract to successfully mint your NFT.
