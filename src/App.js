@@ -3,10 +3,37 @@ import { useDispatch, useSelector } from "react-redux";
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
-import styled from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
+
+const MoveTitle = keyframes`
+  0% {
+    transform: translate(100%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+`;
+
+const MovingTitle = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right bottom, #2B35AF, #eee);
+`;
+
+const TitleImg = styled.img`
+  box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--secondary);
+  background-color: var(--accent);
+  border-radius: 100%;
+  width: 100px;
+  animation: ${moveTitleAnimation} 5s linear infinite;
+`;
 
   export const StyledButton = styled.button`
   padding: 15px;
@@ -27,6 +54,7 @@ const truncate = (input, len) =>
     -moz-box-shadow: #0B4008;
   }
 `;
+
 export const StyledRoundButton = styled.button`
   padding: 15px;
   border-radius: 100%;
@@ -89,6 +117,7 @@ export const Title = styled.h1`
   font-size: 50px;
   text-align: center;
   color: #000000;
+  animation: ${MoveTitle} 5s linear infinite;
 `;
 export const GradientBackground = styled.div`
   width: 100%;
@@ -197,6 +226,10 @@ function App() {
 
   return (
   <s.Screen>
+    <MovingTitle>
+      <TextTitle>Home of the Archaic Shell Babies</TextTitle>
+      <TitleImg alt="Logo" src="logo32.png" />
+    </MovingTitle>
       <s.Container
       style={{
         color:"linear-gradient(to left bottom, #A9F1DF, #FFBBBB)",
