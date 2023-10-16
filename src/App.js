@@ -30,7 +30,6 @@ const Navbar = styled.div`
   z-index: 100;
   border: 1px solid #eee;
 `;
-
 const MovingTitle = styled.div`
   display: flex;
   flex-direction: row;
@@ -48,7 +47,6 @@ const MovingTitle = styled.div`
     -moz-box-shadow: #0B4008;
   }
 `;
-
 const AnimateTitle = styled.h1`
   font-size: 36px;
   font-weight: bold;
@@ -56,7 +54,6 @@ const AnimateTitle = styled.h1`
   white-space: nowrap;
   animation: ${MoveTitle} 7s linear infinite;
 `;
-
 export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
@@ -76,7 +73,6 @@ export const StyledButton = styled.button`
     -moz-box-shadow: #0B4008;
   }
 `;
-
 export const StyledRoundButton = styled.button`
   padding: 15px;
   border-radius: 100%;
