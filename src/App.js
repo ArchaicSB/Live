@@ -26,6 +26,12 @@ const MovingTitle = styled.div`
   background: linear-gradient(to right bottom, #2B35AF, #eee);
 `;
 
+const AnimateTitle = styled.h1`
+  font-size: 36px;
+  color: #333;
+  animation: ${moveTitleAnimation} 5s linear infinite;
+`;
+
 const TitleImg = styled.img`
   box-shadow: 2px 7px 15px 3px rgba(0, 0, 0, 0.7);
   border: 2px solid var(--secondary);
@@ -117,7 +123,6 @@ export const Title = styled.h1`
   font-size: 50px;
   text-align: center;
   color: #000000;
-  animation: ${MoveTitle} 5s linear infinite;
 `;
 export const GradientBackground = styled.div`
   width: 100%;
@@ -227,7 +232,7 @@ function App() {
   return (
   <s.Screen>
     <MovingTitle>
-      <TextTitle>Home of the Archaic Shell Babies</TextTitle>
+      <AnimateTitle>Home of the Archaic Shell Babies</AnimateTitle>
       <TitleImg alt="Logo" src="logo32.png" />
     </MovingTitle>
       <s.Container
