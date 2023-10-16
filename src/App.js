@@ -394,7 +394,8 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
-                  1 NFT is 0.15 (ETH) ; 3 max per wallet
+                  One ArchaicSB NFT is 0.15 ETH <br />
+                  3 per wallet
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.SpacerSmall />
