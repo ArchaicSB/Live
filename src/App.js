@@ -238,7 +238,7 @@ function App() {
       margin: "6px",
       padding: "2px",
       border: "2px solid black",
-      backgroundColor: "emerald",
+      backgroundColor: "#357960",
     }}>
 
     </s.Container>
