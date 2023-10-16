@@ -27,7 +27,7 @@ const MovingTitle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 60px;
   background: linear-gradient(45deg, blue, green);
   overflow: hidden;
 `;
@@ -232,9 +232,9 @@ function App() {
   <s.Screen>
     <MovingTitle display={"flex"} ai={"center"} jc={"center"}
     style={{
-      border: "4px solid #000",
-      padding: "8px",
-      margin: "8px",
+      border: "2px solid #000",
+      padding: "2px",
+      margin: "2px",
     }}>
       <AnimateTitle>Home of the Archaic Shell Babies, <img alt= "Logo" src="logo32.png"/> Web3 Sea Turtles 
       </AnimateTitle>
