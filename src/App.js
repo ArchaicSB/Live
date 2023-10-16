@@ -291,7 +291,7 @@ function App() {
       <s.Container
         flex={2}
         ai={"center"}
-        style={{ padding: 12, backgroundColor: "#808080",
+        style={{ padding: 12, backgroundColor: "var(--primary)",
         width:"device-width"}}
       >
         <s.SpacerSmall />
@@ -501,7 +501,7 @@ function App() {
             style={{
               fontSize: "12px",
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             Please make sure you are connected to the (
@@ -512,7 +512,7 @@ function App() {
             style={{
               fontSize: "12px",
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--secondary-text)",
             }}
           >
             We have set the gas limit for the contract to successfully mint your NFT.
