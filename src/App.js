@@ -244,31 +244,30 @@ function App() {
   return (
   <s.Screen>
     <Navbar>
-      <img width={"100"} height={"100"} alt="Logo" src="logo32.png" 
       onClick={(e) => { window.open("https://www.archaicshellbabies.com");}}/>
       <s.TextTitle style={{textAlign: "left",paddingRight:"20px", fontWeight: "bold", fontSize:"16px"}}>
         Archaic Shell Babies
       </s.TextTitle>
-      <StyledRoundButton onClick={() => scrollTo(mint)}
+      <StyledButton onClick={() => scrollTo(mint)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Mint
-      </StyledRoundButton>
-      <StyledRoundButton onClick={() => scrollTo(mission)}
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(mission)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Mission
-      </StyledRoundButton>
-      <StyledRoundButton onClick={() => scrollTo(utility)}
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(utility)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Utility
-      </StyledRoundButton>
-      <StyledRoundButton onClick={() => scrollTo(club)}
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(club)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Club
-      </StyledRoundButton>
-      <StyledRoundButton onClick={() => scrollTo(shop)}
+      </StyledButton>
+      <StyledButton onClick={() => scrollTo(shop)}
         style={{ margin:"6px", color:"var(--primary-text)"}}>
           Shop
-      </StyledRoundButton>
+      </StyledButton>
     </Navbar>
       <s.Container
         flex={2}
