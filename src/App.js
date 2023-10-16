@@ -23,14 +23,18 @@ const scrollTo = (element) => {
 const Navbar = styled.div`
   background-color: #357960;
   padding: 20px;
-  marginRight: 20px;
   display: flex;
   justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 100;
   border: 1px solid #000;
-  transform-style: preserve-3d;
+`;
+const ButtonContainer = styled.div`
+  width: 70%;
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-between;
 `;
 const MovingTitle = styled.div`
   display: flex;
@@ -246,29 +250,31 @@ function App() {
   return (
   <s.Screen>
     <Navbar margin={"16px"}>
-      <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
-        Archaic Shell Babies
-      </s.TextTitle>
-      <StyledButton onClick={() => scrollTo(mint)}
-        style={{ margin:"2px", color:"var(--primary-text)"}}>
-          Mint
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(mission)}
-        style={{ margin:"2px", color:"var(--primary-text)"}}>
-          Mission
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(utility)}
-        style={{ margin:"2px", color:"var(--primary-text)"}}>
-          Utility
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(club)}
-        style={{ margin:"2px", color:"var(--primary-text)"}}>
-          Club
-      </StyledButton>
-      <StyledButton onClick={() => scrollTo(shop)}
-        style={{ margin:"2px", color:"var(--primary-text)"}}>
-          Shop
-      </StyledButton>
+      <ButtonContainer>
+        <s.TextTitle style={{textAlign:"left",paddingLeft:"8px", fontWeight:"bold", fontSize:"26px"}}>
+          Archaic Shell Babies
+        </s.TextTitle>
+        <StyledButton onClick={() => scrollTo(mint)}
+          style={{ margin:"2px", color:"var(--primary-text)"}}>
+            Mint
+        </StyledButton>
+        <StyledButton onClick={() => scrollTo(mission)}
+          style={{ margin:"2px", color:"var(--primary-text)"}}>
+            Mission
+        </StyledButton>
+        <StyledButton onClick={() => scrollTo(utility)}
+          style={{ margin:"2px", color:"var(--primary-text)"}}>
+            Utility
+        </StyledButton>
+        <StyledButton onClick={() => scrollTo(club)}
+          style={{ margin:"2px", color:"var(--primary-text)"}}>
+            Club
+        </StyledButton>
+        <StyledButton onClick={() => scrollTo(shop)}
+          style={{ margin:"2px", color:"var(--primary-text)"}}>
+            Shop
+        </StyledButton>
+      </ButtonContainer>
     </Navbar>
       <s.Container
         flex={2}
