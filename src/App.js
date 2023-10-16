@@ -244,7 +244,7 @@ function App() {
 
   return (
   <s.Screen>
-    <Navbar>
+    <Navbar width={"80%"}>
       <s.TextTitle style={{textAlign: "left",paddingLeft:"20px", fontWeight: "bold", fontSize:"32px"}}>
         Archaic Shell Babies
       </s.TextTitle>
