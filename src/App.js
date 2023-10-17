@@ -570,7 +570,7 @@ function App() {
           width: "100%",
           height: "400px",
           backgroundColor: "#fff"}}>
-        <s.TextTitle style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}>
+        <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
         <FloatingImages ai={"center"} jc={"center"}>
@@ -613,7 +613,7 @@ function App() {
           </s.TextDescription>
          <s.SpacerMedium />
             <s.TextTitle
-              style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
+              style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}
             >
               Who Are We?
             </s.TextTitle>
@@ -653,7 +653,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 33,
+                fontSize: 28,
                 fontWeight: "bold",
                 color: "var(--primary-text)",
               }}
@@ -678,7 +678,7 @@ function App() {
               <s.TextTitle
                 style={{
                   textAlign: "center",
-                  fontSize: 33,
+                  fontSize: 28,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
