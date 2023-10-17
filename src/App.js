@@ -261,14 +261,6 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-    <s.Container style={{
-      backgroundColor: "#fff", 
-      width: "100%", 
-      height: "100vh",
-      backgroundSize: "cover",
-      padding: "100px 0"
-      }}>
-    </s.Container> 
       <Navbar style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");
           }}
@@ -339,6 +331,14 @@ function App() {
           </StyledButton>
         </ButtonContainer>
       </Navbar>
+      <s.Container style={{
+      backgroundColor: "#fff", 
+      width: "100%", 
+      height: "100vh",
+      backgroundSize: "cover",
+      padding: "800px 0"
+      }}>
+    </s.Container> 
       <s.Container
         flex={2}
         ai={"center"}
