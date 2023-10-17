@@ -125,14 +125,18 @@ const StyledImage = styled.img`
   width: 250px;
   height: 250px;
   border-radius: 10%;
-  animation: ${MoveAnimation} 10s linear infinite;
+  object-fit: cover;
+  animation: ${moveAnimation} 10s linear infinite;
 `;
-const MoveAnimation = keyframes`
-  0%, 100% {
+const moveAnimation = keyframes`
+  0% {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 `;
 const scrollTo = (element) => {
