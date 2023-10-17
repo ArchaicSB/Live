@@ -122,11 +122,6 @@ const FloatingTitle = styled.h1`
   white-space: nowrap;
   animation: ${MoveAnimation} 7s linear infinite;
 `;
-const FloatingImages = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
 const StyledImage = styled.img`
   width: 200px; // Set your desired width
   height: 200px; // Set your desired height
@@ -563,9 +558,10 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <s.Container ai={"center"} jc={"center"} style={{
+      <s.Container ai={"center"} jc={"center"} fd={"row"} style={{
           padding: 8,
           border: "8px solid black",
+          display: "flex",
           width: "100%",
           height: "400px",
           backgroundColor: "#fff"}}>
