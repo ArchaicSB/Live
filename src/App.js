@@ -124,17 +124,16 @@ const FloatingImages = styled.div`
 const StyledImage = styled.img`
   width: 250px;
   height: 250px;
-  object-fit: cover;
   border-radius: 10%;
   animation: ${MoveAnimation} 10s linear infinite;
 `;
 const MoveAnimation = keyframes`
-0% {
-  transform: translateX(100%);
-}
-100% {
-  transform: translateX(-100%);
-}
+  0%, 100% {
+    transform: translateX(-50);
+  }
+  50% {
+    transform: translateX(150%);
+  }
 `;
 const scrollTo = (element) => {
   element.scrollIntoView({ behavior: 'smooth' });
