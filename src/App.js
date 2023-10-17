@@ -144,6 +144,9 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 2px solid #000;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const ButtonContainer = styled.div`
   width: 90%;
@@ -160,10 +163,16 @@ const Dropdown = styled.div`
   background-color: #F5FEFD;
   border: 2px solid #000;
   z-index: 100;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const MenuIcon = styled.div`
   display: none;
   cursor: pointer;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 function App() {
