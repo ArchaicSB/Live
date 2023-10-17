@@ -317,7 +317,7 @@ function App() {
         </StyledButton>
       </ButtonContainer>
       {navbar && (
-        <Dropdown>
+        <Dropdown style={{ display: navbar ? 'flex' : 'none' }}>
           <MenuLink onClick={() => scrollTo(mint)}>
             Mint
           </MenuLink>
