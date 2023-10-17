@@ -344,7 +344,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container id="mint"
-            image={CONFIG.SHOW_BACKGROUND ? "/config/images/emerald.png" : true}
+            background={"linear-gradient(45deg, #00796B, #FF6F61);"}
             flex={3}
             jc={"center"}
             ai={"center"}
