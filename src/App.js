@@ -563,7 +563,7 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <s.Container ai={"center"} jc={"center"} style={{
+      <s.Container style={{
           padding: 8,
           border: "8px solid black",
           width: "100%",
@@ -572,7 +572,7 @@ function App() {
         <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
-        <FloatingImages ai={"center"} jc={"center"}>
+        <FloatingImages>
           <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
           <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
         </FloatingImages>
