@@ -611,6 +611,9 @@ function App() {
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 24,
               height: "100%",
+              width: "80%",
+              margin: "0 10%",
+              borderRadius: 12,
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
