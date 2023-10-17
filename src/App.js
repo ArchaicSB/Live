@@ -319,7 +319,7 @@ function App() {
             Shop
           </s.TextTitle>
           <StyledButton
-            style={{ fontSize: "12px", background: "linear-gradient(90deg, #eee, #FFF, #eee)" }}
+            style={{ fontSize: "12px",fontWeight: "bold", background: "linear-gradient(90deg, #E0E0E0, #FFF, #eee)" }}
             onClick={(e) => {
               e.preventDefault();
               dispatch(connect());
