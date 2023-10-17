@@ -132,17 +132,16 @@ const StyledImage = styled.img`
   height: 200px; // Set your desired height
   object-fit: cover; // Maintain aspect ratio while covering
   border-radius: 10%;
-  animation: ${MoveImageAnimation} 10s linear infinite; // Apply animation
+  animation: ${MoveAnimation} 10s linear infinite; // Apply animation
 `;
-
 const MoveAnimation = keyframes`
 0% {
   transform: translateX(100%);
 }
 100% {
   transform: translateX(-100%);
-}`;
-
+}
+`;
 const scrollTo = (element) => {
   element.scrollIntoView({ behavior: 'smooth' });
 };
