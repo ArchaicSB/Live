@@ -118,10 +118,13 @@ const FloatingImages = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
 `;
 const StyledImage = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10%;
   animation: ${MoveAnimation} 10s linear infinite;
@@ -555,16 +558,10 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <s.Container ai={"center"} jc={"center"} style={{
-          padding: 8,
-          border: "8px solid black",
-          width: "100%",
-          height: "600px",
-          backgroundColor: "#fff"}}>
+        <FloatingImages ai={"center"} jc={"center"}>
         <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
-        <FloatingImages ai={"center"} jc={"center"}>
           <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
           <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
           <StyledImage src={"/config/images/18.png"} alt={"Example 3"}/>
@@ -573,7 +570,6 @@ function App() {
           <StyledImage src={"/config/images/80.png"} alt={"Example 6"}/>
           <StyledImage src={"/config/images/200.png"} alt={"Example 7"}/>
         </FloatingImages>
-      </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
              display={"flex"}
