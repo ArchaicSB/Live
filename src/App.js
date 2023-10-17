@@ -165,13 +165,6 @@ const MenuIcon = styled.div`
   display: none;
   cursor: pointer;
 `;
-const Nav = () => {
-  const [navbar, setNavbar] = useState(false);
-
-  const toggleNavbar = () => {
-    setNavbar(!navbar);
-  };
-}
 
 function App() {
   const dispatch = useDispatch();
@@ -271,6 +264,14 @@ function App() {
   useEffect(() => {
     getData();
   }, [blockchain.account]);
+
+  const Nav = () => {
+    const [navbar, setNavbar] = useState(false);
+  
+    const toggleNavbar = () => {
+      setNavbar(!navbar);
+    };
+  }
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
