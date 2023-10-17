@@ -114,14 +114,7 @@ const MovingTitle = styled.div`
     -moz-box-shadow: #0B4008;
   }
 `;
-const FloatingImages = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 80%;
-  padding: 12px;
-`;
-const StyledImage = styled.img`
+const StyledImage = styled.h1`
   width: 250px;
   height: 250px;
   border-radius: 10%;
@@ -570,7 +563,7 @@ function App() {
         <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
-        <FloatingImages ai={"center"} jc={"center"}>
+        <MovingTitle ai={"center"} jc={"center"}>
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/5.png"} alt={"Example 1"}/>
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/12.png"} alt={"Example 2"}/>
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/18.png"} alt={"Example 3"}/>
@@ -578,7 +571,7 @@ function App() {
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/43.png"} alt={"Example 5"}/>
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/80.png"} alt={"Example 6"}/>
           <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/200.png"} alt={"Example 7"}/>
-        </FloatingImages>
+        </MovingTitle>
       </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
