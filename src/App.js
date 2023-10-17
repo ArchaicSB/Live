@@ -318,21 +318,21 @@ function App() {
       </ButtonContainer>
       {navbar && (
         <Dropdown style={{ display: navbar ? 'flex' : 'none' }}>
-          <MenuLink onClick={() => scrollTo(mint)}>
+          <StyledLink onClick={() => scrollTo(mint)}>
             Mint
-          </MenuLink>
-          <MenuLink onClick={() => scrollTo(mission)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollTo(mission)}>
             Mission
-          </MenuLink>
-          <MenuLink onClick={() => scrollTo(utility)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollTo(utility)}>
             Utility
-          </MenuLink>
-          <MenuLink onClick={() => scrollTo(club)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollTo(club)}>
             Club
-          </MenuLink>
-          <MenuLink onClick={() => scrollTo(shop)}>
+          </StyledLink>
+          <StyledLink onClick={() => scrollTo(shop)}>
             Shop
-          </MenuLink>
+          </StyledLink>
         </Dropdown>
       )}
     </Navbar> 
