@@ -262,15 +262,16 @@ function App() {
         textAlign:"left", 
         cursor: "pointer", 
         fontWeight:"bold", 
-        fontSize:"20px"
-        }}>
-        ArchaicShellBabies
+        fontSize:"20px"}}
+        >
+          ArchaicShellBabies
       </s.TextTitle>
         <ButtonContainer>
           <s.TextTitle onClick={() => scrollTo(mint)}
           style={{cursor: "pointer",
           textDecoration: "underline", 
-          fontWeight: "bold"}}>
+          fontWeight: "bold"}}
+          >
             Mint
           </s.TextTitle>
           <s.TextTitle
@@ -333,7 +334,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Connect wallet to mint your NFT
+              Connect Wallet to Mint
             </s.TextTitle>
             <span
               style={{
