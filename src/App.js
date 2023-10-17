@@ -546,10 +546,9 @@ function App() {
       <s.SpacerSmall />
       </s.Container>
           <s.SpacerXSmall />
+          <ResponsiveWrapper>
            <s.Container id="mission"
              display={"flex"}
-             flex={1}
-             width={"device-width"}
              ai={"center"}
              jc={"center"}
               style={{
@@ -594,6 +593,7 @@ function App() {
           </s.TextDescription>
         <s.SpacerSmall />
         </s.Container>
+        </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container id="utility"
              display={"flex"}
