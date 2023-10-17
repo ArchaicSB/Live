@@ -149,11 +149,10 @@ const Navbar = styled.div`
   }
 `;
 const ButtonContainer = styled.div`
-  width: 90%;
-  margin: 0 5%;
+  width: 70%;
+  margin: 0 15%;
   display: flex;
   justify-content: space-between;
-  marginRight: 5%;
 `;
 
 function App() {
@@ -259,13 +258,19 @@ function App() {
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
       <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");}}
-      style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
+      style={{
+        textAlign:"left", 
+        cursor: "pointer", 
+        fontWeight:"bold", 
+        fontSize:"20px"
+        }}>
         ArchaicShellBabies
       </s.TextTitle>
         <ButtonContainer>
-          <s.TextTitle
-          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-          onClick={() => scrollTo(mint)}>
+          <s.TextTitle onClick={() => scrollTo(mint)}
+          style={{cursor: "pointer",
+          textDecoration: "underline", 
+          fontWeight: "bold"}}>
             Mint
           </s.TextTitle>
           <s.TextTitle
