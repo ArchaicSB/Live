@@ -337,7 +337,7 @@ function App() {
           </StyledButton>
         </ButtonContainer>
       </Navbar>
-      <s.Container ai={"center"} jc={"center"} style={{padding: 8, margin: 8,
+      <s.Container ai={"center"} jc={"center"} style={{padding: 8,
       border: "8px solid black",
       width: "100%",
       height: "400px",
