@@ -122,8 +122,8 @@ const FloatingImages = styled.div`
   margin: 0 10%;
 `;
 const StyledImage = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10%;
   animation: ${MoveAnimation} 10s linear infinite;
