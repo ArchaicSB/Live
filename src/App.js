@@ -149,6 +149,16 @@ const Navbar = styled.div`
     display: none;
   }
 `;
+const ButtonContainer = styled.div`
+  width: 70%;
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
 
 function App() {
   const dispatch = useDispatch();
