@@ -520,7 +520,14 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "75%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "75%",
+              background: "linear-gradient(to bottom right, #eee, #000, #eee)",
+              width: "60%",
+              margin: "0 20%", 
+              borderRadius: 12,
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
+            }}
+            >
           <s.TextDescription
             style={{
               fontSize: "12px",
