@@ -261,7 +261,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-      <Navbar style={{background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
+      <Navbar style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");
           }}
           style={{
