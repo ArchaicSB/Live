@@ -342,8 +342,8 @@ function App() {
             Our Artwork:
         </s.TextTitle>
         <FloatingImages>
-          <StyledImg style={{width: "500px", height: "500px"}} object-fit={"cover"} src="logo192.png" alt="Example NFT"/>
-          <StyledImg style={{width: "500px", height: "500px"}} object-fit={"cover"} src="logo512.png" alt="Example NFT"/>
+          <img style={{width: "400px", height: "500px"}} object-fit={"cover"} src="5.png" alt="Example NFT"/>
+          <img style={{width: "400px", height: "500px"}} object-fit={"cover"} src="12.png" alt="Example NFT"/>
         </FloatingImages>
       </s.Container>
       <s.Container
