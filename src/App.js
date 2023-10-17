@@ -559,7 +559,6 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
-          <ResponsiveWrapper>
           <s.TextTitle
               style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
             >
@@ -569,8 +568,8 @@ function App() {
             style={{
               textAlign: "center",
               fontWeight: "bold",
-              width: "70%",
-              marginLeft: "30%"
+              width: "80%",
+              margin: "0 10%"
           }}
             >
             Welcome to Archaic Shell Babies, where the magic of Web3 meets the beauty of nature. 
@@ -580,7 +579,6 @@ function App() {
             Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
             future for our planet.
           </s.TextDescription>
-          </ResponsiveWrapper>
          <s.SpacerMedium />
             <s.TextTitle
               style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
