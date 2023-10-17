@@ -542,6 +542,7 @@ function App() {
             We recommend that you don't change the gas limit.
             </s.TextDescription>
       </s.Container>
+      <s.SpacerSmall />
       </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
