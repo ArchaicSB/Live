@@ -554,6 +554,7 @@ function App() {
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
               width: "80%",
               margin: "0 10%", 
+              borderRadius: 12,
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
@@ -585,7 +586,11 @@ function App() {
             </s.TextTitle>
           <s.SpacerMedium />
           <s.TextDescription
-            style={{textAlign: "center",fontWeight: "bold"}}
+            style={{textAlign: "center",
+            fontWeight: "bold",
+            width: "80%",
+            margin: "0 10%",
+            }}
             >
             A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
             We're passionate about getting the ocean cleaned and inspiring others to live a 
