@@ -119,7 +119,7 @@ const FloatingImages = styled.div`
   flex-direction: row;
   align-items: center;
   width: 80%;
-  margin: 0 10%;
+  padding: 12px;
 `;
 const StyledImage = styled.img`
   width: 250px;
