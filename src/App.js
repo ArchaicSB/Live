@@ -552,10 +552,8 @@ function App() {
              jc={"center"}
               style={{
               background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 8,
-              height: "100%",
-              borderRadius: 8, 
-              border: "none", 
+              width: "80%",
+              margin: "0 10%", 
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
@@ -608,8 +606,6 @@ function App() {
               background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
               padding: 24,
               height: "100%",
-              borderRadius: 8, 
-              border: "none",
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
