@@ -236,7 +236,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-    <Nav />
+    <s.Nav />
       <s.Container
         flex={2}
         ai={"center"}
