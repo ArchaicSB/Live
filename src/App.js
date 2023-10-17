@@ -565,20 +565,19 @@ function App() {
           width: "100%",
           height: "600px",
           border: "8px solid black",
-          overflow: "hidden",
-          backgroundColor: "#fff"}}
+          backgroundColor: "#eee"}}
           >
         <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
         <FloatingImages ai={"center"} jc={"center"}>
-          <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
-          <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
-          <StyledImage src={"/config/images/18.png"} alt={"Example 3"}/>
-          <StyledImage src={"/config/images/21.png"} alt={"Example 4"}/>
-          <StyledImage src={"/config/images/43.png"} alt={"Example 5"}/>
-          <StyledImage src={"/config/images/80.png"} alt={"Example 6"}/>
-          <StyledImage src={"/config/images/200.png"} alt={"Example 7"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/5.png"} alt={"Example 1"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/12.png"} alt={"Example 2"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/18.png"} alt={"Example 3"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/21.png"} alt={"Example 4"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/43.png"} alt={"Example 5"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/80.png"} alt={"Example 6"}/>
+          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/200.png"} alt={"Example 7"}/>
         </FloatingImages>
       </s.Container>
           <s.SpacerXSmall />
