@@ -345,9 +345,9 @@ function App() {
         </s.TextTitle>
         <FloatingImages>
           <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "400px", height: "400px"}}
-           src="5.png" alt="Example NFT"/>
+           src={"/public/images/5.png"} alt={"Example NFT"}/>
           <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "400px", height: "400px"}}
-           src="12.png" alt="Example NFT"/>
+           src={"/public/images/12.png"} alt={"Example NFT"}/>
         </FloatingImages>
       </s.Container>
       <s.Container
