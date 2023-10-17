@@ -274,7 +274,7 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-  const Nav = () => {
+  const NavBar = () => {
     const [navbar, setNavbar] = useState(false);
   
     const toggleNavbar = () => {
