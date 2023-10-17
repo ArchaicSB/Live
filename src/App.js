@@ -140,7 +140,6 @@ const FloatingImages = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  animation: ${MoveAnimation} 10s linear infinite; // Adjust duration as needed
 `;
 const StyledImage = styled.img`
   width: 200px; // Set your desired width
