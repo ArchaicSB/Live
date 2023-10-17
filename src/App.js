@@ -134,6 +134,22 @@ const scrollTo = (element) => {
   element.scrollIntoView({ behavior: 'smooth' });
 };
 
+const Navbar = styled.div`
+  background-color: #F5FEFD;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  height: 10vh;
+  top: 0;
+  z-index: 100;
+  border: 2px solid #000;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
