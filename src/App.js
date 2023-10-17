@@ -261,7 +261,13 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-    <s.Container style={{backgroundColor: "#fff", width: "100%", height: "100vh"}}>
+    <s.Container style={{
+      backgroundColor: "#fff", 
+      width: "100%", 
+      height: "100vh",
+      backgroundSize: "cover",
+      padding: "100px 0"
+      }}>
     </s.Container> 
       <Navbar style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");
