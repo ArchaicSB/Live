@@ -338,6 +338,12 @@ function App() {
       padding: "100px 0"
       }}>
     </s.Container> 
+    <MovingTitle>
+      <AnimateTitle>
+        <img alt="NFT example" src="/logo192.png" width="500px" height="500px" />
+        <img alt="NFT example" src="/logo512.png" width="500px" height="500px" />
+      </AnimateTitle>
+    </MovingTitle>
       <s.Container
         flex={2}
         ai={"center"}
