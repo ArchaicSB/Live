@@ -128,6 +128,12 @@ const FloatingImages = styled.div`
   align-items: center;
   animation: ${MoveAnimation} 10s linear infinite; // Adjust duration as needed
 `;
+const StyledImage = styled.img`
+  width: 2px; // Set your desired width
+  height: 200px; // Set your desired height
+  object-fit: cover; // Maintain aspect ratio while covering
+  border-radius: 10%;
+`;
 
 const MoveAnimation = keyframes`
 0% {
@@ -346,10 +352,8 @@ function App() {
             Our Artwork:
         </s.TextTitle>
         <FloatingImages ai={"center"} jc={"center"}>
-          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "300px", height: "300px"}}
-           src={"/config/images/5.png"} alt={"Example NFT"}/>
-          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "300px", height: "300px"}}
-           src={"/config/images/12.png"} alt={"Example NFT"}/>
+          <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
+          <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
         </FloatingImages>
       </s.Container>
       <s.Container
