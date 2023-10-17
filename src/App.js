@@ -8,56 +8,6 @@ import styled, { keyframes } from 'styled-components';
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
-const MoveTitle = keyframes`
-0% {
-  transform: translateX(100%);
-}
-100% {
-  transform: translateX(-100%);
-}`;
-
-const Navbar = styled.div`
-  background-color: #F5FEFD;
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  height: 10vh;
-  top: 0;
-  z-index: 100;
-  border: 2px solid #000;
-`;
-const ButtonContainer = styled.div`
-  width: 90%;
-  margin: 0 5%;
-  display: flex;
-  justify-content: space-between;
-  marginRight: 5%;
-`;
-const MovingTitle = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  background-color: white;
-  overflow: hidden;
-  box-shadow: 0px 6px 0px -2px #000000;
-  -webkit-box-shadow: 1px 6px 0px -2px #000000;
-  -moz-box-shadow: 1px 6px 0px -2px #000000;
-  :active {
-    box-shadow: #0B4008;
-    -webkit-box-shadow: #0B4008;
-    -moz-box-shadow: #0B4008;
-  }
-`;
-const AnimateTitle = styled.h1`
-  font-size: 36px;
-  font-weight: bold;
-  color: #000;
-  white-space: nowrap;
-  animation: ${MoveTitle} 7s linear infinite;
-`;
 export const StyledButton = styled.button`
   padding: 15px;
   border-radius: 50px;
@@ -146,9 +96,82 @@ export const GradientBackground = styled.div`
   background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
 `;
 
+const MovingTitle = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0px 6px 0px -2px #000000;
+  -webkit-box-shadow: 1px 6px 0px -2px #000000;
+  -moz-box-shadow: 1px 6px 0px -2px #000000;
+  :active {
+    box-shadow: #0B4008;
+    -webkit-box-shadow: #0B4008;
+    -moz-box-shadow: #0B4008;
+  }
+`;
+
+const AnimateTitle = styled.h1`
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  animation: ${MoveTitle} 7s linear infinite;
+`;
+
+const MoveTitle = keyframes`
+0% {
+  transform: translateX(100%);
+}
+100% {
+  transform: translateX(-100%);
+}`;
+
 const scrollTo = (element) => {
   element.scrollIntoView({ behavior: 'smooth' });
 };
+
+const Navbar = styled.div`
+  background-color: #F5FEFD;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  height: 10vh;
+  top: 0;
+  z-index: 100;
+  border: 2px solid #000;
+`;
+const ButtonContainer = styled.div`
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  marginRight: 5%;
+`;
+const Dropdown = styled.div`
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  background-color: #F5FEFD;
+  border: 2px solid #000;
+  z-index: 100;
+`;
+const MenuIcon = styled.div`
+  display: none;
+  cursor: pointer;
+`;
+const Nav = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const toggleNavbar = () => {
+    setNavbar(!navbar);
+  };
+}
 
 function App() {
   const dispatch = useDispatch();
@@ -252,10 +275,13 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle onClick={(e) => {window.open("https://linktr.ee/archaicsb");}}
+    <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");}}
     style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
       ArchaicShellBabies
     </s.TextTitle>
+    <MenuIcon onClick={toggleNavbar}>
+      <img alt="menu" src="/config/images/menu.png" width="100px" height="100px" />
+    </MenuIcon>
       <ButtonContainer>
       <s.TextTitle
       style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
@@ -289,6 +315,25 @@ function App() {
             Connect Wallet
         </StyledButton>
       </ButtonContainer>
+      {navbar && (
+        <Dropdown>
+          <MenuLink onClick={() => scrollTo(mint)}>
+            Mint
+          </MenuLink>
+          <MenuLink onClick={() => scrollTo(mission)}>
+            Mission
+          </MenuLink>
+          <MenuLink onClick={() => scrollTo(utility)}>
+            Utility
+          </MenuLink>
+          <MenuLink onClick={() => scrollTo(club)}>
+            Club
+          </MenuLink>
+          <MenuLink onClick={() => scrollTo(shop)}>
+            Shop
+          </MenuLink>
+        </Dropdown>
+      )}
     </Navbar> 
       <s.Container
         flex={2}
