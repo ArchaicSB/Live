@@ -523,7 +523,7 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "75%",
-              background: "linear-gradient(to right bottom, #eee, #000, #eee)",
+              background: "#000",
               width: "60%",
               margin: "0 20%", 
               borderRadius: 12,
