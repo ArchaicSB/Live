@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled, { keyframes } from 'styled-components';
+import Nav from './components/Nav';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -134,27 +135,6 @@ const scrollTo = (element) => {
   element.scrollIntoView({ behavior: 'smooth' });
 };
 
-const Navbar = styled.div`
-  background-color: #F5FEFD;
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  height: 10vh;
-  top: 0;
-  z-index: 100;
-  border: 2px solid #000;
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-const ButtonContainer = styled.div`
-  width: 70%;
-  margin: 0 15%;
-  display: flex;
-  justify-content: space-between;
-`;
-
 function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
@@ -256,52 +236,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-    <Navbar>
-      <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");}}
-      style={{
-        textAlign:"left", 
-        cursor: "pointer", 
-        fontWeight:"bold", 
-        fontSize:"20px"}}
-        >
-          ArchaicShellBabies
-      </s.TextTitle>
-        <ButtonContainer>
-          <s.TextTitle onClick={() => scrollTo(mint)}
-          style={{cursor: "pointer",
-          textDecoration: "underline", 
-          fontWeight: "bold"}}
-          >
-            Mint
-          </s.TextTitle>
-          <s.TextTitle
-          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-          onClick={() => scrollTo(mission)}>
-            Mission
-          </s.TextTitle>
-          <s.TextTitle
-          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-          onClick={() => scrollTo(utility)}>
-            Utility
-          </s.TextTitle>
-          <s.TextTitle
-          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-          onClick={() => scrollTo(club)}>
-            Club
-          </s.TextTitle>
-          <s.TextTitle
-          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-          onClick={() => scrollTo(shop)}>
-            Shop
-          </s.TextTitle>
-          <StyledButton style={{fontSize:"12px"}}
-            onClick={(e) => { e.preventDefault();
-            dispatch(connect()); getData();}}
-            >
-              Connect Wallet
-          </StyledButton>
-        </ButtonContainer>
-    </Navbar> 
+    <Nav />
       <s.Container
         flex={2}
         ai={"center"}
