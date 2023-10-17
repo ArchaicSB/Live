@@ -352,7 +352,7 @@ function App() {
               marginLeft: 36,
               borderRadius: 16,
               border: "8px solid var(--secondary)",
-              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+              boxShadow: "#000 70%",
             }}
           >
             <s.TextTitle
