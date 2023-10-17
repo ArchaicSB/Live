@@ -553,26 +553,6 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <s.Container ai={"center"} jc={"center"} style={{
-          padding: 8,
-          width: "100%",
-          height: "600px",
-          border: "8px solid black",
-          backgroundColor: "#eee"}}
-          >
-        <s.TextTitle style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}>
-            Our Artwork:
-        </s.TextTitle>
-        <MovingTitle ai={"center"} jc={"center"}>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/5.png"} alt={"Example 1"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/12.png"} alt={"Example 2"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/18.png"} alt={"Example 3"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/21.png"} alt={"Example 4"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/43.png"} alt={"Example 5"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/80.png"} alt={"Example 6"}/>
-          <StyledImage style={{width:"250px", height:"250px"}} src={"/config/images/200.png"} alt={"Example 7"}/>
-        </MovingTitle>
-      </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
              display={"flex"}
