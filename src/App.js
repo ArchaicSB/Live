@@ -344,11 +344,11 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container id="mint"
-            background={"linear-gradient(45deg, #00796B, #FF6F61);"}
             flex={3}
             jc={"center"}
             ai={"center"}
             style={{
+            background: "linear-gradient(45deg, #00796B, #FF6F61)",
               marginLeft: 36,
               borderRadius: 16,
               border: "8px solid var(--secondary)",
