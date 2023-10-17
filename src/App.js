@@ -355,6 +355,7 @@ function App() {
               boxShadow: "3px 5px 9px 3px rgba(0,0,0,0.9)",
             }}
           >
+            <s.SpacerSmall />
             <s.TextTitle
               style={{
                 textAlign: "center",
