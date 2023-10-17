@@ -316,7 +316,6 @@ function App() {
               Connect Wallet
           </StyledButton>
         </ButtonContainer>
-      {navbar && (
         <Dropdown style={{ display: navbar ? 'flex' : 'none' }}>
           <StyledLink onClick={() => scrollTo(mint)}>
             Mint
@@ -334,7 +333,6 @@ function App() {
             Shop
           </StyledLink>
         </Dropdown>
-      )}
     </Navbar> 
       <s.Container
         flex={2}
