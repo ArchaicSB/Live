@@ -335,7 +335,7 @@ function App() {
       width: "100%", 
       height: "100vh",
       backgroundSize: "cover",
-      padding: "800px 0"
+      padding: "100px 0"
       }}>
     </s.Container> 
       <s.Container
