@@ -78,6 +78,7 @@ export const StyledImg = styled.img`
   }
   @media (min-width: 1000px) {
     width: 300px;
+    height: 300px;
   }
   transition: width 0.5s;
 `;
@@ -114,15 +115,21 @@ const MovingTitle = styled.div`
   }
 `;
 
-const AnimateTitle = styled.h1`
+const FloatingTitle = styled.h1`
   font-size: 36px;
   font-weight: bold;
   color: #000;
   white-space: nowrap;
-  animation: ${MoveTitle} 7s linear infinite;
+  animation: ${MoveAnimation} 7s linear infinite;
+`;
+const FloatingImages = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: ${MoveAnimation} 10s linear infinite; // Adjust duration as needed
 `;
 
-const MoveTitle = keyframes`
+const MoveAnimation = keyframes`
 0% {
   transform: translateX(100%);
 }
@@ -330,20 +337,15 @@ function App() {
           </StyledButton>
         </ButtonContainer>
       </Navbar>
-      <s.Container style={{
-      backgroundColor: "#fff", 
-      width: "100%", 
-      height: "100vh",
-      backgroundSize: "cover",
-      padding: "100px 0"
-      }}>
-    </s.Container> 
-    <MovingTitle>
-      <AnimateTitle>
-        <img alt="NFT example" src="/logo192.png" width="500px" height="500px" />
-        <img alt="NFT example" src="/logo512.png" width="500px" height="500px" />
-      </AnimateTitle>
-    </MovingTitle>
+      <s.Container ai={"center"} jc={"center"} style={{padding: 8, margin: 8}}>
+        <s.TextTitle>
+            Our Artwork:
+        </s.TextTitle>
+        <FloatingImages>
+          <StyledImg style={{width: "500px", height: "500px"}} object-fit={"cover"} src="logo192.png" alt="Example NFT"/>
+          <StyledImg style={{width: "500px", height: "500px"}} object-fit={"cover"} src="logo512.png" alt="Example NFT"/>
+        </FloatingImages>
+      </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
