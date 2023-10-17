@@ -106,7 +106,7 @@ return (
         </ButtonContainer>
     </Navbar> 
   </s.Screen>
-);
+  );
 
 
 export default Nav;
