@@ -114,20 +114,6 @@ const MovingTitle = styled.div`
     -moz-box-shadow: #0B4008;
   }
 `;
-export const AnimatedContainer = styled.div`
-  position: relative; /* Make the container's position relative */
-  display: flex;
-  flex: ${({ flex }) => (flex ? flex : 0)};
-  flex-direction: ${({ fd }) => (fd ? fd : "column")};
-  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
-  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
-  background-color: ${({ test }) => (test ? "pink" : "none")};
-  width: 100%;
-  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  background-size: cover;
-  background-position: center;
-  animation: ${MoveAnimation} 10s linear infinite;
-`;
 
 const FloatingTitle = styled.h1`
   font-size: 36px;
@@ -146,6 +132,7 @@ const StyledImage = styled.img`
   height: 200px; // Set your desired height
   object-fit: cover; // Maintain aspect ratio while covering
   border-radius: 10%;
+  animation: ${MoveImageAnimation} 10s linear infinite; // Apply animation
 `;
 
 const MoveAnimation = keyframes`
@@ -577,7 +564,7 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <AnimatedContainer ai={"center"} jc={"center"} style={{
+      <s.Container ai={"center"} jc={"center"} style={{
           padding: 8,
           border: "8px solid black",
           width: "100%",
@@ -590,7 +577,7 @@ function App() {
           <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
           <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
         </FloatingImages>
-      </AnimatedContainer>
+      </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
              display={"flex"}
