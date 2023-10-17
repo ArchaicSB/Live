@@ -565,11 +565,6 @@ function App() {
             >
             Our Mission
           </s.TextTitle>
-          <s.Container style={{
-            border: "2px solid black",
-            boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
-            backgroundColor: "none"
-          }}>
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -585,7 +580,6 @@ function App() {
             Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
             future for our planet.
           </s.TextDescription>
-          </s.Container>
           </ResponsiveWrapper>
          <s.SpacerMedium />
             <s.TextTitle
