@@ -129,10 +129,10 @@ const StyledImage = styled.img`
 `;
 const MoveAnimation = keyframes`
   0%, 100% {
-    transform: translateX(-50);
+    transform: translateX(0);
   }
   50% {
-    transform: translateX(150%);
+    transform: translateX(100%);
   }
 `;
 const scrollTo = (element) => {
