@@ -348,11 +348,11 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-            background: "linear-gradient(-90deg, #00796B, #FF6F61)",
+            background: "linear-gradient(90deg, #00796B, #FF6F61)",
               marginLeft: 36,
               borderRadius: 16,
               border: "8px solid var(--secondary)",
-              boxShadow: "#000 70%",
+              boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
             }}
           >
             <s.TextTitle
