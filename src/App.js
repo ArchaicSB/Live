@@ -129,7 +129,7 @@ const FloatingImages = styled.div`
   animation: ${MoveAnimation} 10s linear infinite; // Adjust duration as needed
 `;
 const StyledImage = styled.img`
-  width: 2px; // Set your desired width
+  width: 200px; // Set your desired width
   height: 200px; // Set your desired height
   object-fit: cover; // Maintain aspect ratio while covering
   border-radius: 10%;
@@ -343,19 +343,6 @@ function App() {
           </StyledButton>
         </ButtonContainer>
       </Navbar>
-      <s.Container ai={"center"} jc={"center"} style={{padding: 8,
-      border: "8px solid black",
-      width: "100%",
-      height: "400px",
-      backgroundColor: "#fff"}}>
-        <s.TextTitle>
-            Our Artwork:
-        </s.TextTitle>
-        <FloatingImages ai={"center"} jc={"center"}>
-          <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
-          <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
-        </FloatingImages>
-      </s.Container>
       <s.Container
         flex={2}
         ai={"center"}
@@ -576,6 +563,20 @@ function App() {
             </s.TextDescription>
       </s.Container>
       <s.SpacerSmall />
+      </s.Container>
+      <s.Container ai={"center"} jc={"center"} style={{
+          padding: 8,
+          border: "8px solid black",
+          width: "100%",
+          height: "400px",
+          backgroundColor: "#fff"}}>
+        <s.TextTitle>
+            Our Artwork:
+        </s.TextTitle>
+        <FloatingImages ai={"center"} jc={"center"}>
+          <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
+          <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
+        </FloatingImages>
       </s.Container>
           <s.SpacerXSmall />
            <s.Container id="mission"
