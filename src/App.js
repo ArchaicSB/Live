@@ -4,7 +4,6 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled, { keyframes } from 'styled-components';
-import Nav from './components/Nav';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -236,7 +235,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-          <Navbar>
+      <Navbar>
         <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");
           }}
           style={{
