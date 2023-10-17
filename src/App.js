@@ -93,8 +93,8 @@ export const Title = styled.h1`
 `;
 export const GradientBackground = styled.div`
   width: 100%;
-  height: 100vh; /* Adjust as needed */
-  background: linear-gradient(to bottom, #ff9900, #ff3399); /* Replace with your desired gradient colors */
+  height: 100vh;
+  background: linear-gradient(to bottom, #ff9900, #ff3399);
 `;
 
 const MovingTitle = styled.div`
@@ -114,25 +114,17 @@ const MovingTitle = styled.div`
     -moz-box-shadow: #0B4008;
   }
 `;
-
-const FloatingTitle = styled.h1`
-  font-size: 36px;
-  font-weight: bold;
-  color: #000;
-  white-space: nowrap;
-  animation: ${MoveAnimation} 7s linear infinite;
-`;
 const FloatingImages = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
 `;
 const StyledImage = styled.img`
-  width: 200px; // Set your desired width
-  height: 200px; // Set your desired height
-  object-fit: cover; // Maintain aspect ratio while covering
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 10%;
-  animation: ${MoveAnimation} 10s linear infinite; // Apply animation
+  animation: ${MoveAnimation} 10s linear infinite;
 `;
 const MoveAnimation = keyframes`
 0% {
