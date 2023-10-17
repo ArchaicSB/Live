@@ -351,7 +351,7 @@ function App() {
             background: "linear-gradient(90deg, #ae8f60, #C2B280)",
               marginLeft: 36,
               borderRadius: 16,
-              border: "8px solid var(--secondary)",
+              border: "8px solid linear-gradient(90deg, #fff, #000)",
               boxShadow: "3px 5px 9px 3px rgba(0,0,0,0.9)",
             }}
           >
