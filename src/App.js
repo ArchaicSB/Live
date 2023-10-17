@@ -339,14 +339,16 @@ function App() {
       </Navbar>
       <s.Container ai={"center"} jc={"center"} style={{padding: 8, margin: 8,
       border: "8px solid black",
+      width: "100%",
+      height: "400px",
       backgroundColor: "#fff"}}>
         <s.TextTitle>
             Our Artwork:
         </s.TextTitle>
-        <FloatingImages>
-          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "400px", height: "400px"}}
+        <FloatingImages ai={"center"} jc={"center"}>
+          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "300px", height: "300px"}}
            src={"/public/images/5.png"} alt={"Example NFT"}/>
-          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "400px", height: "400px"}}
+          <StyledImg style={{objectFit: "cover", borderRadius: "10%", width: "300px", height: "300px"}}
            src={"/public/images/12.png"} alt={"Example NFT"}/>
         </FloatingImages>
       </s.Container>
