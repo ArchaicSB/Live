@@ -236,7 +236,76 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-    <Nav />
+          <Navbar>
+        <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");
+          }}
+          style={{
+            textAlign: "left",
+            cursor: "pointer",
+            fontWeight: "bold",
+            fontSize: "20px",
+          }}
+        >
+          ArchaicShellBabies
+        </s.TextTitle>
+        <ButtonContainer>
+          <s.TextTitle onClick={() => scrollTo(mint)}
+            style={{
+              cursor: "pointer",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            Mint
+          </s.TextTitle>
+          <s.TextTitle onClick={() => scrollTo(mission)}
+            style={{
+              cursor: "pointer",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            Mission
+          </s.TextTitle>
+          <s.TextTitle onClick={() => scrollTo(utility)}
+            style={{
+              cursor: "pointer",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            Utility
+          </s.TextTitle>
+          <s.TextTitle onClick={() => scrollTo(club)}
+            style={{
+              cursor: "pointer",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            Club
+          </s.TextTitle>
+          <s.TextTitle onClick={() => scrollTo(shop)}
+            style={{
+              cursor: "pointer",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            Shop
+          </s.TextTitle>
+          <StyledButton
+            style={{ fontSize: "12px" }}
+            onClick={(e) => {
+              e.preventDefault();
+              dispatch(connect());
+              getData();
+            }}
+          >
+            Connect Wallet
+          </StyledButton>
+        </ButtonContainer>
+      </Navbar>
       <s.Container
         flex={2}
         ai={"center"}
