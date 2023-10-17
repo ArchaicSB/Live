@@ -51,6 +51,21 @@ export const Container = styled.div`
   background-position: center;
 `;
 
+export const AnimatedContainer = styled.div`
+  position: relative; /* Make the container's position relative */
+  display: flex;
+  flex: ${({ flex }) => (flex ? flex : 0)};
+  flex-direction: ${({ fd }) => (fd ? fd : "column")};
+  justify-content: ${({ jc }) => (jc ? jc : "flex-start")};
+  align-items: ${({ ai }) => (ai ? ai : "flex-start")};
+  background-color: ${({ test }) => (test ? "pink" : "none")};
+  width: 100%;
+  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
+  background-size: cover;
+  background-position: center;
+  animation: ${MoveAnimation} 10s linear infinite;
+`;
+
 export const TextTitle = styled.p`
   color: var(--primary-text);
   font-size: 22px;

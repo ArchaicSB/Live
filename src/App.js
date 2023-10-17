@@ -564,20 +564,20 @@ function App() {
       </s.Container>
       <s.SpacerSmall />
       </s.Container>
-      <s.Container ai={"center"} jc={"center"} style={{
+      <s.AnimatedContainer ai={"center"} jc={"center"} style={{
           padding: 8,
           border: "8px solid black",
           width: "100%",
           height: "400px",
           backgroundColor: "#fff"}}>
-        <s.TextTitle>
+        <s.TextTitle style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}>
             Our Artwork:
         </s.TextTitle>
         <FloatingImages ai={"center"} jc={"center"}>
           <StyledImage src={"/config/images/5.png"} alt={"Example 1"}/>
           <StyledImage src={"/config/images/12.png"} alt={"Example 2"}/>
         </FloatingImages>
-      </s.Container>
+      </s.AnimatedContainer>
           <s.SpacerXSmall />
            <s.Container id="mission"
              display={"flex"}
