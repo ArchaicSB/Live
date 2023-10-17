@@ -565,8 +565,18 @@ function App() {
             >
             Our Mission
           </s.TextTitle>
+          <s.Container style={{
+            border: "2px solid black",
+            boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)",
+            backgroundColor: "none"
+          }}>
           <s.TextDescription
-            style={{textAlign: "center",fontWeight: "bold"}}
+            style={{
+              textAlign: "center",
+              fontWeight: "bold",
+              width: "70%",
+              marginLeft: "30%"
+          }}
             >
             Welcome to Archaic Shell Babies, where the magic of Web3 meets the beauty of nature. 
             Our mission is to protect and preserve the ancient sea turtles and our precious 
@@ -575,6 +585,7 @@ function App() {
             Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
             future for our planet.
           </s.TextDescription>
+          </s.Container>
           </ResponsiveWrapper>
          <s.SpacerMedium />
             <s.TextTitle
