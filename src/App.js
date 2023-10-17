@@ -276,46 +276,46 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
-    <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");}}
-    style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
-      ArchaicShellBabies
-    </s.TextTitle>
-    <MenuIcon onClick={toggleNavbar}>
-      <img alt="menu" src="/config/images/menu.png" width="100px" height="100px" />
-    </MenuIcon>
-      <ButtonContainer>
-      <s.TextTitle
-      style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-      onClick={() => scrollTo(mint)}>
-          Mint
-        </s.TextTitle>
-        <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-        onClick={() => scrollTo(mission)}>
-          Mission
-        </s.TextTitle>
-        <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-        onClick={() => scrollTo(utility)}>
-          Utility
-        </s.TextTitle>
-        <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-        onClick={() => scrollTo(club)}>
-          Club
-        </s.TextTitle>
-        <s.TextTitle
-        style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
-        onClick={() => scrollTo(shop)}>
-          Shop
-        </s.TextTitle>
-        <StyledButton style={{fontSize:"12px"}}
-          onClick={(e) => { e.preventDefault();
-          dispatch(connect()); getData();}}
-          >
-            Connect Wallet
-        </StyledButton>
-      </ButtonContainer>
+      <s.TextTitle onClick={(e) => {window.open("https:www.archaicshellbabies.com");}}
+      style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
+        ArchaicShellBabies
+      </s.TextTitle>
+      <MenuIcon onClick={toggleNavbar}>
+        <img alt="menu" src="/config/images/menu.png" width="100px" height="100px" />
+      </MenuIcon>
+        <ButtonContainer>
+          <s.TextTitle
+          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+          onClick={() => scrollTo(mint)}>
+            Mint
+          </s.TextTitle>
+          <s.TextTitle
+          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+          onClick={() => scrollTo(mission)}>
+            Mission
+          </s.TextTitle>
+          <s.TextTitle
+          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+          onClick={() => scrollTo(utility)}>
+            Utility
+          </s.TextTitle>
+          <s.TextTitle
+          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+          onClick={() => scrollTo(club)}>
+            Club
+          </s.TextTitle>
+          <s.TextTitle
+          style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
+          onClick={() => scrollTo(shop)}>
+            Shop
+          </s.TextTitle>
+          <StyledButton style={{fontSize:"12px"}}
+            onClick={(e) => { e.preventDefault();
+            dispatch(connect()); getData();}}
+            >
+              Connect Wallet
+          </StyledButton>
+        </ButtonContainer>
       {navbar && (
         <Dropdown style={{ display: navbar ? 'flex' : 'none' }}>
           <StyledLink onClick={() => scrollTo(mint)}>
