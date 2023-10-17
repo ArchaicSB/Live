@@ -146,7 +146,7 @@ const Navbar = styled.div`
   border: 2px solid #000;
 
   @media (max-width: 768px) {
-    fontSize: 10px;
+    display: none;
   }
 `;
 const ButtonContainer = styled.div`
@@ -156,7 +156,7 @@ const ButtonContainer = styled.div`
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    fontSize: 10px;
+    display: none;
   }
 `;
 
