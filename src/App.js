@@ -155,25 +155,6 @@ const ButtonContainer = styled.div`
   justify-content: space-between;
   marginRight: 5%;
 `;
-const Dropdown = styled.div`
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 50px;
-  background-color: #F5FEFD;
-  border: 2px solid #000;
-  z-index: 100;
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-const MenuIcon = styled.div`
-  display: none;
-  cursor: pointer;
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
 
 function App() {
   const dispatch = useDispatch();
@@ -274,14 +255,6 @@ function App() {
     getData();
   }, [blockchain.account]);
 
-  const NavBar = () => {
-    const [navbar, setNavbar] = useState(false);
-  
-    const toggleNavbar = () => {
-      setNavbar(!navbar);
-    };
-  }
-
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
     <Navbar>
@@ -289,9 +262,6 @@ function App() {
       style={{textAlign:"left", cursor: "pointer", fontWeight:"bold", fontSize:"20px"}}>
         ArchaicShellBabies
       </s.TextTitle>
-      <MenuIcon onClick={toggleNavbar}>
-        <img alt="menu" src="/config/images/menu.png" width="100px" height="100px" />
-      </MenuIcon>
         <ButtonContainer>
           <s.TextTitle
           style={{cursor: "pointer",textDecoration: "underline", fontWeight: "bold"}} 
@@ -325,23 +295,6 @@ function App() {
               Connect Wallet
           </StyledButton>
         </ButtonContainer>
-        <Dropdown style={{ display: navbar ? 'flex' : 'none' }}>
-          <StyledLink onClick={() => scrollTo(mint)}>
-            Mint
-          </StyledLink>
-          <StyledLink onClick={() => scrollTo(mission)}>
-            Mission
-          </StyledLink>
-          <StyledLink onClick={() => scrollTo(utility)}>
-            Utility
-          </StyledLink>
-          <StyledLink onClick={() => scrollTo(club)}>
-            Club
-          </StyledLink>
-          <StyledLink onClick={() => scrollTo(shop)}>
-            Shop
-          </StyledLink>
-        </Dropdown>
     </Navbar> 
       <s.Container
         flex={2}
