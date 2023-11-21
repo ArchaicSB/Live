@@ -334,7 +334,7 @@ function App() {
           </StyledButton>
         </ButtonContainer>
       </Navbar>
-      <s.Container
+      <s.Container id="mint"
         flex={2}
         ai={"center"}
         style={{ padding: 12, backgroundColor: "none",
@@ -346,7 +346,7 @@ function App() {
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container id="mint"
+          <s.Container
             flex={3}
             jc={"center"}
             ai={"center"}
