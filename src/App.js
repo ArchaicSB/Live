@@ -301,7 +301,9 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <MovingTitle>
-      <StyledImage style={{color: "#000"}}>
+      <StyledImage style={{
+        color: "#000",
+        animation: "${moveAnimation} 10s linear infinite",}}>
         Archaic Shell Babies || <img alt="Logo" src="/logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
       </StyledImage>
       </MovingTitle>
