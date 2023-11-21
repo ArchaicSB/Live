@@ -149,8 +149,9 @@ const Navbar = styled.div`
   z-index: 100;
   border: 2px solid #fff;
 
-  @media (max-width: 640px) {
-    ;
+  @media (max-width: 768px) {
+    width: device-width;
+    font-size: 10px;
   }
 `;
 const ButtonContainer = styled.div`
