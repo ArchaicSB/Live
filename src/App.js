@@ -102,8 +102,8 @@ const MovingTitle = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 60px;
-  background: linear-gradient();
+  height: 40px;
+  background: linear-gradient(90deg, #333, #fff, #333);
   overflow: hidden;
   box-shadow: 0px 6px 0px -2px #000000;
   -webkit-box-shadow: 1px 6px 0px -2px #000000;
@@ -113,15 +113,37 @@ const MovingTitle = styled.div`
     -webkit-box-shadow: #0B4008;
     -moz-box-shadow: #0B4008;
   }
+  @media screen and (min-width: 400px) {
+    body {
+      width: device-width;
+      height: 20px;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    body {
+      width: device-width;
+      height: 20px;
+    }
+  }
 `;
 const StyledImage = styled.h1`
-  width: 250px;
-  height: 250px;
-  border-radius: 10%;
-  object-fit: cover;
   overflow: hidden;
   animation: ${moveAnimation} 10s linear infinite;
   color: var(--primary);
+  font-weight: bold;
+  font-size: 24px
+  @media screen and (min-width: 400px) {
+    body {
+      width: device-width;
+      font-size: 10px;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    body {
+      width: device-width;
+      font-size: 10px;
+    }
+  }
 `;
 const moveAnimation = keyframes`
   0% {
@@ -149,10 +171,19 @@ const Navbar = styled.div`
   z-index: 100;
   border: 2px solid #fff;
 
-  @media (max-width: 768px) {
-    width: device-width;
-    font-size: 10px;
+  @media screen and (min-width: 400px) {
+    body {
+      width: device-width;
+      font-size: 10px;
+    }
   }
+  @media screen and (min-width: 640px) {
+    body {
+      width: device-width;
+      font-size: 10px;
+    }
+  }
+  
 `;
 const ButtonContainer = styled.div`
   width: 70%;
@@ -267,7 +298,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-      <MovingTitle style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
+      <MovingTitle>
       <StyledImage style={{color: "#000"}}>
         Archaic Shell Babies || <img alt="Logo" src="logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
       </StyledImage>
