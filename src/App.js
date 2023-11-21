@@ -158,7 +158,7 @@ const ButtonContainer = styled.div`
   justify-content: space-between;
 
   @media (max-width: 768px) {
-    display: none;
+    width: device-width;
   }
 `;
 
