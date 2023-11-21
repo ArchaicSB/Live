@@ -113,18 +113,6 @@ const MovingTitle = styled.div`
     -webkit-box-shadow: #0B4008;
     -moz-box-shadow: #0B4008;
   }
-  @media screen and (min-width: 400px) {
-    MovingTitle {
-      width: device-width;
-      height: 20px;
-    }
-  }
-  @media screen and (min-width: 640px) {
-    MovingTitle {
-      width: device-width;
-      height: 20px;
-    }
-  }
 `;
 const StyledImage = styled.h1`
   overflow: hidden;
@@ -134,18 +122,6 @@ const StyledImage = styled.h1`
   font-size: 24px;
   justify-content: space-between;
 
-  @media screen and (min-width: 400px) {
-    StyledImage {
-      width: device-width;
-      font-size: 10px;
-    }
-  }
-  @media screen and (min-width: 640px) {
-    StyledImage {
-      width: device-width;
-      font-size: 10px;
-    }
-  }
 `;
 const moveAnimation = keyframes`
   0% {
@@ -172,31 +148,20 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 2px solid #fff;
-
-  @media screen and (min-width: 400px) {
-    Navbar {
-      width: device-width;
-      font-size: 10px;
-    }
+  @media (min-width: 767px) {
+    width: 100%;
   }
-  @media screen and (min-width: 640px) {
-    Navbar {
-      width: device-width;
-      font-size: 10px;
-    }
+  @media (min-width: 1000px) {
+    width: 100%;
+    height: 100%;
   }
-  
+  transition: width 0.5s;
 `;
 const ButtonContainer = styled.div`
   width: 70%;
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
-
-  @media (max-width: 768px) {
-    width: device-width;
-    font-size: 10px;
-  }
 `;
 
 function App() {
