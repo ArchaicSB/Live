@@ -145,10 +145,10 @@ const Navbar = styled.div`
   height: 10vh;
   top: 0;
   z-index: 100;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 
-  @media (max-width: 768px) {
-    display: none;
+  @media (max-width: 640px) {
+    ;
   }
 `;
 const ButtonContainer = styled.div`
@@ -322,16 +322,6 @@ function App() {
           >
             Shop
           </s.TextTitle>
-          <StyledButton
-            style={{ fontSize: "12px",fontWeight: "bold", background: "linear-gradient(90deg, #E0E0E0, #FFF, #eee)" }}
-            onClick={(e) => {
-              e.preventDefault();
-              dispatch(connect());
-              getData();
-            }}
-          >
-            Connect Wallet
-          </StyledButton>
         </ButtonContainer>
       </Navbar>
       <s.Container id="mint"
@@ -433,6 +423,16 @@ function App() {
                   0.15 ETH per NFT. 3 Max per wallet.
                 </s.TextTitle>
                 <s.SpacerXSmall />
+                <StyledButton
+                  style={{ fontSize: "12px",fontWeight: "bold", background: "linear-gradient(90deg, #E0E0E0, #FFF, #eee)" }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    dispatch(connect());
+                    getData();
+                  }}
+                >
+                  Connect Wallet
+                </StyledButton>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
