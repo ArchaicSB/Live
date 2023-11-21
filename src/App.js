@@ -268,7 +268,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <MovingTitle style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
-      <StyledImage>
+      <StyledImage style={{color: "#000"}}>
         Archaic Shell Babies || <img alt="Logo" src="logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
       </StyledImage>
       </MovingTitle>
