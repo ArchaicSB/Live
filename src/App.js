@@ -131,7 +131,9 @@ const StyledImage = styled.h1`
   animation: ${moveAnimation} 10s linear infinite;
   color: var(--primary);
   font-weight: bold;
-  font-size: 24px
+  font-size: 24px;
+  justify-content: space-between;
+
   @media screen and (min-width: 400px) {
     body {
       width: device-width;
@@ -300,7 +302,7 @@ function App() {
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <MovingTitle>
       <StyledImage style={{color: "#000"}}>
-        Archaic Shell Babies || <img alt="Logo" src="logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
+        Archaic Shell Babies || <img alt="Logo" src="/logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
       </StyledImage>
       </MovingTitle>
       <Navbar id="navbar" style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
