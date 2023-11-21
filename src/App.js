@@ -566,6 +566,27 @@ function App() {
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
+            <s.SpacerSmall />
+            <s.TextTitle
+              style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}
+            >
+              Who Are We?
+            </s.TextTitle>
+          <s.SpacerMedium />
+          <s.TextDescription
+            style={{textAlign: "center",
+            fontWeight: "bold",
+            width: "80%",
+            margin: "0 10%",
+            }}
+            >
+            A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
+            We're passionate about getting the ocean cleaned and inspiring others to live a 
+            life in harmony with mother nature. Web3 and the internet have created amazing 
+            communities that have the ability to come together and make a difference. We 
+            are harnessing that ability to make an impact for the ocean and its life.
+          </s.TextDescription>
+        <s.SpacerMedium />
           <s.TextTitle
               style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
             >
@@ -586,27 +607,7 @@ function App() {
             Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
             future for our planet.
           </s.TextDescription>
-         <s.SpacerMedium />
-            <s.TextTitle
-              style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}
-            >
-              Who Are We?
-            </s.TextTitle>
-          <s.SpacerMedium />
-          <s.TextDescription
-            style={{textAlign: "center",
-            fontWeight: "bold",
-            width: "80%",
-            margin: "0 10%",
-            }}
-            >
-            A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
-            We're passionate about getting the ocean cleaned and inspiring others to live a 
-            life in harmony with mother nature. Web3 and the internet have created amazing 
-            communities that have the ability to come together and make a difference. We 
-            are harnessing that ability to make an impact for the ocean and its life.
-          </s.TextDescription>
-        <s.SpacerSmall />
+          <s.SpacerSmall />
         </s.Container>
         <s.SpacerSmall />
         <s.Container id="utility"
