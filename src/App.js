@@ -161,6 +161,7 @@ const ButtonContainer = styled.div`
 
   @media (max-width: 768px) {
     width: device-width;
+    font-size: 10px;
   }
 `;
 
