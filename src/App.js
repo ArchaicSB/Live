@@ -300,14 +300,6 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-      <MovingTitle width={"device-width"}>
-      <StyledImage width={"device-width"}
-      style={{
-        color: "#000",
-        animation: "${moveAnimation} 10s linear infinite",}}>
-        Archaic Shell Babies || <img alt="Logo" src="/logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
-      </StyledImage>
-      </MovingTitle>
       <Navbar id="navbar"width={"device-width"} style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {
                 window.open("https://www.archaicshellbabies.com", "_top");
