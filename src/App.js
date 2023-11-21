@@ -149,11 +149,10 @@ const Navbar = styled.div`
   z-index: 100;
   border: 2px solid #fff;
   @media (min-width: 767px) {
-    width: 100%;
+    width: auto;
   }
   @media (min-width: 1000px) {
-    width: 100%;
-    height: 100%;
+    width: auto;
   }
   transition: width 0.5s;
 `;
