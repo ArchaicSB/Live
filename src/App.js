@@ -264,7 +264,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <Navbar id="navbar" style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
-        <s.TextTitle onClick={() => scrollTo(navbar)}
+        <s.TextTitle onClick={() => scrollTo(mint)}
           style={{
             textAlign: "left",
             cursor: "pointer",
