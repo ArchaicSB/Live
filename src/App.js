@@ -264,7 +264,9 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <Navbar id="navbar" style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
-        <s.TextTitle onClick={() => scrollTo(mint)}
+        <s.TextTitle onClick={(e) => {
+                window.open(CONFIG.MARKETPLACE_LINK, "https://www.archaicshellbabies.com");
+              }}
           style={{
             textAlign: "left",
             cursor: "pointer",
