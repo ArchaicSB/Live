@@ -103,7 +103,7 @@ const MovingTitle = styled.div`
   align-items: center;
   justify-content: center;
   height: 60px;
-  background-color: white;
+  background: linear-gradient();
   overflow: hidden;
   box-shadow: 0px 6px 0px -2px #000000;
   -webkit-box-shadow: 1px 6px 0px -2px #000000;
@@ -119,7 +119,9 @@ const StyledImage = styled.h1`
   height: 250px;
   border-radius: 10%;
   object-fit: cover;
+  overflow: hidden;
   animation: ${moveAnimation} 10s linear infinite;
+  color: var(--primary);
 `;
 const moveAnimation = keyframes`
   0% {
@@ -263,6 +265,11 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
+      <MovingTitle style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
+      <StyledImage>
+        Archaic Shell Babies || <img alt="Logo" src="logo.png" /> || Web3 Sea Turtles || Travel NFT || Humanitarian Project ||
+      </StyledImage>
+      </MovingTitle>
       <Navbar id="navbar" style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {
                 window.open("https://www.archaicshellbabies.com", "_top");
