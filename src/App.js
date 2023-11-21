@@ -574,7 +574,7 @@ function App() {
             >
               Who Are We?
             </s.TextTitle>
-          <s.SpacerMedium />
+          <s.SpacerSmall />
           <s.TextDescription
             style={{textAlign: "center",
             fontWeight: "bold",
