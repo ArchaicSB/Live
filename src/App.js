@@ -114,13 +114,13 @@ const MovingTitle = styled.div`
     -moz-box-shadow: #0B4008;
   }
   @media screen and (min-width: 400px) {
-    body {
+    MovingTitle {
       width: device-width;
       height: 20px;
     }
   }
   @media screen and (min-width: 640px) {
-    body {
+    MovingTitle {
       width: device-width;
       height: 20px;
     }
@@ -135,13 +135,13 @@ const StyledImage = styled.h1`
   justify-content: space-between;
 
   @media screen and (min-width: 400px) {
-    body {
+    StyledImage {
       width: device-width;
       font-size: 10px;
     }
   }
   @media screen and (min-width: 640px) {
-    body {
+    StyledImage {
       width: device-width;
       font-size: 10px;
     }
@@ -174,13 +174,13 @@ const Navbar = styled.div`
   border: 2px solid #fff;
 
   @media screen and (min-width: 400px) {
-    body {
+    Navbar {
       width: device-width;
       font-size: 10px;
     }
   }
   @media screen and (min-width: 640px) {
-    body {
+    Navbar {
       width: device-width;
       font-size: 10px;
     }
