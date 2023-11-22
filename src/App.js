@@ -58,6 +58,10 @@ export const ResponsiveWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  @media (min-width: 767px) {
+    flex-direction: column;
+    width: auto;
+  }
 `;
 export const StyledLogo = styled.img`
   width: 300px;
