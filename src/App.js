@@ -162,6 +162,15 @@ const ButtonContainer = styled.div`
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
+  @media (min-width: 767px) {
+    width: auto;
+    font-size: 10px;
+  }
+  @media (min-width: 1000px) {
+    width: auto;
+    font-size: 10px;
+  }
+  transition: width 0.5s;
 `;
 
 function App() {
