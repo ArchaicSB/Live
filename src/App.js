@@ -141,6 +141,7 @@ const scrollTo = (element) => {
 const Navbar = styled.div`
   background-color: none;
   padding: 12px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -264,7 +265,7 @@ function App() {
 
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
-      <Navbar id="navbar"width={"device-width"} style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
+      <Navbar id="navbar" style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
         <s.TextTitle onClick={(e) => {
                 window.open("https://www.archaicshellbabies.com", "_top");
               }}
