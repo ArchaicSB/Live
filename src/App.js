@@ -152,9 +152,6 @@ const Navbar = styled.div`
   @media (min-width: 767px) {
     width: auto;
   }
-  @media (min-width: 1000px) {
-    width: auto;
-  }
   transition: width 0.5s;
 `;
 const ButtonContainer = styled.div`
@@ -163,10 +160,6 @@ const ButtonContainer = styled.div`
   display: flex;
   justify-content: space-between;
   @media (min-width: 767px) {
-    width: auto;
-    font-size: 10px;
-  }
-  @media (min-width: 1000px) {
     width: auto;
     font-size: 10px;
   }
