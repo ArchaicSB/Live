@@ -162,7 +162,7 @@ const ButtonContainer = styled.div`
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 767px){
+  @media (min-width: 678px){
     font-size: 10px;
   }
   transition: width 0.5s;
