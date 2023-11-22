@@ -54,13 +54,13 @@ export const StyledRoundButton = styled.button`
 export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
   @media (min-width: 767px) {
-    flex-direction: column;
-    width: auto;
+    flex-direction: row;
+    width: 100%;
   }
 `;
 export const StyledLogo = styled.img`
