@@ -54,14 +54,10 @@ export const StyledRoundButton = styled.button`
 export const ResponsiveWrapper = styled.div`
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: auto;
-  @media (min-width: 767px) {
-    flex-direction: row;
-    width: 100%;
-  }
+  width: 100%;
 `;
 export const StyledLogo = styled.img`
   width: 300px;
@@ -145,7 +141,7 @@ const scrollTo = (element) => {
 const Navbar = styled.div`
   background-color: none;
   padding: 12px;
-  width:100%;
+  width: auto;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -154,10 +150,10 @@ const Navbar = styled.div`
   z-index: 100;
   border: 2px solid #fff;
   @media (min-width: 767px) {
-    width: auto;
+    width: 100%;
   }
   @media (min-width: 1000px) {
-    width: auto;
+    width: 100%;
   }
   transition: width 0.5s;
 `;
@@ -166,8 +162,8 @@ const ButtonContainer = styled.div`
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
-  @media (min-width: 767px) {
-    width: 50%;
+  @media (max-width: 767px){
+    width: auto;
     font-size: 10px;
   }
   transition: width 0.5s;
