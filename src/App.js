@@ -157,13 +157,30 @@ const Navbar = styled.div`
   }
   transition: width 0.5s;
 `;
+export const NavTitle = styled.p`
+  color: var(--primary-text);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  cursor: text;
+  a:hover: {
+    background-color: white;
+  }
+  @media (min-width: 300px)(min-width: 767px) {
+    font-size: 12px;
+  }
+`;
 const ButtonContainer = styled.div`
   width: 70%;
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
-  @media (min-width: 412px){
+  a:hover: {
+    background-color: white;
+  }
+  @media (min-width: 300px)(min-width: 767px){
     font-size: 10px;
+    justify-content: space-between;
   }
   transition: width 0.5s;
 `;
@@ -270,7 +287,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <Navbar id="navbar"width={"device-width"} style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
-        <s.TextTitle onClick={(e) => {
+        <s.NavTitle onClick={(e) => {
                 window.open("https://www.archaicshellbabies.com", "_top");
               }}
           style={{
@@ -281,7 +298,7 @@ function App() {
           }}
         >
           ArchaicShellBabies
-        </s.TextTitle>
+        </s.NavTitle>
         <ButtonContainer>
           <s.TextTitle onClick={() => scrollTo(mint)}
             style={{

@@ -63,6 +63,7 @@ export const TextTitle = styled.p`
   }
 `;
 
+
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
   font-size: 18px;
