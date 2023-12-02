@@ -363,10 +363,10 @@ function App() {
                 textAlign: "center",
                 fontSize: 28,
                 fontWeight: "bold",
-                background: "linear-gradient(90deg, #E0E0E0, #FFF, #eee)",
+                color: "#000",
               }}
             >
-              Connect Wallet to Mint
+              Connect Wallet to Mint Your NFT
             </s.TextTitle>
             <span
               style={{
