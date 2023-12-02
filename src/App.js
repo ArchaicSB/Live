@@ -287,7 +287,7 @@ function App() {
   return (
   <s.Screen image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : true}>
       <Navbar id="navbar"width={"device-width"} style={{background: "linear-gradient(90deg, #FFE5B4, #7DF9FF, #FFE5B4)"}}>
-        <s.NavTitle onClick={(e) => {
+        <NavTitle onClick={(e) => {
                 window.open("https://www.archaicshellbabies.com", "_top");
               }}
           style={{
@@ -298,7 +298,7 @@ function App() {
           }}
         >
           ArchaicShellBabies
-        </s.NavTitle>
+        </NavTitle>
         <ButtonContainer>
           <s.TextTitle onClick={() => scrollTo(mint)}
             style={{
