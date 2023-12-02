@@ -149,8 +149,7 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 2px solid #fff;
-  @media (min-width: 767px) {
-    width: 50%;
+  @media only screen and (min-width: 767px) {
     font-size: 10px;
 
   }
@@ -174,7 +173,7 @@ const ButtonContainer = styled.div`
   display: flex;
   cursor: pointer;
   justify-content: space-between;
-  @media (min-width: 767px){
+  @media only screen and (min-width: 767px){
     font-size: 10px;
     justify-content: space-between;
   }
@@ -345,7 +344,7 @@ function App() {
         </ButtonContainer>
       </Navbar>
       <img  jc={"center"} ai={"center"} style={{
-        width: "100%", height: "80vh", border:"4px solid white"}} 
+        width: "100%", border:"4px solid white"}} 
         alt={"Banner"} src={"/config/images/Banner.png"} />
       <s.Container id="mint"
         flex={2}
