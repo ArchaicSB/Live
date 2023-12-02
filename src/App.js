@@ -150,10 +150,9 @@ const Navbar = styled.div`
   z-index: 100;
   border: 2px solid #fff;
   @media (min-width: 767px) {
-    width: 100%;
-  }
-  @media (min-width: 1000px) {
-    width: 100%;
+    width: 50%;
+    font-size: 10px;
+
   }
   transition: width 0.5s;
 `;
@@ -162,7 +161,7 @@ export const NavTitle = styled.p`
   font-size: 22px;
   font-weight: 500;
   line-height: 1.6;
-  cursor: text;
+  cursor: pointer;
   @media (min-width: 767px) {
     font-size: 12px;
     justify-content: space-between;
@@ -173,6 +172,7 @@ const ButtonContainer = styled.div`
   width: 70%;
   margin: 0 15%;
   display: flex;
+  cursor: pointer;
   justify-content: space-between;
   @media (min-width: 767px){
     font-size: 10px;
