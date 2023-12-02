@@ -149,10 +149,6 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 2px solid #fff;
-  @media (max-width: 400px) {
-    font-size: 10px;
-    justify-content: space-between;
-  }
   transition: width 0.5s;
 `;
 export const NavTitle = styled.p`
@@ -161,10 +157,6 @@ export const NavTitle = styled.p`
   font-weight: 500;
   line-height: 1.6;
   cursor: pointer;
-  @media (max-width: 400px) {
-    font-size: 12px;
-    justify-content: space-between;
-  }
   transition: width 0.5s;
 `;
 const ButtonContainer = styled.div`
@@ -173,10 +165,6 @@ const ButtonContainer = styled.div`
   display: flex;
   cursor: pointer;
   justify-content: space-between;
-  @media (max-width: 400px){
-    font-size: 10px;
-    justify-content: space-between;
-  }
   transition: width 0.5s;
 `;
 
