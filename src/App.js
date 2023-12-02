@@ -348,7 +348,7 @@ function App() {
         </ButtonContainer>
       </Navbar>
       <img  jc={"center"} ai={"center"} style={{
-        width: "100%", border:"4px solid white"}} 
+        width: "100%", height: "1vh", border:"4px solid white"}} 
         alt={"Banner"} src={"/config/images/Banner.png"} />
       <s.Container id="mint"
         flex={2}
