@@ -163,27 +163,24 @@ export const NavTitle = styled.p`
   font-weight: 500;
   line-height: 1.6;
   cursor: text;
-  a:hover: {
-    background-color: white;
-  }
-  @media (min-width: 300px)(min-width: 767px) {
+  @media (min-width: 767px) {
     font-size: 12px;
+    justify-content: space-between;
   }
+  transition: width 0.5s;
 `;
 const ButtonContainer = styled.div`
   width: 70%;
   margin: 0 15%;
   display: flex;
   justify-content: space-between;
-  a:hover: {
-    background-color: white;
-  }
-  @media (min-width: 300px)(min-width: 767px){
+  @media (min-width: 767px){
     font-size: 10px;
     justify-content: space-between;
   }
   transition: width 0.5s;
 `;
+
 
 function App() {
   const dispatch = useDispatch();
