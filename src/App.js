@@ -149,7 +149,7 @@ const Navbar = styled.div`
   top: 0;
   z-index: 100;
   border: 2px solid #fff;
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     font-size: 10px;
     justify-content: space-between;
   }
@@ -161,7 +161,7 @@ export const NavTitle = styled.p`
   font-weight: 500;
   line-height: 1.6;
   cursor: pointer;
-  @media only screen and (max-width: 400px) {
+  @media (max-width: 400px) {
     font-size: 12px;
     justify-content: space-between;
   }
@@ -173,7 +173,7 @@ const ButtonContainer = styled.div`
   display: flex;
   cursor: pointer;
   justify-content: space-between;
-  @media only screen and (max-width: 400px){
+  @media (max-width: 400px){
     font-size: 10px;
     justify-content: space-between;
   }
