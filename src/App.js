@@ -330,6 +330,9 @@ function App() {
           </s.TextTitle>
         </ButtonContainer>
       </Navbar>
+      <img  jc={"center"} ai={"center"} style={{
+        width: "100%", border:"4px solid white"}} 
+        alt={"Banner"} src={"/config/images/Banner.png"} />
       <s.Container id="mint"
         flex={2}
         ai={"center"}
@@ -360,7 +363,7 @@ function App() {
                 textAlign: "center",
                 fontSize: 28,
                 fontWeight: "bold",
-                color: "var(--primary-text)",
+                background: "linear-gradient(90deg, #E0E0E0, #FFF, #eee)",
               }}
             >
               Connect Wallet to Mint
