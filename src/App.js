@@ -621,29 +621,22 @@ function App() {
           <s.SpacerSmall />
         </s.Container>
         <s.SpacerSmall />
-        <s.Container id="utility"
+            <s.SpacerXSmall />
+           <s.Container id="utility"
              display={"flex"}
-             flex={1}
              ai={"center"}
              jc={"center"}
-             width={"device-width"}
               style={{
-              background: "linear-gradient(to top right, #FFE5B4, #7DF9FF, #FFE5B4)",
-              padding: 24,
-              height: "100%",
+              background: "linear-gradient(to bottom right, #FFE5B4, #7DF9FF, #FFE5B4)",
               width: "80%",
-              margin: "0 10%",
+              margin: "0 10%", 
               borderRadius: 12,
               boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
             }}
             >
+            <s.SpacerSmall />
             <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 28,
-                fontWeight: "bold",
-                color: "var(--primary-text)",
-              }}
+              style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}
             >
               Utility
             </s.TextTitle>
