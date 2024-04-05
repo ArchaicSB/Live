@@ -609,6 +609,7 @@ function App() {
             style={{
               textAlign: "center",
               fontWeight: "bold",
+              fontSize: 28,
               width: "80%",
               margin: "0 10%"
           }}
