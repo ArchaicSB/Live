@@ -622,7 +622,7 @@ function App() {
         </s.Container>
         <s.SpacerSmall />
             <s.SpacerXSmall />
-             <s.Container id="mission"
+             <s.Container id="utility"
              display={"flex"}
              ai={"center"}
              jc={"center"}
@@ -638,6 +638,8 @@ function App() {
            <s.TextTitle
               style={{textAlign: "center",fontSize: 28,fontWeight: "bold"}}
             >
+            Utility
+            </s.TextTitle>
             <s.SpacerSmall />
               <s.TextDescription
                 style={{
