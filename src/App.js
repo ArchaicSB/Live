@@ -682,6 +682,7 @@ function App() {
                   Savings on stylish tote bags, reusable water bottles, metal straws, clothing, and 
                   unique sea turtle merchandise can be discovered here. As our partnerships grow, so will 
                   the discount book.
+          <s.SpacerSmall/ >
           </s.TextDescription>
          </s.Container>
           <s.SpacerSmall />
