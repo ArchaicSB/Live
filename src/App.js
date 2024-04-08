@@ -695,6 +695,7 @@ function App() {
                 padding: 12,
                 borderRadius: 8,
                 width: "80%", 
+                margin: "0 10%", 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
              }}
@@ -731,6 +732,7 @@ function App() {
                 background: "linear-gradient(to bottom right, #000, #fff)",
                 padding: 12,
                 width: "80%",
+                margin: "0 10%", 
                 borderRadius: 8, 
                 border: "none", 
                 boxShadow: "0px 3px 9px 2px rgba(0,0,0,0.9)", 
