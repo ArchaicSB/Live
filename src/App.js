@@ -588,7 +588,7 @@ function App() {
           <s.TextDescription
             style={{textAlign: "center",
             fontWeight: "bold",
-            fontSize: 28,
+            fontSize: 24,
             width: "80%",
             margin: "0 10%",
             }}
@@ -609,7 +609,7 @@ function App() {
             style={{
               textAlign: "center",
               fontWeight: "bold",
-              fontSize: 28,
+              fontSize: 24,
               width: "80%",
               margin: "0 10%"
           }}
@@ -646,7 +646,7 @@ function App() {
               <s.TextDescription
                 style={{
                   textAlign: "center",
-                  fontSize: 28,
+                  fontSize: 24,
                   fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
@@ -671,12 +671,12 @@ function App() {
                 <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 28,
+                    fontSize: 24,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
                 >
-                   We've partnered with a Sea Turtle organization that offer unforgettable travel experiences. 
+                   We've partnered with a Sea Turtle organization, SEETurtles.org, that offer unforgettable travel experiences. 
                   As an NFT holder, you'll enjoy special discounts on these unforgettable journeys and experiences. 
                   The discount book is your access to a range of eco-friendly and sustainable products.
                   Savings on stylish tote bags, reusable water bottles, metal straws, clothing, and 
