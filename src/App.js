@@ -608,7 +608,6 @@ function App() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              fontWeight: "bold",
               fontSize: 24,
               width: "80%",
               margin: "0 10%"
