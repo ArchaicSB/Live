@@ -580,14 +580,13 @@ function App() {
             >
             <s.SpacerSmall />
             <s.TextTitle
-              style={{textAlign: "center",fontSize: 33,fontWeight: "bold"}}
+              style={{textAlign: "center",fontSize: 33, fontWeight: "bold"}}
             >
               Who Are We?
             </s.TextTitle>
           <s.SpacerSmall />
           <s.TextDescription
             style={{textAlign: "center",
-            fontWeight: "bold",
             fontSize: 24,
             width: "80%",
             margin: "0 10%",
@@ -646,7 +645,6 @@ function App() {
                 style={{
                   textAlign: "center",
                   fontSize: 24,
-                  fontWeight: "bold",
                   color: "var(--primary-text)",
                 }}
               >
@@ -671,7 +669,6 @@ function App() {
                   style={{
                     textAlign: "center",
                     fontSize: 24,
-                    fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
                 >
@@ -713,7 +710,7 @@ function App() {
               <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 18,
+                    fontSize: 22,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
@@ -751,7 +748,7 @@ function App() {
               <s.TextDescription
                   style={{
                     textAlign: "center",
-                    fontSize: 18,
+                    fontSize: 22,
                     fontWeight: "bold",
                     color: "var(--primary-text)",
                   }}
