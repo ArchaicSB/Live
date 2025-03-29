@@ -612,7 +612,7 @@ function App() {
               margin: "0 10%"
           }}
             >
-            Our mission is to assist in the conservation of ancient sea turtles and our help clean up the
+            Our mission is to assist in the conservation of ancient sea turtles and to assist in cleaning up the
             oceans.
             As our brand grows, so does our impact. We pledge to donate to Sea 
             Turtle conservation projects and ocean plastic cleanup initiatives, ensuring a brighter 
