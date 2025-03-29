@@ -592,11 +592,11 @@ function App() {
             margin: "0 10%",
             }}
             >
-            A collection of 10,000 unique NFTs swimming on the Ethereum blockchain. 
+            A collection of 10,000 Sea Turtle NFTs swimming on the Ethereum blockchain. 
             We're passionate about getting the ocean cleaned and inspiring others to live a 
             life in harmony with mother nature. Web3 and the internet have created amazing 
             communities that have the ability to come together and make a difference. We 
-            are harnessing that ability to make an impact for the ocean and its life.
+            are harnessing that ability to make an impact for the ocean and marine life.
           </s.TextDescription>
         <s.SpacerMedium />
           <s.TextTitle
@@ -612,10 +612,10 @@ function App() {
               margin: "0 10%"
           }}
             >
-            Our mission is to protect and preserve the ancient sea turtles and our precious 
+            Our mission is to assist in the conservation of ancient sea turtles and our help clean up the
             oceans.
-            As our NFT collection grows, so does our impact. We pledge to donate to Sea 
-            Turtle conservation projects and Ocean plastic cleanup initiatives, ensuring a brighter 
+            As our brand grows, so does our impact. We pledge to donate to Sea 
+            Turtle conservation projects and ocean plastic cleanup initiatives, ensuring a brighter 
             future for our planet.
           </s.TextDescription>
           <s.SpacerSmall />
@@ -651,7 +651,7 @@ function App() {
               Owning an ArchaicSB NFT is your key into future opportunities 
               and benefits through the Sea Turtle Club. As an NFT holder, you'll gain special access to upcoming projects, 
               ventures, and in-person events. It's not just about collecting our NFTs... but joining a 
-              movement to be a part of something special. Let's shape the future together. 
+              movement to be a part of something special. Change starts inside each of us and it's up to us to make a positive impact for the world. 
               </s.TextDescription>
               <s.SpacerMedium />
               <s.TextTitle
