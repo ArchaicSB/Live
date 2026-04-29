@@ -672,7 +672,7 @@ function App() {
                     color: "var(--primary-text)",
                   }}
                 >
-                   We've partnered with a Sea Turtle organization, SEETurtles.org, that offer unforgettable travel experiences. 
+                   We've partnered with a Sea Turtle organization, SEETurtles.org, that offers unforgettable travel experiences. 
                   As an NFT holder, you'll enjoy special discounts on these unforgettable journeys and experiences. 
                   The discount book is your access to a range of eco-friendly and sustainable products.
                   Savings on stylish tote bags, reusable water bottles, metal straws, clothing, and 
